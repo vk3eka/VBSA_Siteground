@@ -1,0 +1,4 @@
+[10-Dec-2024 02:59:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../MailerLite/mailerlite_functions.php' (include_path='.:/usr/local/php82/pear') in /home/customer/www/vbsa.org.au/public_html/Admin_update_tables/Update_Scores_Rank_STEP4D.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_update_tables/Update_Scores_Rank_STEP4D.php on line 2

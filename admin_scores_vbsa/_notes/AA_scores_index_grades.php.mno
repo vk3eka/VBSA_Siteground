@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_teamSnook" value="name:teams;datatype:int,name:team_grade;datatype:string,name:day_played;datatype:string,name:grade_name;datatype:string,name:fix_upload;datatype:string,name:team_season;datatype:string,name:comptype;datatype:string" />
+	<infoitem key="UD_teamBill" value="name:teams;datatype:int,name:team_grade;datatype:string,name:day_played;datatype:string,name:grade_name;datatype:string,name:fix_upload;datatype:string,name:team_season;datatype:string,name:comptype;datatype:string" />
+	<infoitem key="UD_Tot_Inc_S1" value="name:TotInc;datatype:real" />
+	<infoitem key="UD_Tot_Play_Positions_S1" value="name:TotPositions;datatype:real" />
+	<infoitem key="UD_Tot_Inc_S2" value="name:TotInc;datatype:real" />
+	<infoitem key="UD_Tot_Play_Positions_S2" value="name:TotPositions;datatype:real" />
+	<infoitem key="UD_Tot_Inc" value="name:TotInc;datatype:real" />
+	<infoitem key="UD_Tot_Players" value="name:TotPositions;datatype:real" />
+	<infoitem key="UD_getusername" value="name:id;datatype:int,name:name;datatype:string,name:username;datatype:string,name:usertype;datatype:string" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_S1_brks" value="name:member_ID_brks;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:grade;datatype:string,name:Break_ID;datatype:int,name:brk;datatype:int,name:MemberID;datatype:int,name:recvd;datatype:date,name:season;datatype:string,name:brk_type;datatype:string,name:finals_brk;datatype:string,name:brk_team_id;datatype:int" />
+</info>

@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+#inv_wrapper {
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#inv_header {
+	width: 820px;
+	height: 150px;
+	float: left;
+}
+
+#Invoice_number {
+	float: left;
+	width: 155px;
+	border: 1px solid #999999;
+	height: 70px;
+	padding: 5px;
+}
+.invoice {
+	font-size: 16px;
+	font-weight: bold;
+	width: 70px;
+	float: left;
+	padding-left: 8px;
+	text-align: center;
+}
+.inv_no {
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+	width: 150px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+.inv_date {
+	float: left;
+	width: 150px;
+	height: 18px;
+	text-align: center;
+}
+#Cust_detail {
+	float: right;
+	width: 635px;
+	height: 70px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid #999999;
+	padding-left: 3px;
+}
+.name  {
+	width: 65px;
+	float: left;
+	text-align: right;
+	padding-right: 5px;
+	padding-bottom: 3px;
+}
+.Bus_name {
+	width: 600px;
+	padding-left: 5px;
+	float: left;
+}
+.Address {
+	width: 600px;
+	padding-left: 5px;
+	float: left;
+}
+#Inv_items {
+	float: left;
+	width: 825px;;
+	padding-top: 10px;
+}
+.item_desc {
+	width: 300px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	float: left;
+}
+.item_amount {
+	float: left;
+	text-align: center;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+.item_GST {
+	float: left;
+	text-align: center;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+.item_edit {
+	float: left;
+	width: 25px;
+	text-align: center;
+}
+.inv_edit {
+	float: right;
+	width: 20px;
+	text-align: center;
+}
+.admin {
+	width: 820px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border: 1px solid #999;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+}
+.admin_table {
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: #CCFFCC;
+}
+.inv_summary {
+	float: left;
+	width: 820px;
+	border: 1px solid #999999;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.pay_by_date {
+	float: left;
+	width: 150px;
+	padding-left: 10px;
+}
+.please_pay_amount {
+	float: right;
+	padding-right: 10px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.inv_comment {
+	float: left;
+	width: 815px;
+	padding: 5px;
+}
+.inv_note {
+	float: left;
+	width: auto;
+	padding-right: 5px;
+	padding-left: 5px;
+	height: auto;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.payment_detail {
+	float: left;
+	width: 800px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #333333;
+	border: 1px solid #999;
+}
+.payment_back {
+	float: left;
+}
+@media print {
+
+      .noprint { display: none; }
+    }
+.page_heading {
+	font-size: 14px;
+	font-weight: bold;
+	color: #F00;
+}
+.Inv_insert {
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	padding-top: 15px;
+	text-align: center;
+}

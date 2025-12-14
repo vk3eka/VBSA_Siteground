@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_vbsaclubs" value="name:ClubNumber;datatype:int,name:ClubTitle;datatype:string,name:ClubTables;datatype:int,name:S1t;datatype:int,name:S2t;datatype:int" />
+	<infoitem key="UD_teams_S1" value="name:team_id;datatype:int,name:team_club;datatype:string,name:team_club_id;datatype:int,name:team_name;datatype:string,name:team_grade;datatype:string,name:team_season;datatype:string,name:day_played;datatype:string,name:players;datatype:string,name:include_draw;datatype:string,name:comptype;datatype:string" />
+	<infoitem key="UD_teams_S2" value="name:team_id;datatype:int,name:team_club;datatype:string,name:team_club_id;datatype:int,name:team_name;datatype:string,name:team_grade;datatype:string,name:team_season;datatype:string,name:day_played;datatype:string,name:players;datatype:string,name:include_draw;datatype:string,name:comptype;datatype:string" />
+	<infoitem key="UD_teams_entered" value="name:team_id;datatype:int,name:team_club;datatype:string,name:team_club_id;datatype:int,name:team_name;datatype:string,name:team_grade;datatype:string,name:team_season;datatype:string,name:day_played;datatype:string,name:players;datatype:string,name:include_draw;datatype:string,name:comptype;datatype:string" />
+</info>

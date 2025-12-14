@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_MSBAedit" value="name:MSBA_id;datatype:int,name:item_title;datatype:string,name:news_content;datatype:blob,name:pagezone_header_desc;datatype:string,name:pagezone_header;datatype:string" />
+</info>

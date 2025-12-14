@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_members" value="name:scrsID;datatype:int,name:MemberID;datatype:int,name:Team_grade;datatype:string,name:scr_season;datatype:string,name:FirstName;datatype:string,name:LastName;datatype:string,name:MobilePhone;datatype:string,name:Email;datatype:string,name:ReceiveEmail;datatype:int,name:current_year_scrs;datatype:year,name:played;datatype:real,name:current_year_scrs;datatype:year" />
+</info>

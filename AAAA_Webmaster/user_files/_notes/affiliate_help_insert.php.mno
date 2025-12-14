@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_helpfile_edit" value="name:id;datatype:int,name:file_type;datatype:string,name:file_desc;datatype:blob,name:file_name;datatype:blob" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_player_det" value="name:FirstName;datatype:string,name:LastName;datatype:string,name:team_grade;datatype:string,name:team_club;datatype:string,name:team_name;datatype:string,name:team_cal_year;datatype:year,name:played_S1;datatype:int,name:pts_S1;datatype:int,name:avg_posS1;datatype:real,name:percS1;datatype:real,name:played_S2;datatype:int,name:pts_S2;datatype:int,name:avg_posS2;datatype:real,name:percS2;datatype:real,name:played_bill_S1;datatype:int,name:pts_bill_S1;datatype:int,name:avg_pos_bill_S1;datatype:real,name:percbillS1;datatype:real,name:played_bill_S2;datatype:int,name:pts_bill_S2;datatype:int,name:avg_pos_bill_S2;datatype:real,name:percbillS2;datatype:real" />
+</info>

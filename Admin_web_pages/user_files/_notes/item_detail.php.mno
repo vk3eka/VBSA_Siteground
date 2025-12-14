@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_event_attach" value="name:attach_name;datatype:string,name:Attachment;datatype:string,name:type;datatype:string" />
+	<infoitem key="UD_FPattach" value="name:up_id;datatype:int,name:up_desc;datatype:string,name:up_on;datatype:datetime,name:up_pdf_name;datatype:string,name:up_event;datatype:int,name:item_id;datatype:int,name:up_type;datatype:string" />
+	<infoitem key="UD_page_items" value="name:ID;datatype:int,name:Header;datatype:string,name:Comment;datatype:blob,name:By;datatype:string,name:created_on;datatype:datetime,name:updated;datatype:datetime,name:blocked;datatype:string,name:OrderFP;datatype:string,name:OrderRef;datatype:string,name:OrderJunior;datatype:string,name:OrderHelp;datatype:string,name:OrderWomens;datatype:string,name:OrderRefProfile;datatype:string,name:OrderRefPoser;datatype:string,name:OrderPlayerProfile;datatype:string,name:OrderScores;datatype:string,name:OrderPolProc;datatype:string,name:OrderInfo;datatype:string,name:img_orientation;datatype:string,name:item_image;datatype:string,name:img_size;datatype:string,name:event_id;datatype:string,name:page_front;datatype:string,name:page_referee;datatype:string,name:page_junior;datatype:string,name:page_help;datatype:string,name:page_womens;datatype:string,name:page_refprofile;datatype:string,name:page_refposer;datatype:string,name:page_playerprofile;datatype:string,name:page_scores;datatype:string,name:page_polproc;datatype:string,name:page_info;datatype:string" />
+	<infoitem key="UD_info_cal_update" value="name:upload_on;datatype:datetime" />
+	<infoitem key="UD_info_FP_update" value="name:up_on;datatype:datetime" />
+</info>

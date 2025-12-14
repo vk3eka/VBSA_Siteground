@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_billS2" value="name:teams;datatype:int,name:team_grade;datatype:string,name:day_played;datatype:string,name:grade_name;datatype:string,name:fix_upload;datatype:string,name:season;datatype:string,name:fix_cal_year;datatype:year" />
+	<infoitem key="UD_teamsS2" value="name:teams;datatype:int,name:team_grade;datatype:string,name:day_played;datatype:string,name:S2;datatype:int,name:current_year_team;datatype:timestamp,name:grade_name;datatype:string,name:fix_upload;datatype:string,name:fix_cal_year;datatype:year" />
+	<infoitem key="UD_Teams" value="name:team_club;datatype:string,name:team_id;datatype:int,name:team_name;datatype:string,name:team_grade;datatype:string,name:day_played;datatype:string,name:players;datatype:string" />
+	<infoitem key="UD_snook" value="name:teams;datatype:int,name:team_grade;datatype:string,name:day_played;datatype:string,name:S1;datatype:int,name:S2;datatype:int,name:current_year_team;datatype:timestamp,name:grade_name;datatype:string,name:fix_upload;datatype:string,name:fix_cal_year;datatype:year,name:comptype;datatype:string" />
+	<infoitem key="UD_bill" value="name:teams;datatype:int,name:team_grade;datatype:string,name:day_played;datatype:string,name:grade_name;datatype:string,name:fix_upload;datatype:string,name:season;datatype:string,name:fix_cal_year;datatype:year,name:comptype;datatype:string" />
+</info>

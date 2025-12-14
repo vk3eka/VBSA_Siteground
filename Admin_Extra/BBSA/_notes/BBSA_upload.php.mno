@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_pdfup" value="name:BBSA_id;datatype:int,name:BBSA_type;datatype:string,name:pdf_name;datatype:string,name:info_top;datatype:string,name:zone_1;datatype:string,name:zone_2;datatype:string,name:zone_3;datatype:string,name:history;datatype:string" />
+</info>

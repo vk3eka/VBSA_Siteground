@@ -1,0 +1,207 @@
+[14-Jun-2021 04:08:54] PHP Fatal error:  Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[08-Jul-2021 08:09:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[08-Jul-2021 10:34:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_BendBSA.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[08-Jul-2021 10:35:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_RSL.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[08-Jul-2021 10:35:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_church.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[08-Jul-2021 10:57:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_O55.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[08-Jul-2021 12:26:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[08-Jul-2021 12:38:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[29-Jan-2022 01:05:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mysql_connect(), 3 passed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9 and exactly 4 expected in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:13
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(9): mysql_connect('localhost', 'vbsa3364_AlPal', 'Lurch147')
+#1 /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php(1): require_once('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 13
+[07-Feb-2022 07:06:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_BendBSA.php:144
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_BendBSA.php on line 144
+[07-Feb-2022 07:09:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_BendBSA.php:144
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_BendBSA.php on line 144
+[07-Feb-2022 08:42:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[07-Feb-2022 11:07:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[07-Feb-2022 11:18:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[07-Feb-2022 14:52:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[07-Feb-2022 15:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_BendBSA.php:144
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_BendBSA.php on line 144
+[07-Feb-2022 15:13:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_RSL.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_RSL.php on line 141
+[07-Feb-2022 16:06:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_MSBA.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_MSBA.php on line 141
+[07-Feb-2022 20:52:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[07-Feb-2022 20:57:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_VBSA.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_VBSA.php on line 141
+[07-Feb-2022 21:12:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[07-Feb-2022 21:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[07-Feb-2022 23:29:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[07-Feb-2022 23:46:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[08-Feb-2022 00:13:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[08-Feb-2022 00:44:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[08-Feb-2022 01:15:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_SBSA.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_SBSA.php on line 141
+[08-Feb-2022 01:25:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[08-Feb-2022 01:26:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[08-Feb-2022 03:56:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[08-Feb-2022 05:17:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[08-Feb-2022 05:35:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_RSL.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_RSL.php on line 141
+[08-Feb-2022 05:36:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_O55.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_O55.php on line 141
+[08-Feb-2022 05:37:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_church.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_church.php on line 141
+[08-Feb-2022 05:51:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[08-Feb-2022 05:53:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_DVSA.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_DVSA.php on line 141
+[08-Feb-2022 06:49:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_VBSA.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_VBSA.php on line 141
+[08-Feb-2022 06:50:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_MSBA.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_MSBA.php on line 141
+[08-Feb-2022 06:50:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_SBSA.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_SBSA.php on line 141
+[08-Feb-2022 06:51:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_BBSA.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_BBSA.php on line 141
+[08-Feb-2022 06:52:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_city_clubs.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_city_clubs.php on line 141
+[08-Feb-2022 06:58:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[08-Feb-2022 07:02:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_BendBSA.php:144
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_BendBSA.php on line 144
+[08-Feb-2022 07:06:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_WSBSA.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/clubz_WSBSA.php on line 139
+[08-Feb-2022 07:09:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[08-Feb-2022 07:47:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[08-Feb-2022 08:17:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[08-Feb-2022 08:48:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[08-Feb-2022 10:22:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Club_dir/club_index.php on line 140
+[21-Mar-2022 10:41:46 UTC] PHP Fatal error:  Cannot redeclare get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 118
+[21-Mar-2022 11:00:21 UTC] PHP Fatal error:  Cannot redeclare get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 118
+[21-Mar-2022 14:14:56 UTC] PHP Fatal error:  Cannot redeclare get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 118
+[21-Mar-2022 15:18:33 UTC] PHP Fatal error:  Cannot redeclare get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 118
+[21-Mar-2022 17:54:07 UTC] PHP Fatal error:  Cannot redeclare get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 118

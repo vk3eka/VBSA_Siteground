@@ -1,0 +1,90 @@
+[08-Jul-2021 08:09:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[08-Jul-2021 10:24:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[08-Jul-2021 11:27:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[29-Jan-2022 03:03:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php:6
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php(52): GetSQLValueString('msbapage', 'text')
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[29-Jan-2022 03:04:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php:6
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php(52): GetSQLValueString('msbapage', 'text')
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[29-Jan-2022 03:13:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php:6
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php(52): GetSQLValueString('msbapage', 'text')
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[29-Jan-2022 03:57:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php:6
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php(52): GetSQLValueString('msbapage', 'text')
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[29-Jan-2022 21:52:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php:6
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php(52): GetSQLValueString('msbascores@gmai...', 'text')
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[29-Jan-2022 21:53:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php:6
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php(52): GetSQLValueString('msbascores@gmai...', 'text')
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[29-Jan-2022 21:56:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php:6
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php(52): GetSQLValueString('msbascores@gmai...', 'text')
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[29-Jan-2022 21:57:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php:6
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php(52): GetSQLValueString('msbascores@gmai...', 'text')
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[29-Jan-2022 22:29:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php:6
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php(52): GetSQLValueString('msbapage', 'text')
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[07-Feb-2022 22:44:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra.php:262
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra.php on line 262
+[08-Feb-2022 10:53:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra.php:262
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra.php on line 262
+[08-Feb-2022 11:43:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra.php:262
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra.php on line 262
+[22-Mar-2022 09:22:22 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[22-Mar-2022 09:22:32 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[22-Mar-2022 09:22:50 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[22-Mar-2022 09:23:05 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[22-Mar-2022 09:23:33 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[22-Mar-2022 09:24:33 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[22-Mar-2022 09:25:00 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[22-Mar-2022 09:25:15 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[22-Mar-2022 09:25:46 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[22-Mar-2022 09:26:56 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[22-Mar-2022 09:35:42 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[22-Mar-2022 09:39:57 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login_error.php on line 6
+[22-Mar-2022 09:41:31 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login_error.php on line 6
+[22-Mar-2022 09:43:40 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login_error.php on line 6
+[22-Mar-2022 09:47:15 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[22-Mar-2022 09:48:47 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[22-Mar-2022 09:50:24 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6
+[22-Mar-2022 09:51:01 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/vbsa_extra_login.php on line 6

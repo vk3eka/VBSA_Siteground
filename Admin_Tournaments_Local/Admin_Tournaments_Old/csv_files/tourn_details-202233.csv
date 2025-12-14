@@ -1,0 +1,4 @@
+TournID,MembID,FullName,Email,Mobile,amount paid,how paid,confirmed,memb,seed,tourn_date_ent,ranked,wcard,rank_pts,Vic_Rank,Junior
+202233,6123,"Austin Huang","Ivyhuangau@gmail.com ","0433 924 066 ",20,PP,1,Yes,,"2023-03-03 17:17:25",,,0,,U12
+202233,6130,"Dion Romanos",vasilisromanos69@gmail.com,"0412 690 784",20,PP,1,No,,"2023-03-03 11:08:22",,,0,269,U18
+202233,6200,"Ranjit Pisal",ranjit.pisal@gmail.com,"0467 711 785",20,PP,1,Yes,,"2023-03-08 11:29:43",,,0,75,na

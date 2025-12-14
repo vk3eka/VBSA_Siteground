@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_tourn_detail" value="name:tournament_ID;datatype:int,name:tourn_name;datatype:string,name:about;datatype:blob,name:footer;datatype:blob,name:player_ID;datatype:int,name:tourn_id;datatype:int,name:tourn_year;datatype:year,name:winner;datatype:string,name:runner_up;datatype:string,name:high_brk_name;datatype:string,name:high_brk_amount;datatype:string,name:venue;datatype:string,name:why_not_run;datatype:string" />
+	<infoitem key="UD_arch_tourn" value="name:tournament_ID;datatype:int,name:tourn_name;datatype:string,name:ranked;datatype:string,name:status;datatype:string,name:about;datatype:blob,name:footer;datatype:blob,name:arch_order;datatype:string" />
+	<infoitem key="UD_tourn1" value="name:tourn_id;datatype:int,name:tourn_name;datatype:string,name:tourn_year;datatype:timestamp,name:site_visible;datatype:string,name:tourn_type;datatype:string,name:tourn_draw;datatype:string,name:tourn_class;datatype:string" />
+	<infoitem key="UD_t_arch" value="name:tourn_year;datatype:year,name:winner;datatype:string,name:runnerup;datatype:string,name:brkby;datatype:string,name:break;datatype:int,name:brk_shared;datatype:string,name:venue;datatype:string,name:why_not_run;datatype:string" />
+</info>

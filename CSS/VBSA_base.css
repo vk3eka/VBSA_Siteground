@@ -1,0 +1,316 @@
+@charset "utf-8";
+
+
+#Wrapper {
+	max-width: 1200px;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+#PageContent {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	float: left;
+}
+
+.Page_heading_container {
+	width:100%
+	float: left;
+	float: left;
+	font-style: italic;
+	font-weight: normal;
+	width: 95%;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+.Page_heading_container .index_title {
+	float: left;
+	color: #A00;
+	margin-bottom: 5px;
+}
+.Page_heading_container .title {
+	float: left;
+	color: #A00;
+	margin-bottom: 5px;
+}
+
+.search_container {
+	float: right;
+	padding-right: 2px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	font-size: 12px;
+}
+
+
+#News_container {
+	width: 68%;
+	float: left;
+}
+
+#News_container_center {
+	width: 68%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.News_item {
+	width: 95%;
+	padding-left: 20px;
+}
+
+.News_item_header {
+	float: left;
+	width: 100%;
+}
+.News_item_header .news_title {
+	font-size: 14px;
+	font-weight: bold;
+	color: #900;
+	float: left;
+	width: auto;
+}
+.News_item_content {
+	float: left;
+	color: #666;
+	font-size: 12px;
+	width: 100%;
+	padding-top: 3px;
+	padding-bottom: 1px;
+}
+.news_by  {
+	font-size: 10px;
+	font-style: italic;
+	color: #666;
+	float: left;
+	width: 95%;
+	padding-bottom: 3px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.news_image_landscape  {
+	float: right;
+	width: 40%;
+}
+
+.news_image_portrait  {
+	float: right;
+	width: 25%;
+}
+
+.news_image_square  {
+	float: right;
+	width: 30%;
+}
+
+.news_image_banner  {
+	float: right;
+	width: 60%;
+}
+
+.img_news {
+	width: 100%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.news_item_footer_links {
+	width: 90%;
+	float: left;
+	padding-left: 15px;
+	padding-top: 3px;
+	font-size: 12px;
+	font-style: italic;
+	color: #666;
+}
+.news_item_link {
+	float: left;
+	margin-left: 10px;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.right_container {
+	padding-bottom: 10px;
+}
+
+.right_title  {
+	color: #900;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+
+
+
+.right_update  {
+	padding-bottom: 3px;
+	padding-left: 5px;
+	font-size: 12px;
+	font-style: italic;
+	color: #666;
+}
+.right_header {
+	font-size: 12px;
+	font-style: italic;
+	color: #900;
+}
+.right_content {
+	font-size: 12px;
+	color: #666;
+	font-style: italic;
+	padding-bottom: 5px;
+}
+
+
+.update_container {
+	width: 95%;
+	float: left;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.update_container .update_title {
+	font-size: 10px;
+	font-style: italic;
+	font-weight: bold;
+	color: #900;
+	padding-right: 5px;
+	float: left;
+}
+.update_container .update {
+	font-size: 10px;
+	font-style: italic;
+	color: #666;
+	float: left;
+	padding-right: 5px;
+}
+.table_header {
+	font-size: 12px;
+	font-style: normal;
+	color: #900;
+	font-weight: bold;
+}
+.page_title {
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	color: #900;
+}
+.italic {
+	font-style: italic;
+	color: #666;
+}
+.text_box {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.text_box_info {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.text_box_info .info_link_container {
+	float: left;
+	width: 95%;
+	vertical-align: middle;
+}
+.info_link_container .info_link_do {
+	width: 50px;
+	float: left;
+}
+
+
+.text_box_info .info_header {
+	font-style: italic;
+	font-weight: bold;
+	color: #900;
+}
+
+.text_box_info .info_link_header {
+	width: 100px;
+	float: left;
+}
+.text_box_info .info_link {
+	float: left;
+	width: 200px;
+}
+
+
+
+#affiliate_container {
+	width: 65%;
+	float: right;
+}
+
+.affiliate_item {
+	width: 95%;
+}
+
+
+.glyphicon {
+    font-size: 18px;
+}
+
+.btn {
+    white-space: normal;
+}
+.info_important {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #900;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+
+
+.table.no-border tr td, .table.no-border tr th {
+  border-width: 0;
+}
+
+#home .home,
+#vbsa .vbsa,
+#affiliates .affiliates,
+#junior .junior,
+#women .women,
+#coaching .coaching,
+#referees .referees,
+#info .info {
+	background-color: #620000;
+}
+.store_nav {
+	height: auto;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.table_header {
+	font-style: italic;
+	color: #900;
+}

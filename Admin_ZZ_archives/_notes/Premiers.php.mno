@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_final2" value="name:team_club;datatype:string,name:team_name;datatype:string,name:team_grade;datatype:string,name:GFtot;datatype:int" />
+	<infoitem key="UD_APB1" value="name:team_club;datatype:string,name:team_name;datatype:string,name:team_grade;datatype:string,name:GFtot;datatype:int" />
+	<infoitem key="UD_Premiers" value="name:team_club;datatype:string,name:team_name;datatype:string,name:team_grade;datatype:string,name:GFtot;datatype:int,name:team_cal_year;datatype:year,name:type;datatype:string" />
+	<infoitem key="UD_Runners_up" value="name:team_club;datatype:string,name:team_name;datatype:string,name:team_grade;datatype:string,name:GFtot;datatype:int,name:team_cal_year;datatype:year,name:type;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:team_club;datatype:string,name:team_cal_year;datatype:year" />
+	<infoitem key="UD_part_clubs" value="name:team_club;datatype:string,name:team_cal_year;datatype:year" />
+	<infoitem key="UD_S1Rup" value="name:team_club;datatype:string,name:team_name;datatype:string,name:team_grade;datatype:string,name:GFtot;datatype:int,name:team_cal_year;datatype:year,name:team_id;datatype:int,name:GFsnook_draw;datatype:int" />
+	<infoitem key="UD_S2Rup" value="name:team_club;datatype:string,name:team_name;datatype:string,name:team_grade;datatype:string,name:GFtot;datatype:int,name:team_cal_year;datatype:year,name:team_id;datatype:int,name:GFsnook_draw;datatype:int" />
+	<infoitem key="UD_Bill_P" value="name:team_club;datatype:string,name:team_name;datatype:string,name:team_grade;datatype:string,name:GFtot;datatype:int,name:team_cal_year;datatype:year,name:grade;datatype:string,name:GF_pts;datatype:int" />
+	<infoitem key="UD_Bill_Rup" value="name:team_club;datatype:string,name:team_name;datatype:string,name:team_grade;datatype:string,name:GFtot;datatype:int,name:team_cal_year;datatype:year,name:grade;datatype:string,name:GF_pts;datatype:int" />
+	<infoitem key="UD_snooker_draw" value="name:drawn;datatype:real" />
+	<infoitem key="UD_snooker_draw_S1" value="name:drawn;datatype:real" />
+	<infoitem key="UD_snooker_draw_S1_S1" value="name:drawn;datatype:real" />
+	<infoitem key="UD_snooker_draw_S2" value="name:drawn;datatype:real" />
+</info>

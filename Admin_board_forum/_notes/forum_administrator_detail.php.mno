@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_forum_topic" value="name:PostOn;datatype:string,name:PostEdit;datatype:string,name:post_ID;datatype:int,name:post_order;datatype:int,name:post_category;datatype:string,name:post_topic;datatype:string,name:post_content;datatype:blob,name:post_by;datatype:string,name:post_date;datatype:timestamp,name:post_edit_on;datatype:timestamp,name:post_edit_by;datatype:string,name:post_current;datatype:string,name:admin_comment;datatype:blob" />
+	<infoitem key="UD_forum_topic_id" value="name:post_ID;datatype:int" />
+	<infoitem key="UD_forum_reply" value="name:EditOn;datatype:string,name:ReplyOn;datatype:string,name:ID;datatype:int,name:reply_id;datatype:int,name:reply_content;datatype:blob,name:reply_by;datatype:string,name:reply_date;datatype:timestamp,name:reply_edit;datatype:timestamp,name:post_ID;datatype:int,name:MostRecentReply;datatype:timestamp,name:Blocked;datatype:string,name:Comment;datatype:string" />
+	<infoitem key="UD_attach" value="name:ID;datatype:int,name:attach_id;datatype:int,name:attach_name;datatype:string,name:Attachment;datatype:string,name:upload_on;datatype:timestamp,name:upload_by;datatype:blob,name:post_ID;datatype:int,name:post_topic;datatype:string" />
+	<infoitem key="UD_postID" value="name:post_ID;datatype:int" />
+	<infoitem key="UD_comment" value="name:post_ID;datatype:int,name:admin_comment;datatype:blob" />
+	<infoitem key="UD_forum_users" value="name:id;datatype:int,name:name;datatype:string,name:username;datatype:string,name:email;datatype:string,name:password;datatype:string,name:usertype;datatype:string,name:block;datatype:int,name:sendEmail;datatype:int,name:gid;datatype:int,name:registerDate;datatype:date,name:lastvisitDate;datatype:timestamp,name:activation;datatype:string,name:params;datatype:blob" />
+</info>

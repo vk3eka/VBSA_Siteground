@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_coach_edit" value="name:coach_id;datatype:int,name:memb_id;datatype:int,name:class;datatype:string,name:comment;datatype:blob,name:URL;datatype:string,name:coach_order;datatype:string" />
+</info>

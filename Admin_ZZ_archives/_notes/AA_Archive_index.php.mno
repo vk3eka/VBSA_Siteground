@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_memb_archive" value="name:IDfin;datatype:int,name:Fin_ID;datatype:int,name:memb_cal_year;datatype:year" />
+	<infoitem key="UD_scr_archive" value="name:team_cal_year;datatype:year" />
+	<infoitem key="UD_after2015" value="name:current_year_scrs;datatype:year" />
+</info>

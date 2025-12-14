@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_memb_id" value="name:MemberID;datatype:int,name:LastName;datatype:string,name:FirstName;datatype:string,name:HomeState;datatype:string,name:HomePostcode;datatype:string,name:MobilePhone;datatype:string,name:ReceiveSMS;datatype:int,name:Email;datatype:string,name:ReceiveEmail;datatype:int,name:promo_optin_out;datatype:int,name:promo_pref;datatype:string,name:memb_by;datatype:string,name:memb_date;datatype:datetime,name:memb_submit_date;datatype:date,name:memb_occupation;datatype:string,name:Female;datatype:int,name:dob_day;datatype:int,name:dob_mnth;datatype:int,name:dob_year;datatype:int" />
+	<infoitem key="UD_getusername" value="name:id;datatype:int,name:name;datatype:string,name:usertype;datatype:string" />
+</info>

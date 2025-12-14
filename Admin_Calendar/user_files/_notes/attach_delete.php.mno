@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_infodel" value="name:ID;datatype:int,name:event_number;datatype:int,name:attach_name;datatype:string,name:Attachment;datatype:string" />
+</info>

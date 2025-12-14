@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_image_del" value="name:Header;datatype:string,name:ID;datatype:int,name:img_orientation;datatype:string,name:item_image;datatype:string" />
+</info>

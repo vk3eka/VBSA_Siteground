@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_cont_only" value="name:MemberID;datatype:int,name:LastName;datatype:string,name:FirstName;datatype:string,name:HomePhone;datatype:string,name:MobilePhone;datatype:string,name:Email;datatype:string,name:ReceiveEmail;datatype:int,name:Junior;datatype:int,name:dob_day;datatype:int,name:dob_mnth;datatype:int,name:dob_year;datatype:int" />
+</info>

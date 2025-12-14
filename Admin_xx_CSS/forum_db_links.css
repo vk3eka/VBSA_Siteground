@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bluebg a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #339999;
+	padding-top: 2px;
+	padding-right: 3px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+}
+.bluebg a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 12px;
+	background-color: #339999;
+	padding-top: 2px;
+	padding-right: 3px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+}
+.bluebg a:hover {
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+	background-color: #FFF;
+	padding-top: 2px;
+	padding-right: 3px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	border: 1px solid #666;
+}
+
+.page a:link {
+	color: #0000FF;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.page a:visited {
+	color: #0000FF;
+	text-decoration: none;
+}
+.page a:hover {
+	color: #990000;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.replyedit_button {
+	height: 21px;
+	width: 100px;
+	float: right;
+}
+a.replyedit {
+	display: block;
+	width: 100px;
+	height: 21px;
+	text-decoration: none;
+	background-image: url(../Admin_board_forum/forum_butt_reply.jpg);
+	background-repeat: no-repeat;
+}
+a.replyedit:hover {
+	background-position: -100px 0;
+}
+	
+	

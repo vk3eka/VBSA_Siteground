@@ -1,0 +1,606 @@
+[31-Jan-2022 06:50:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[01-Feb-2022 03:36:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[01-Feb-2022 05:24:15 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_ladder_detail.php on line 105
+[07-Feb-2022 05:40:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[07-Feb-2022 05:41:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[07-Feb-2022 05:41:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[07-Feb-2022 05:41:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[07-Feb-2022 05:42:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[07-Feb-2022 05:42:51 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_ladder_detail.php on line 105
+[07-Feb-2022 05:43:24 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_ladder_detail.php on line 105
+[07-Feb-2022 05:44:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[07-Feb-2022 05:44:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[07-Feb-2022 06:25:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[07-Feb-2022 06:25:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[07-Feb-2022 06:26:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[07-Feb-2022 06:26:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[07-Feb-2022 06:26:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/AA_Archive_index.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/AA_Archive_index.php on line 168
+[07-Feb-2022 06:26:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers.php:194
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers.php on line 194
+[07-Feb-2022 06:27:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[07-Feb-2022 13:18:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/AA_Archive_index.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/AA_Archive_index.php on line 168
+[07-Feb-2022 14:15:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/AA_Archive_index.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/AA_Archive_index.php on line 168
+[07-Feb-2022 14:15:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[08-Feb-2022 13:43:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/AA_Archive_index.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/AA_Archive_index.php on line 168
+[08-Feb-2022 13:43:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/AA_Archive_index.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/AA_Archive_index.php on line 168
+[08-Feb-2022 13:43:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/AA_Archive_index.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/AA_Archive_index.php on line 168
+[08-Feb-2022 13:43:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[08-Feb-2022 13:48:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[08-Feb-2022 13:48:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[08-Feb-2022 13:49:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[08-Feb-2022 13:58:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[08-Feb-2022 14:07:01 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_ladder_detail.php on line 105
+[08-Feb-2022 14:07:08 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_ladder_detail.php on line 105
+[09-Feb-2022 04:04:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[09-Feb-2022 04:05:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[09-Feb-2022 04:06:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[09-Feb-2022 04:07:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[09-Feb-2022 04:08:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[09-Feb-2022 05:22:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[09-Feb-2022 07:30:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[09-Feb-2022 07:30:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[09-Feb-2022 07:33:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 00:24:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 03:47:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 03:47:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 03:47:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 03:56:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 03:56:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 13:39:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:11:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:12:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:12:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Members_ZZ_2012.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Members_ZZ_2012.php on line 137
+[10-Feb-2022 14:12:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Members_ZZ_2009.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Members_ZZ_2009.php on line 139
+[10-Feb-2022 14:13:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:13:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:14:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:14:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:15:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:17:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:17:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:17:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:17:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:17:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:18:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:18:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:18:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Feb-2022 14:20:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[11-Feb-2022 03:05:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[11-Feb-2022 06:29:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Members_ZZ_2009.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Members_ZZ_2009.php on line 139
+[11-Feb-2022 06:31:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Members_ZZ_2009.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Members_ZZ_2009.php on line 139
+[11-Feb-2022 06:33:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Members_ZZ_2012.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Members_ZZ_2012.php on line 137
+[11-Feb-2022 06:33:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[11-Feb-2022 06:34:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[11-Feb-2022 06:35:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[19-Feb-2022 05:44:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[22-Feb-2022 02:44:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[24-Feb-2022 02:57:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[24-Feb-2022 02:58:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[24-Feb-2022 02:58:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[24-Feb-2022 02:59:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[24-Feb-2022 03:00:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[24-Feb-2022 03:44:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[24-Feb-2022 03:45:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[27-Feb-2022 19:01:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[28-Feb-2022 01:31:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[04-Mar-2022 23:24:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[04-Mar-2022 23:25:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[04-Mar-2022 23:26:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[04-Mar-2022 23:27:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[04-Mar-2022 23:27:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[04-Mar-2022 23:28:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[05-Mar-2022 00:13:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[05-Mar-2022 00:13:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[05-Mar-2022 19:16:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[05-Mar-2022 23:59:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[07-Mar-2022 22:15:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'scrs.pts_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT members....')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/Premiers_player_detail.php(77): mysql_query('SELECT members....', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[10-Mar-2022 20:06:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[12-Mar-2022 00:41:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[12-Mar-2022 04:22:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[12-Mar-2022 21:33:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[14-Mar-2022 12:12:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[14-Mar-2022 17:43:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[14-Mar-2022 20:22:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[17-Mar-2022 03:22:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/php_mail_merge.php:548
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/php_mail_merge.php on line 548
+[17-Mar-2022 06:01:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[19-Mar-2022 18:24:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[20-Mar-2022 21:59:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'played_S1' in 'field list' in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT scrs.Mem...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/players2016on.php(40): mysql_query('SELECT scrs.Mem...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[21-Mar-2022 15:56:52 UTC] PHP Fatal error:  Cannot redeclare get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 118
+[04-May-2022 18:13:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/php_mail_merge.php:548
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/php_mail_merge.php on line 548
+[22-Jun-2022 05:42:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/php_mail_merge.php:548
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/php_mail_merge.php on line 548
+[06-Sep-2022 13:31:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/php_mail_merge.php:548
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/php_mail_merge.php on line 548
+[20-Oct-2022 06:32:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/php_mail_merge.php:548
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/php_mail_merge.php on line 548
+[06-Dec-2022 06:17:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/php_mail_merge.php:548
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_ZZ_archives/php_mail_merge.php on line 548

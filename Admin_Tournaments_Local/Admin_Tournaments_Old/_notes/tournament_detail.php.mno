@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_players1" value="name:MemberID;datatype:int,name:LastName;datatype:string,name:FirstName;datatype:string,name:ID;datatype:int,name:tournament_number;datatype:int,name:amount_entry;datatype:int,name:entered_by;datatype:string,name:how_paid;datatype:string,name:entry_confirmed;datatype:int,name:seed;datatype:int,name:junior_cat;datatype:string,name:tourn_date_ent;datatype:timestamp,name:ranked;datatype:int,name:wcard;datatype:int,name:Email;datatype:string,name:MobilePhone;datatype:string,name:rank_pts;datatype:int,name:ranknum_curr;datatype:int,name:tourn_memb_id;datatype:int" />
+	<infoitem key="UD_tourn1" value="name:tourn_id;datatype:int,name:tourn_name;datatype:string,name:tourn_year;datatype:timestamp,name:site_visible;datatype:string,name:tourn_type;datatype:string,name:ranking_type;datatype:string,name:tourn_draw;datatype:string,name:tourn_class;datatype:string,name:how_seed;datatype:string,name:status;datatype:string" />
+	<infoitem key="UD_tot_entry_income" value="name:tournament_number;datatype:int,name:SUM(amount_entry);datatype:real" />
+	<infoitem key="UD_tot_0" value="name:tournament_number;datatype:int,name:COUNT(amount_entry);datatype:int" />
+	<infoitem key="UD_Recordset1" value="name:status;datatype:string" />
+	<infoitem key="UD_pp_tot" value="name:tournament_number;datatype:int,name:SUM(amount_entry);datatype:real" />
+	<infoitem key="UD_Recordset2" value="name:tournament_number;datatype:int,name:SUM(amount_entry);datatype:real" />
+	<infoitem key="UD_BT_tot" value="name:tournament_number;datatype:int,name:SUM(amount_entry);datatype:real" />
+	<infoitem key="UD_Recordset3" value="name:tournament_number;datatype:int,name:SUM(amount_entry);datatype:real" />
+	<infoitem key="UD_cash_tot" value="name:tournament_number;datatype:int,name:SUM(amount_entry);datatype:real" />
+	<infoitem key="UD_other_tot" value="name:tournament_number;datatype:int,name:SUM(amount_entry);datatype:real" />
+	<infoitem key="UD_chq_tot" value="name:tournament_number;datatype:int,name:SUM(amount_entry);datatype:real" />
+	<infoitem key="UD_tourn_status" value="name:status;datatype:string" />
+	<infoitem key="UD_players_confirmed" value="name:ID;datatype:int,name:TournID;datatype:int,name:MemberID;datatype:int,name:FullName;datatype:string,name:Email;datatype:string,name:MobilePhone;datatype:string,name:amount_entry;datatype:int,name:how_paid;datatype:string,name:entry_confirmed;datatype:int,name:memb;datatype:string,name:seed;datatype:int,name:tourn_date_ent;datatype:timestamp,name:entered_by;datatype:string,name:ranknum;datatype:int,name:wcard;datatype:int,name:rank_pts;datatype:int,name:Junior;datatype:string" />
+	<infoitem key="UD_players_unconfirmed" value="name:ID;datatype:int,name:TournID;datatype:int,name:MemberID;datatype:int,name:FullName;datatype:string,name:Email;datatype:string,name:MobilePhone;datatype:string,name:amount_entry;datatype:int,name:how_paid;datatype:string,name:entry_confirmed;datatype:int,name:memb;datatype:string,name:seed;datatype:int,name:tourn_date_ent;datatype:timestamp,name:entered_by;datatype:string,name:ranked;datatype:int,name:wcard;datatype:int,name:rank_pts;datatype:int,name:ranknum;datatype:int,name:Junior;datatype:string" />
+</info>

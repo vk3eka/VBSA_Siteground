@@ -1,0 +1,164 @@
+<wa_form name="Registration" id="Registration" submit_text="Register" send_mail="false" use_upload="false">
+	<wa_form_fieldset label="Registration" id="eafceeb6-8de1-f129-6327-08e6fc565570">
+		<wa_fieldset_description>Required *</wa_fieldset_description>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value.</wa_field_set_validation>
+							<wa_field_reference src="text_medium.xml" label="Email" validation="{ required: true, type: 'email', format: null, minChars: 6, maxChars: 500, minValue: null, maxValue: null, is_unique: true, connection: 'connvbsa', table: 'users', keyColumn: 'UserID', keyType: 'none,none,NULL', keyValue: '%22.((isset($_SESSION%5B%22SecurityAssist_UserID%22%5D))?$_SESSION%5B%22SecurityAssist_UserID%22%5D:%220%22)%20%20.%22', filterColumn: 'UserEmail', filterType: '%27,none,%27%27', filterValue: '%22.((isset($_POST%5B%22%7BField.Name%7D%22%5D))?$_POST%5B%22%7BField.Name%7D%22%5D:%22%22)%20%20.%22' }" serverValidation="email|unique" spryValidation="email, { minChars:6, maxChars:500 }"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Password strength requirement not met. @@strengthmessage@@</wa_field_set_validation>
+							<wa_field_reference src="password_medium.xml" label="Password" validation="{ required: true, isConfirm: false, regEx: null, minAlphaChars: 3, maxAlphaChars: 500, minNumbers: 2, maxNumbers: 500, minUpperAlphaChars: null, maxUpperAlphaChars: null, minSpecialChars: 0, maxSpecialChars: 0, minChars: 6, maxChars: 500, isRequired: true }" serverValidation="required|entrylength" spryValidation=", { minAlphaChars:3, maxAlphaChars:500, minNumbers:2, maxNumbers:500, minSpecialChars:0, maxSpecialChars:0, minChars:6, maxChars:500, isRequired:true }"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>A value is required.</wa_field_set_validation>
+							<wa_field_reference src="password_medium.xml" label="Confirm" validation="{ required: true, isConfirm: true, regEx: null, minAlphaChars: null, maxAlphaChars: null, minNumbers: null, maxNumbers: null, minUpperAlphaChars: null, maxUpperAlphaChars: null, minSpecialChars: null, maxSpecialChars: null, minChars: null, maxChars: null, isRequired: true }" serverValidation="confirm" spryValidation="" spryObjectOverride="ValidationConfirm"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value.</wa_field_set_validation>
+							<wa_field_reference src="text_medium.xml" label="First Name" validation="{ required: true, type: 'none', format: null, minChars: 1, maxChars: 50, minValue: null, maxValue: null }" serverValidation="required" spryValidation="none, { minChars:1, maxChars:50, isRequired:true }"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value.</wa_field_set_validation>
+							<wa_field_reference src="text_medium.xml" label="Last Name" validation="{ required: true, type: 'none', format: null, minChars: 1, maxChars: 50, minValue: null, maxValue: null }" serverValidation="required" spryValidation="none, { minChars:1, maxChars:50, isRequired:true }"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value.</wa_field_set_validation>
+							<wa_field_reference src="text_medium.xml" label="Address" validation="{ required: true, type: 'none', format: null, minChars: 1, maxChars: 100, minValue: null, maxValue: null }" serverValidation="required" spryValidation="none, { minChars:1, maxChars:100, isRequired:true }"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value.</wa_field_set_validation>
+							<wa_field_reference src="text_medium.xml" label="Address 2" validation="{ required: false, type: 'none', format: null, minChars: 1, maxChars: 50, minValue: null, maxValue: null }" spryValidation="none, { minChars:1, maxChars:50, isRequired:false }"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value.</wa_field_set_validation>
+							<wa_field_reference src="text_medium.xml" label="City" validation="{ required: true, type: 'none', format: null, minChars: 1, maxChars: 90, minValue: null, maxValue: null }" serverValidation="required" spryValidation="none, { minChars:1, maxChars:90, isRequired:true }"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value.</wa_field_set_validation>
+							<wa_field_reference src="text_medium.xml" label="State" validation="{ required: true, type: 'none', format: null, minChars: 1, maxChars: 20, minValue: null, maxValue: null }" serverValidation="required" spryValidation="none, { minChars:1, maxChars:20, isRequired:true }"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value.</wa_field_set_validation>
+							<wa_field_reference src="text_medium.xml" label="Zip" validation="{ required: true, type: 'none', format: null, minChars: 1, maxChars: 12, minValue: null, maxValue: null }" serverValidation="required" spryValidation="none, { minChars:1, maxChars:12, isRequired:true }"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value.</wa_field_set_validation>
+							<wa_field_reference src="MenuCountryList_medium.xml" label="Country" validation="{ required: true, notInvalidValue: false, invalidValue: null, isRequired: true }" serverValidation="required" spryValidation="required"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value.</wa_field_set_validation>
+							<wa_field_reference src="text_medium.xml" label="Phone" validation="{ required: true, type: 'none', format: null, minChars: 1, maxChars: 20, minValue: null, maxValue: null }" serverValidation="required" spryValidation="none, { minChars:1, maxChars:20, isRequired:true }"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value.</wa_field_set_validation>
+							<wa_field_reference src="text_medium.xml" label="Fax" validation="{ required: false, type: 'none', format: null, minChars: 1, maxChars: 20, minValue: null, maxValue: null }" spryValidation="none, { minChars:1, maxChars:20, isRequired:false }"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference group="Security.xml" src="Security.xml" label="" continueLine="false"></wa_form_group_reference>
+		</wa_form_line>
+	</wa_form_fieldset>
+</wa_form>

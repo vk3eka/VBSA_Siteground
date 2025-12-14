@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_membedit" value="name:MemberID;datatype:int,name:LastName;datatype:string,name:FirstName;datatype:string,name:MobilePhone;datatype:string,name:ReceiveSMS;datatype:int,name:Email;datatype:string,name:ReceiveEmail;datatype:int,name:Club;datatype:string,name:LastUpdated;datatype:date,name:UpdateBy;datatype:string,name:Club2;datatype:string,name:entered_on;datatype:date,name:dob_day;datatype:int,name:dob_mnth;datatype:int,name:dob_year;datatype:int" />
+	<infoitem key="UD_getusername" value="name:id;datatype:int,name:name;datatype:string,name:usertype;datatype:string" />
+	<infoitem key="UD_Clubs" value="name:ClubNumber;datatype:int,name:ClubNameVBSA;datatype:string" />
+	<infoitem key="UD_played" value="name:MemberID;datatype:int,name:team_grade;datatype:string,name:MemberID;datatype:int,name:totbillS1;datatype:real,name:totbillS2;datatype:real,name:S1Total;datatype:real,name:S2Total;datatype:real,name:current_year_scrs;datatype:year,name:total;datatype:real" />
+	<infoitem key="UD_fin" value="name:MemberID;datatype:int,name:paid_memb;datatype:int,name:paid_how;datatype:string,name:paid_date;datatype:date" />
+	<infoitem key="UD_vbsa_clubs" value="name:ClubNumber;datatype:int,name:ClubTitle;datatype:string,name:ClubNameVBSA;datatype:string" />
+</info>

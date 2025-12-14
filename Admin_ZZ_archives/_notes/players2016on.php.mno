@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_players" value="name:MemberID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:Club;datatype:string,name:MobilePhone;datatype:string,name:Email;datatype:string,name:played;datatype:real" />
+</info>

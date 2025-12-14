@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Clubs_cont" value="name:cont_id;datatype:int,name:club_id;datatype:int,name:ClubTitle;datatype:string,name:cont_memb_id;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:cont_type;datatype:string,name:cont_title;datatype:string,name:Email;datatype:string,name:MobilePhone;datatype:string" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_pghead_edit" value="name:ChurchBill_id;datatype:int,name:pagezone_header_desc;datatype:string,name:pagezone_header;datatype:string" />
+</info>

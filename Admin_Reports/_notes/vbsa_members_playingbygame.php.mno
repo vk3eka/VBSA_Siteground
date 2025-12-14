@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_curr_play" value="name:scrsID;datatype:int,name:MemberID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:MobilePhone;datatype:string,name:Email;datatype:string,name:TotPlayed;datatype:real,name:game_type;datatype:string" />
+</info>

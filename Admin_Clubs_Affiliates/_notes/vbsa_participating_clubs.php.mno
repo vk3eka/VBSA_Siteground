@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Tot_Play_Positions" value="name:TotPositions;datatype:real" />
+	<infoitem key="UD_Tot_Inc" value="name:TotInc;datatype:real" />
+	<infoitem key="UD_vbsaclubs" value="name:ClubNumber;datatype:int,name:ClubTitle;datatype:string,name:ClubTables;datatype:int,name:VBSAteam;datatype:int" />
+	<infoitem key="UD_team_summary" value="name:teams;datatype:int,name:team_grade;datatype:string,name:day_played;datatype:string,name:current_year_team;datatype:timestamp,name:grade_name;datatype:string,name:fix_upload;datatype:string,name:fix_cal_year;datatype:year,name:comptype;datatype:string,name:season;datatype:string" />
+	<infoitem key="UD_team_count" value="name:totalteams;datatype:int" />
+</info>

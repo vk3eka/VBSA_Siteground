@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_srchres" value="name:MemberID;datatype:int,name:scrsID;datatype:int,name:LastName;datatype:string,name:FirstName;datatype:string,name:MobilePhone;datatype:string,name:Email;datatype:string,name:team_grade;datatype:string,name:team_club;datatype:string,name:scr_season;datatype:string,name:team_id;datatype:int,name:game_type;datatype:string,name:count_played;datatype:int,name:day_played;datatype:string,name:memb_by;datatype:string" />
+</info>

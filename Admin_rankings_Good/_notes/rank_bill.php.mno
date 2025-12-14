@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_billrank" value="name:rank_bill_id;datatype:int,name:rank_title;datatype:string,name:rank_bill_pdf;datatype:string,name:rank_bill_last_update;datatype:timestamp,name:rank_order;datatype:int" />
+</info>

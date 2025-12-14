@@ -1,0 +1,344 @@
+[06-Mar-2021 10:10:31] PHP Parse error:  syntax error, unexpected T_STRING in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/tournament_insert.php on line 84
+[06-Mar-2021 10:12:50] PHP Parse error:  syntax error, unexpected T_STRING in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/tournament_insert.php on line 84
+[06-Mar-2021 11:34:46] PHP Parse error:  syntax error, unexpected T_ECHO in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/tournament_edit.php on line 90
+[06-Mar-2021 12:01:42] PHP Parse error:  syntax error, unexpected T_ECHO in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/tournament_edit.php on line 90
+[08-Mar-2021 00:34:03] PHP Parse error:  syntax error, unexpected '<' in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/tournament_insert.php on line 83
+[08-Mar-2021 00:35:08] PHP Parse error:  syntax error, unexpected '<' in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/tournament_insert.php on line 84
+[08-Mar-2021 00:38:45] PHP Parse error:  syntax error, unexpected '<' in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/tournament_insert.php on line 84
+[09-Mar-2021 11:07:07] PHP Parse error:  syntax error, unexpected '<' in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/tournament_insert.php on line 83
+[08-Jul-2021 07:07:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_delete_confirm.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[08-Jul-2021 08:49:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_delete_confirm.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[08-Jul-2021 11:24:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_delete_confirm.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[08-Jul-2021 11:30:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_delete_confirm.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[07-Feb-2022 10:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert_multiple_id.php:271
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert_multiple_id.php on line 271
+[07-Feb-2022 10:36:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert_multiple_id.php:271
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert_multiple_id.php on line 271
+[07-Feb-2022 10:36:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert.php:264
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert.php on line 264
+[07-Feb-2022 10:36:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'tourn_memb_id' cannot be null in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'INSERT INTO tou...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert.php(101): mysql_query('INSERT INTO tou...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[07-Feb-2022 10:41:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert.php:264
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert.php on line 264
+[07-Feb-2022 10:42:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'tourn_memb_id' cannot be null in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:56
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(56): mysqli_query(Object(mysqli), 'INSERT INTO tou...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert.php(101): mysql_query('INSERT INTO tou...', Object(mysqli))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 56
+[07-Feb-2022 12:00:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert.php:264
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert.php on line 264
+[07-Feb-2022 12:01:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert.php:264
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert.php on line 264
+[07-Feb-2022 15:51:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_delete_confirm.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_delete_confirm.php on line 122
+[07-Feb-2022 20:44:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert_multiple_id.php:271
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert_multiple_id.php on line 271
+[07-Feb-2022 20:58:35 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 20:58:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php:267
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 267
+[07-Feb-2022 20:59:12 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 20:59:38 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:02:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert_multiple_id.php:271
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert_multiple_id.php on line 271
+[07-Feb-2022 21:09:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert.php:264
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_insert.php on line 264
+[07-Feb-2022 21:10:58 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_financial_edit.php on line 283
+[08-Feb-2022 08:10:58 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_financial_edit.php:341
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_financial_edit.php on line 341
+[07-Feb-2022 21:11:33 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_financial_edit.php on line 283
+[07-Feb-2022 21:11:52 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[07-Feb-2022 21:11:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php:240
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 240
+[07-Feb-2022 21:12:20 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[07-Feb-2022 21:12:26 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[07-Feb-2022 21:12:32 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_financial_edit.php on line 283
+[07-Feb-2022 21:35:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/tournament_edit.php:242
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/tournament_edit.php on line 242
+[07-Feb-2022 21:37:06 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_financial_edit.php on line 283
+[07-Feb-2022 21:37:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[07-Feb-2022 21:37:31 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[07-Feb-2022 21:37:36 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[07-Feb-2022 21:37:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 156
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 157
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 162
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 166
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 171
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 172
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 173
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 179
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 180
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 181
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 182
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 183
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 188
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 192
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 196
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 200
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 205
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 206
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 207
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 208
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 209
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 210
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 211
+[07-Feb-2022 21:38:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 220
+[07-Feb-2022 21:38:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 230
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 156
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 157
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 162
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 166
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 171
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 172
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 173
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 179
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 180
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 181
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 182
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 183
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 188
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 192
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 196
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 200
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 205
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 206
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 207
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 208
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 209
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 210
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 211
+[07-Feb-2022 21:40:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 220
+[07-Feb-2022 21:40:28 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:41:22 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:41:48 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:42:51 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:43:13 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 156
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 157
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 162
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 166
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 171
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 172
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 173
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 179
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 180
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 181
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 182
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 183
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 188
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 192
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 196
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 200
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 205
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 206
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 207
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 208
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 209
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 210
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 211
+[07-Feb-2022 21:43:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/x_fin_rep_item_edit.php on line 220
+[07-Feb-2022 21:43:47 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 207
+[07-Feb-2022 21:43:53 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:44:28 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:44:54 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:45:37 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:46:10 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:46:37 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:47:14 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:47:48 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:48:16 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:48:46 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:49:20 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 207
+[07-Feb-2022 21:49:50 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:50:30 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 207
+[07-Feb-2022 21:51:04 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 207
+[07-Feb-2022 21:51:38 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:52:17 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:52:54 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:53:17 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:54:03 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:54:28 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:54:53 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:55:26 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:55:46 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 207
+[07-Feb-2022 21:56:07 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 207
+[07-Feb-2022 21:56:25 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:56:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:57:12 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:57:43 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:58:00 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 207
+[07-Feb-2022 21:58:15 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:58:22 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:58:28 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:58:34 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:58:43 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:58:51 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 21:59:13 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:00:50 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:01:20 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:01:28 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:01:34 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:01:41 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:01:52 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:02:08 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:02:15 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:02:40 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:02:55 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:03:04 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:03:11 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:03:23 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:03:31 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:03:52 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:04:21 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:05:53 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:06:06 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:06:14 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:06:24 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:06:36 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:06:45 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:06:53 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:07:01 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:07:23 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:07:33 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:07:48 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:08:10 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:08:39 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:08:52 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:09:27 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:09:36 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:09:43 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:09:49 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:09:57 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:10:07 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:11:23 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:11:42 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:12:00 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:12:08 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:12:15 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:12:24 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:12:34 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:12:51 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:12:59 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 216
+[07-Feb-2022 22:13:09 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 216
+[07-Feb-2022 22:13:15 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:13:24 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:13:31 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:13:39 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:13:45 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:14:05 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:16:18 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:16:36 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:17:04 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:17:13 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:17:22 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:17:32 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:17:43 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:17:52 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:18:05 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:20:25 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:20:53 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:21:04 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:21:26 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:21:53 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:22:15 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:23:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:24:09 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:24:14 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:24:20 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:24:24 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:25:34 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[07-Feb-2022 22:25:37 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit_all.php on line 215
+[08-Feb-2022 05:01:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_delete_confirm.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_delete_confirm.php on line 122
+[17-Feb-2022 09:42:47 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_financial_edit.php on line 261
+[17-Feb-2022 09:42:47 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_financial_edit.php on line 283
+[07-Mar-2022 22:04:45 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[07-Mar-2022 22:04:53 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 200
+[07-Mar-2022 22:04:55 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[07-Mar-2022 22:05:00 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 200
+[07-Mar-2022 22:05:45 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 200
+[07-Mar-2022 22:06:03 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 204
+[07-Mar-2022 22:06:07 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 200
+[07-Mar-2022 22:06:12 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 204
+[13-Mar-2022 09:48:41 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[13-Mar-2022 09:48:47 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 200
+[13-Mar-2022 09:48:56 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[13-Mar-2022 09:49:02 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 200
+[13-Mar-2022 09:49:51 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[13-Mar-2022 09:49:57 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 200
+[13-Mar-2022 09:50:25 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_financial_edit.php on line 261
+[13-Mar-2022 09:50:25 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_financial_edit.php on line 283
+[13-Mar-2022 09:50:44 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[13-Mar-2022 09:50:55 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 200
+[13-Mar-2022 09:51:21 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 200
+[13-Mar-2022 10:39:38 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 200
+[14-Mar-2022 11:40:23 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[14-Mar-2022 11:41:40 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[15-Mar-2022 07:44:29 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[15-Mar-2022 07:44:45 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 200
+[21-Mar-2022 09:31:25 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Tournaments/user_files/player_edit.php on line 196
+[21-Mar-2022 17:59:02 UTC] PHP Fatal error:  Cannot redeclare get_magic_quotes_gpc() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 118
+[17-Jun-2022 03:50:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WA_AB_InsertParams has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/webassist/database_management/wa_appbuilder_php.php on line 120
+[17-Jun-2022 03:50:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WA_AB_WhereClause has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/webassist/database_management/wa_appbuilder_php.php on line 167
+[28-Jul-2022 09:45:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WA_AB_InsertParams has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/webassist/database_management/wa_appbuilder_php.php on line 120
+[28-Jul-2022 09:45:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WA_AB_WhereClause has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/webassist/database_management/wa_appbuilder_php.php on line 167
+[04-Oct-2022 04:38:55 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WA_AB_InsertParams has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/webassist/database_management/wa_appbuilder_php.php on line 120
+[04-Oct-2022 04:38:55 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WA_AB_WhereClause has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/webassist/database_management/wa_appbuilder_php.php on line 167
+[02-Nov-2022 06:35:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WA_AB_InsertParams has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/webassist/database_management/wa_appbuilder_php.php on line 120
+[02-Nov-2022 06:35:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WA_AB_WhereClause has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/webassist/database_management/wa_appbuilder_php.php on line 167
+[15-Dec-2022 14:42:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WA_AB_InsertParams has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/webassist/database_management/wa_appbuilder_php.php on line 120
+[15-Dec-2022 14:42:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WA_AB_WhereClause has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/webassist/database_management/wa_appbuilder_php.php on line 167

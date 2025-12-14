@@ -1,0 +1,231 @@
+[30-Jan-2022 21:00:32 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:487
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('2022 Summer Sno...', 421467)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 487
+[30-Jan-2022 21:01:25 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:487
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('COVID guideline...', 308461)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 487
+[30-Jan-2022 23:58:35 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:487
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('2022 COLOUR Sum...', 426201)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 487
+[31-Jan-2022 02:01:16 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:487
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('2022 COLOUR Sum...', 426201)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 487
+[31-Jan-2022 02:07:22 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:487
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('2022 COLOUR Sum...', 426201)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 487
+[31-Jan-2022 04:28:35 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:487
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('TEST.pdf', 27765)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 487
+[01-Feb-2022 00:19:54 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:487
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('8c8ba351-bb63-4...', 33098)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 487
+[01-Feb-2022 01:01:39 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:487
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('8c8ba351-bb63-4...', 33098)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 487
+[01-Feb-2022 01:12:15 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:488
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('8c8ba351-bb63-4...', 33098)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 488
+[01-Feb-2022 01:13:43 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:488
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('COVID guideline...', 308461)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 488
+[01-Feb-2022 01:15:26 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:488
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('8c8ba351-bb63-4...', 33098)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 488
+[01-Feb-2022 01:18:25 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:488
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('8c8ba351-bb63-4...', 33098)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 488
+[01-Feb-2022 01:19:38 UTC] PHP Parse error:  syntax error, unexpected token "&" in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 465
+[01-Feb-2022 01:20:11 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:489
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('8c8ba351-bb63-4...', 33098)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 489
+[01-Feb-2022 01:23:38 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:491
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('8c8ba351-bb63-4...', 33098)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 491
+[01-Feb-2022 02:14:42 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on array in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:491
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('b09058ab-45d7-4...', 10234)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 491
+[01-Feb-2022 02:24:31 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on array in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:492
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('b09058ab-45d7-4...', 10234)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 492
+[01-Feb-2022 02:31:33 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:488
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('8c8ba351-bb63-4...', 33098)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 488
+[01-Feb-2022 02:33:34 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "path" in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:329
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 329
+[01-Feb-2022 02:34:14 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "path" in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:329
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 329
+[01-Feb-2022 02:35:15 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on array in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:491
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('8c8ba351-bb63-4...', 33098)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 491
+[01-Feb-2022 14:36:49 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:69
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(69): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 69
+[01-Feb-2022 14:37:04 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:69
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(69): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 69
+[01-Feb-2022 14:37:33 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:69
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(69): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 69
+[01-Feb-2022 14:37:45 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:69
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(69): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 69
+[07-Feb-2022 22:44:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_index_admin.php on line 868
+[07-Feb-2022 22:44:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php on line 241
+[07-Feb-2022 22:45:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php on line 241
+[07-Feb-2022 22:45:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_index_admin.php on line 868
+[07-Feb-2022 22:45:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php on line 241
+[07-Feb-2022 22:46:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_upload.php on line 241
+[07-Feb-2022 22:46:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_index_admin.php on line 868
+[15-Feb-2022 14:10:51 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[15-Feb-2022 14:11:40 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[15-Feb-2022 14:11:58 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[15-Feb-2022 14:12:20 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[15-Feb-2022 14:12:35 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[15-Feb-2022 14:12:41 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[28-Feb-2022 08:40:35 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[28-Feb-2022 08:40:42 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[28-Feb-2022 08:41:13 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[28-Feb-2022 08:41:24 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/MSBA/MSBA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30

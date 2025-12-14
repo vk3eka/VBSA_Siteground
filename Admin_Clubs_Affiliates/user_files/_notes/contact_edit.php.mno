@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_getusername" value="name:id;datatype:int,name:name;datatype:string,name:usertype;datatype:string" />
+	<infoitem key="UD_contact" value="name:cont_id;datatype:int,name:club_id;datatype:int,name:cont_memb_id;datatype:int,name:last_update;datatype:date,name:update_by;datatype:string,name:cont_type;datatype:string,name:cont_title;datatype:string,name:ClubNumber;datatype:int,name:ClubTitle;datatype:string,name:MemberID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string" />
+	<infoitem key="UD_club_list" value="name:team_club;datatype:string,name:team_club_id;datatype:int" />
+</info>

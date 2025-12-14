@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_arch_tourn" value="name:ID;datatype:int,name:tourn_id;datatype:int,name:tourn_year;datatype:year,name:win;datatype:int,name:rup;datatype:int,name:brk;datatype:int,name:break;datatype:int,name:brk_shared1;datatype:int,name:brk_shared2;datatype:int,name:winner;datatype:string,name:runnerup;datatype:string,name:brkby;datatype:string,name:shared1;datatype:string,name:shared2;datatype:string,name:brk_comment;datatype:string,name:venue;datatype:string,name:why_not_run;datatype:string,name:tourn_name;datatype:string" />
+</info>

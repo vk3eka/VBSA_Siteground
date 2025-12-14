@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_tournRP" value="name:t_rank;datatype:int,name:member_tid;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:pts_tourn;datatype:int,name:tourn_total;datatype:int,name:scr_total;datatype:int,name:scr_percent;datatype:int" />
+</info>

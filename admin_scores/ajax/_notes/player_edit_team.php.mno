@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Scrs_Edit" value="name:scrsID;datatype:int,name:MemberID;datatype:int,name:team_grade;datatype:string,name:team_id;datatype:int,name:captain_scrs;datatype:string,name:S1;datatype:int,name:S2;datatype:int" />
+	<infoitem key="UD_scrs_edit" value="name:scrsID;datatype:int,name:MemberID;datatype:int,name:team_grade;datatype:string,name:team_id;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:captain_scrs;datatype:string,name:scr_season;datatype:string,name:Club;datatype:string" />
+	<infoitem key="UD_vbsaclubs" value="name:ClubNumber;datatype:int,name:ClubTitle;datatype:string,name:ClubNameVBSA;datatype:string,name:ClubContact;datatype:string,name:ClubTables;datatype:int,name:VBSAteam;datatype:int,name:total_teams;datatype:int" />
+	<infoitem key="UD_vbsa_clubs" value="name:ClubNumber;datatype:int,name:ClubTitle;datatype:string,name:ClubNameVBSA;datatype:string" />
+	<infoitem key="UD_vbsa_grades" value="name:grade;datatype:string,name:grade_name;datatype:string,name:season;datatype:string" />
+</info>

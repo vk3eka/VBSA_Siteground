@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_grades_S1" value="name:grade;datatype:string,name:grade_name;datatype:string" />
+	<infoitem key="UD_Scrs_Edit" value="name:scrsID;datatype:int,name:MemberID;datatype:int,name:team_grade;datatype:string,name:team_id;datatype:int,name:scr_season;datatype:string,name:SF1;datatype:int,name:SF2;datatype:int,name:GF;datatype:int,name:MemberID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:final_sub;datatype:string,name:captain_scrs;datatype:string,name:SF1_pos;datatype:int,name:SF2_pos;datatype:int,name:GF_pos;datatype:int" />
+	<infoitem key="UD_grades_S2" value="name:grade;datatype:string,name:grade_name;datatype:string" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_item_order" value="name:OrderFP;datatype:string,name:OrderRef;datatype:string,name:OrderJunior;datatype:string,name:OrderHelp;datatype:string,name:OrderWomens;datatype:string,name:OrderRefProfile;datatype:string,name:OrderRefPoser;datatype:string,name:OrderPlayerProfile;datatype:string,name:OrderScores;datatype:string,name:OrderPolProc;datatype:string,name:OrderInfo;datatype:string" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_players" value="name:player_ID;datatype:int,name:tourn_id;datatype:int,name:tourn_year;datatype:year,name:winner;datatype:string,name:runner_up;datatype:string,name:high_brk_name;datatype:string,name:high_brk_amount;datatype:string,name:venue;datatype:string,name:why_not_run;datatype:string" />
+	<infoitem key="UD_arch_tourn" value="name:tournament_ID;datatype:int,name:tourn_name;datatype:string,name:player_ID;datatype:int,name:tourn_id;datatype:int" />
+</info>

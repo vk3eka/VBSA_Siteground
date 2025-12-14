@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_memb" value="name:MemberID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:Club;datatype:string,name:MobilePhone;datatype:string,name:Email;datatype:string,name:paid_memb;datatype:int,name:LifeMember;datatype:int,name:Current;datatype:int,name:CSnooker;datatype:int,name:CBilliards;datatype:int,name:Prev;datatype:int,name:PSnooker;datatype:int,name:PBilliards;datatype:int" />
+	<infoitem key="UD_lifemembers" value="name:MemberID;datatype:int,name:LifeMember;datatype:int" />
+	<infoitem key="UD_paimemb" value="name:MemberID;datatype:int,name:paid_memb;datatype:int" />
+	<infoitem key="UD_paidmemb" value="name:MemberID;datatype:int,name:paid_memb;datatype:int" />
+	<infoitem key="UD_Count20" value="name:COUNT(paid_memb);datatype:int" />
+</info>

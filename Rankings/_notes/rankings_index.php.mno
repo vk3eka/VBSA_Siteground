@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rank_bill" value="name:rank_exp_id;datatype:int,name:rank_exp_title;datatype:string,name:rank_exp_type;datatype:blob,name:rank_exp_pdf;datatype:string,name:rank_exp_last_update;datatype:timestamp,name:current;datatype:int,name:rank_exp_order;datatype:int" />
+	<infoitem key="UD_rank_exp" value="name:rank_exp_id;datatype:int,name:rank_exp_title;datatype:string,name:rank_exp_type;datatype:blob,name:rank_exp_pdf;datatype:string,name:rank_exp_last_update;datatype:timestamp,name:current;datatype:int,name:rank_exp_order;datatype:int" />
+	<infoitem key="UD_snooker_update" value="name:lastupdate;datatype:date" />
+	<infoitem key="UD_rank_snooker" value="name:rank_exp_id;datatype:int,name:rank_exp_title;datatype:string,name:rank_exp_type;datatype:blob,name:rank_exp_pdf;datatype:string,name:rank_exp_last_update;datatype:timestamp,name:current;datatype:int,name:rank_exp_order;datatype:int" />
+</info>

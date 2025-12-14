@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ChurchBilldel" value="name:ChurchBill_id;datatype:int,name:pagezone_header_desc;datatype:string,name:pagezone_header;datatype:string,name:ChurchBill_type;datatype:string,name:item_title;datatype:string,name:pdf_name;datatype:string,name:current;datatype:string,name:list_order;datatype:string,name:uploaded_on;datatype:timestamp,name:edited_on;datatype:datetime,name:news_header;datatype:string,name:news_content;datatype:blob" />
+	<infoitem key="UD_CCdel" value="name:CC_id;datatype:int,name:pagezone_header_desc;datatype:string,name:pagezone_header;datatype:string,name:CC_type;datatype:string,name:item_title;datatype:string,name:pdf_name;datatype:string,name:current;datatype:string,name:list_order;datatype:string,name:uploaded_on;datatype:timestamp,name:edited_on;datatype:datetime,name:news_content;datatype:blob" />
+</info>

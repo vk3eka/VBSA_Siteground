@@ -1,0 +1,26 @@
+@charset "utf-8";
+#Archive_content {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+}
+.archive_teams {
+	float: left;
+	width: 800px;
+	padding-left: 50px;
+	height: auto;
+	clear: both;
+}
+.archive_teams .table1 {
+	width: auto;
+	float: left;
+}
+.archive_teams .table2 {
+	width: auto;
+	float: right;
+}
+.archive_clubs {
+	float: left;
+	padding-left: 350px;
+}

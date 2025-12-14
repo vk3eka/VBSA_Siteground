@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_TournFin" value="name:ID;datatype:int,name:tourn_fin_id;datatype:int,name:item_type;datatype:string,name:item_desc;datatype:string,name:item_amount;datatype:real,name:item_cat;datatype:string,name:entered_by;datatype:string,name:how_paid;datatype:string,name:paid_to;datatype:string,name:chq_no;datatype:string,name:inv_no;datatype:int,name:entered_on;datatype:timestamp,name:fin_year;datatype:year,name:cal_year;datatype:year,name:prizefund_rd;datatype:string" />
+</info>

@@ -1,0 +1,113 @@
+<script>
+$(document).ready(function()
+{
+   $.fn.save_fixtures = function (form_no) {
+        //var form_no = $(this).data("id"); 
+        var team_grade = $('#team_grade_' + form_no).html();
+        var no_of_teams = $('#no_of_teams_' + form_no).html();
+        var no_of_fixtures = (no_of_teams/2);
+        var no_of_rounds = ((no_of_teams*2)-2);
+        var dayplayed = $("#dayplayed_" + form_no).html();
+        var comptype = $("#comptype_" + form_no).html();
+        //alert(team_grade);
+        var grade = team_grade.substring(0,1);
+        var scoredata = new Array;
+        var scoredata_teams = new Array;
+        var sortdata = new Array;
+        var sortdata_index = new Array;
+        var season = '<?= $season ?>';
+        var year = '<?= $year?>';
+        var round;
+        for(x = 0; x < no_of_teams; x++)
+        {
+            sortdata_index[x] = $("#club_" + form_no + "_" + (x+1)).html() + ", " + $("#sort_" + form_no + "_" + (x+1) + "_id").html(); 
+            sortdata.push(sortdata_index[x]);
+        }
+        sortdata = JSON.stringify(sortdata);
+        for(i = 0; i < no_of_rounds; i++)
+        {
+            playing_date = $("#A_" + form_no + "_date_" + i).val();
+            round = (i+1);
+            for(j = 0; j < (no_of_teams/2); j++) 
+            {
+                scoredata_teams[i+j] = $('#' + team_grade + "_home_" + (i+1) + "_" + (j+1)).val() + ", " + $('#' + team_grade + "_away_" + (i+1) + "_" + (j+1)).val() + ", " + playing_date + ", " + round; 
+                scoredata.push(scoredata_teams[i+j]);
+            }
+        }
+        scoredata = JSON.stringify(scoredata);
+        console.log("Score Data " + scoredata);
+        console.log("Sort Data " + sortdata);
+        $.ajax({
+            url:"../vbsa_online_scores/save_fixtures.php?Type=" + comptype + "&Grade=" + grade + "&TeamGrade=" + team_grade + "&FormNo=" + form_no + "&DayPlayed=" + dayplayed + "&Year=" + year + "&Season=" + season + "&SortData=" + sortdata + "&ScoreData=" + scoredata + "&Fixtures=" + no_of_fixtures,
+            method: 'GET',
+            success : function(response)
+            {
+              alert(response);
+              //window.location.href = '<?= $_SERVER['PHP_SELF'] ?>?DayPlayed=' + dayplayed + '&season=' + season;
+              window.location.href = '<?= $_SERVER['PHP_SELF'] ?>';
+            },
+            error: function (request, error) 
+            {
+              alert("No data saved!");
+            }
+        });
+    }
+/*
+    $('.savebutton').click(function()
+    {
+        event.preventDefault();
+        var form_no = $(this).data("id"); 
+        $.fn.save_fixtures(form_no);
+        var form_no = $(this).data("id"); 
+        var team_grade = $('#team_grade_' + form_no).html();
+        var no_of_teams = $('#no_of_teams_' + form_no).html();
+        var no_of_fixtures = (no_of_teams/2);
+        var no_of_rounds = ((no_of_teams*2)-2);
+        var dayplayed = $("#dayplayed_" + form_no).html();
+        var comptype = $("#comptype_" + form_no).html();
+        var grade = team_grade.substring(0,1);
+        var scoredata = new Array;
+        var scoredata_teams = new Array;
+        var sortdata = new Array;
+        var sortdata_index = new Array;
+        var season = '<?= $season ?>';
+        var year = '<?= $year?>';
+        var round;
+        for(x = 0; x < no_of_teams; x++)
+        {
+            sortdata_index[x] = $("#club_" + form_no + "_" + (x+1)).html() + ", " + $("#sort_" + form_no + "_" + (x+1) + "_id").html(); 
+            sortdata.push(sortdata_index[x]);
+        }
+        sortdata = JSON.stringify(sortdata);
+        for(i = 0; i < no_of_rounds; i++)
+        {
+            playing_date = $("#A_" + form_no + "_date_" + i).val();
+            round = (i+1);
+            for(j = 0; j < (no_of_teams/2); j++) 
+            {
+                scoredata_teams[i+j] = $('#' + team_grade + "_home_" + (i+1) + "_" + (j+1)).val() + ", " + $('#' + team_grade + "_away_" + (i+1) + "_" + (j+1)).val() + ", " + playing_date + ", " + round; 
+                scoredata.push(scoredata_teams[i+j]);
+            }
+        }
+        scoredata = JSON.stringify(scoredata);
+        console.log("Score Data " + scoredata);
+        console.log("Sort Data " + sortdata);
+        $.ajax({
+            url:"../vbsa_online_scores/save_fixtures.php?Type=" + comptype + "&Grade=" + grade + "&TeamGrade=" + team_grade + "&FormNo=" + form_no + "&DayPlayed=" + dayplayed + "&Year=" + year + "&Season=" + season + "&SortData=" + sortdata + "&ScoreData=" + scoredata + "&Fixtures=" + no_of_fixtures,
+            method: 'GET',
+            success : function(response)
+            {
+              alert(response);
+              //window.location.href = '<?= $_SERVER['PHP_SELF'] ?>?DayPlayed=' + dayplayed + '&season=' + season;
+              window.location.href = '<?= $_SERVER['PHP_SELF'] ?>';
+            },
+            error: function (request, error) 
+            {
+              alert("No data saved!");
+            }
+        }); 
+*/
+ //   });
+
+});
+</script>

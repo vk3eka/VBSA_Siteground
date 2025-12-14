@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_page_items" value="name:ID;datatype:int,name:Header;datatype:string,name:Comment;datatype:blob,name:By;datatype:string,name:created_on;datatype:datetime,name:updated;datatype:datetime,name:caldate;datatype:datetime,name:FPdate;datatype:datetime,name:item_image;datatype:string,name:event_id;datatype:string,name:page_front;datatype:string,name:img_size;datatype:string,name:OrderFP;datatype:string,name:OrderRef;datatype:string,name:OrderJunior;datatype:string,name:OrderHelp;datatype:string,name:OrderWomens;datatype:string,name:OrderRefProfile;datatype:string,name:OrderRefPoser;datatype:string,name:OrderPlayerProfile;datatype:string,name:OrderScores;datatype:string,name:OrderPolProc;datatype:string,name:OrderInfo;datatype:string" />
+</info>

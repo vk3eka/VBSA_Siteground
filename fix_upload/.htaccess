@@ -1,0 +1,13 @@
+# Force correct MIME type for PDF files
+AddType application/pdf .pdf
+
+# Ensure PDFs in this folder are always accessible
+<FilesMatch "\.pdf$">
+    Require all granted
+</FilesMatch>
+
+# Disable any mod_security rules that might block AJAX PDF loads
+<IfModule mod_security.c>
+    SecFilterEngine Off
+    SecRuleEngine Off
+</IfModule>

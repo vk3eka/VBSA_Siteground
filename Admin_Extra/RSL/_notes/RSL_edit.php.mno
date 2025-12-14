@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_SBSAedit" value="name:uploaded_on_date;datatype:string,name:edited_on_date;datatype:string,name:SBSA_id;datatype:int,name:SBSA_type;datatype:string,name:item_title;datatype:string,name:current;datatype:string,name:list_order;datatype:string,name:news_content;datatype:blob,name:pdf_name;datatype:string,name:uploaded_on;datatype:timestamp" />
+	<infoitem key="UD_RSLedit" value="name:uploaded_on_date;datatype:string,name:edited_on_date;datatype:string,name:RSL_id;datatype:int,name:RSL_type;datatype:string,name:item_title;datatype:string,name:current;datatype:string,name:list_order;datatype:string,name:news_content;datatype:blob,name:pdf_name;datatype:string,name:uploaded_on;datatype:timestamp" />
+</info>

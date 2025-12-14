@@ -1,0 +1,40 @@
+[06-Feb-2022 09:23:43 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_vbsa_curyear.php on line 202
+[06-Feb-2022 09:23:43 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_vbsa_curyear.php on line 203
+[06-Feb-2022 09:23:43 UTC] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:69
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(69): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_vbsa_curyear.php(274): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 69
+[06-Feb-2022 09:24:05 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_by_clubid.php:159
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_by_clubid.php on line 159
+[06-Feb-2022 09:24:27 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_by_clubid.php:159
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_by_clubid.php on line 159
+[06-Feb-2022 09:24:31 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_vbsa_curyear.php on line 202
+[06-Feb-2022 09:24:31 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_vbsa_curyear.php on line 203
+[06-Feb-2022 09:24:31 UTC] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:69
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(69): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_vbsa_curyear.php(274): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 69
+[06-Feb-2022 09:24:37 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_by_clubid.php:159
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_by_clubid.php on line 159
+[06-Feb-2022 09:24:47 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_by_clubid.php:159
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_by_clubid.php on line 159
+[06-Feb-2022 09:24:48 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_vbsa_curyear.php on line 202
+[06-Feb-2022 09:24:48 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_vbsa_curyear.php on line 203
+[06-Feb-2022 09:24:48 UTC] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:69
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(69): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/inv_vbsa_curyear.php(274): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 69

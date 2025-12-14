@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_tourn_rp" value="name:ranknum_current;datatype:int,name:memb_id;datatype:int,name:total_current_rp;datatype:int,name:ranknum_prev;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string" />
+	<infoitem key="UD_rp_curr" value="name:tourn_memb_id;datatype:int,name:tourn_name;datatype:string,name:rank_pts;datatype:int,name:tourn_curr;datatype:int,name:tourn_total;datatype:int" />
+	<infoitem key="UD_rp_1year" value="name:tourn_name;datatype:string,name:rank_pts_co_1yr;datatype:int" />
+	<infoitem key="UD_rp_2year" value="name:tourn_name;datatype:string,name:rank_pts_co_2yr;datatype:int" />
+	<infoitem key="UD_RPall" value="name:t_rank;datatype:int,name:member_tid;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:pts_tourn;datatype:int,name:last_update;datatype:string,name:tourn_total;datatype:int,name:scr_total;datatype:int,name:scr_percent;datatype:int" />
+	<infoitem key="UD_rp_1yr" value="name:tourn_memb_id;datatype:int,name:tourn_name;datatype:string,name:rank_pts;datatype:int,name:tourn_curr;datatype:int,name:tourn_total;datatype:int" />
+	<infoitem key="UD_rp_2yr" value="name:tourn_memb_id;datatype:int,name:tourn_name;datatype:string,name:rank_pts;datatype:int,name:tourn_curr;datatype:int,name:tourn_total;datatype:int" />
+	<infoitem key="UD_S1curr" value="name:total_RP;datatype:int" />
+	<infoitem key="UD_S2curr" value="name:total_RP;datatype:int" />
+	<infoitem key="UD_S1_1year" value="name:total_RP;datatype:int" />
+	<infoitem key="UD_S2_1year" value="name:total_RP;datatype:int" />
+	<infoitem key="UD_S1_2year" value="name:total_RP;datatype:int" />
+	<infoitem key="UD_S2_2year" value="name:total_RP;datatype:int" />
+</info>

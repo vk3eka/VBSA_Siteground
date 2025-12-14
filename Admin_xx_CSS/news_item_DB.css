@@ -1,0 +1,316 @@
+@charset "utf-8";
+.FP_content {
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#News_container {
+	background-color: #FFFFFF;
+	width: 910px;
+	padding-top: 3px;
+	float: left;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 85px;
+}
+#News_container_preview {
+	clear: both;
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+#News_bottom_table {
+	clear: both;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.News_item {
+	padding-right: 5px;
+	padding-left: 5px;
+	width: 730px;
+	float: left;
+}
+
+.News_item_header {
+	width: 730px;
+	background-image: url(../images/Front_page_item/Header_green_right_BG.jpg);
+	background-repeat: repeat-x;
+	float: left;
+}
+.News_item_header_left_corner {
+	background-image: url(../images/Front_page_item/Header_left_corner.jpg);
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 20px;
+	float: left;
+}
+.News_item_header_title_BG {
+	background-image: url(../images/Front_page_item/Header_white_left_BG.jpg);
+	background-repeat: repeat-x;
+	height: 25px;
+	width: auto;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+	padding-top: 10px;
+}
+.News_item_header_right_title {
+	background-image: url(../images/Front_page_item/Header_whitetogreen_corner.jpg);
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 30px;
+	float: left;
+}
+.News_item_header_by {
+	height: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #666666;
+	padding-top: 10px;
+	float: right;
+}
+.News_item_header_right_corner {
+	background-image: url(../images/Front_page_item/Header_right_corner.jpg);
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 20px;
+	float: right;
+}
+
+.News_red {
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.news_image {
+	margin-left: 5px;
+	float: right;
+	margin-right: 5px;
+}
+.News_item_content {
+	background-image: url(../images/Front_page_item/Content_BG.jpg);
+	background-repeat: repeat-y;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 710px;
+	height: auto;
+	line-height: 18px;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	float: left;
+}
+.News_item_close {
+	background-image: url(../images/Front_page_item/News_item_close_BG.jpg);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	float: left;
+	width: 710px;
+	height: 15px;
+}
+
+.News_item_footer {
+	background-image: url(../images/Front_page_item/Footer_BG.jpg);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	float: left;
+	width: 710px;
+	height: 15px;
+	margin-bottom: 5px;
+}
+.News_item_info_bg {
+	background-image: url(../images/Front_page_item/News_item_info_BG.jpg);
+	background-repeat: repeat-y;
+	float: left;
+	width: 710px;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.News_item_content_info {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.News_item_info_update {
+	height: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	color: #990000;
+	padding-top: 3px;
+	float: right;
+}
+.News_item_info_close {
+	background-image: url(../images/Front_page_item/Footer_info_close.jpg);
+	background-repeat: repeat-y;
+	padding-left: 20px;
+	float: left;
+	width: 710px;
+	height: 10px;
+	margin-bottom: 5px;
+}
+
+
+/* CSS Document */
+
+.News_red {
+	font-weight: bold;
+	color: #FF0000;
+}
+#SideBar_Left {
+	background-color: #E5E5E5;
+	float: left;
+	width: 360px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #CCCCCC;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	left: -10px;
+	font-size: 12px;
+	line-height: 20px;
+	background-repeat: no-repeat;
+	height: auto;
+	padding-bottom: 3px;
+}
+
+.news_local {
+	width: 198px;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #CCCCCC;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	float: left;
+}
+.news_local_header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	font-weight: bold;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.news_local_content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+.News_item_detail_container {
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+	padding-top: 5px;
+}
+.News_item_detail_container .detail_500 {
+	float: left;
+	width: 488px;
+	border: 1px solid #CCC;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-top: 5px;
+}
+.News_item_detail_container .detail_1000 {
+	width: 988px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border: 1px solid #CCC;
+	float: left;
+	margin-top: 10px;
+}
+.News_item_content_info .item_info_title {
+	font-style: italic;
+	color: #900;
+	padding: 2px;
+	float: left;
+}
+.News_item_content_info .item_info {
+	float: left;
+	height: 20px;
+	width: auto;
+	padding-right: 5px;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+.News_item_content_info .item_info .link_text {
+	font-size: 10px;
+	float: left;
+	height: 20px;
+	width: auto;
+	vertical-align: middle;
+}
+.News_item_content_info .item_info .link_image {
+	float: left;
+	width: auto;
+	height: 20px;
+}
+#News_container .News_item_links {
+	float: right;
+	width: 165px;
+}
+
+.paging_index {
+	float: left;
+	width: 730px;
+}
+
+
+textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.ignoreTags p  { 
+	display: inline; margin: 0; 
+}
+.query_result_empty_message {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 50px;
+	font-size: 12px;
+	color: #666;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}

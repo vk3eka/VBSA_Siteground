@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_SBSAdel" value="name:SBSA_id;datatype:int,name:pagezone_header_desc;datatype:string,name:pagezone_header;datatype:string,name:SBSA_type;datatype:string,name:item_title;datatype:string,name:pdf_name;datatype:string,name:current;datatype:string,name:list_order;datatype:string,name:uploaded_on;datatype:timestamp,name:edited_on;datatype:datetime,name:news_content;datatype:blob" />
+	<infoitem key="UD_RSLdel" value="name:RSL_id;datatype:int,name:pagezone_header_desc;datatype:string,name:pagezone_header;datatype:string,name:RSL_type;datatype:string,name:item_title;datatype:string,name:pdf_name;datatype:string,name:current;datatype:string,name:list_order;datatype:string,name:uploaded_on;datatype:timestamp,name:edited_on;datatype:datetime,name:news_content;datatype:blob" />
+</info>

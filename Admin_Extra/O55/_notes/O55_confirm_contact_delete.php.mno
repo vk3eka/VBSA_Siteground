@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_O55del" value="name:O55_id;datatype:int,name:pagezone_header_desc;datatype:string,name:pagezone_header;datatype:string,name:O55_type;datatype:string,name:item_title;datatype:string,name:pdf_name;datatype:string,name:current;datatype:string,name:list_order;datatype:string,name:uploaded_on;datatype:timestamp,name:edited_on;datatype:datetime,name:news_content;datatype:blob" />
+	<infoitem key="UD_O55_cont_del" value="name:contact_id;datatype:int,name:contact_name;datatype:string,name:contact_phone;datatype:string,name:contact_phone2;datatype:string,name:contact_fax;datatype:string,name:contact_position;datatype:string,name:contact_email;datatype:string,name:contact_order;datatype:int,name:contact_current;datatype:string" />
+</info>

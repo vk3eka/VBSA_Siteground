@@ -1,0 +1,28 @@
+[07-Feb-2022 14:15:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_rankings/rankings_snooker_weekly.php:107
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_rankings/rankings_snooker_weekly.php on line 107
+[07-Feb-2022 14:16:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_rankings/rankings_snooker_weekly_detail.php:178
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_rankings/rankings_snooker_weekly_detail.php on line 178
+[07-Feb-2022 14:16:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_rankings/rankings_Vic_snooker.php:101
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_rankings/rankings_Vic_snooker.php on line 101
+[07-Feb-2022 14:17:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_rankings/rankings_all_by_lastname.php:104
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_rankings/rankings_all_by_lastname.php on line 104
+[08-Mar-2022 06:48:25 UTC] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_rankings/rankings_Vic_snooker_detail.php(302): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[08-Mar-2022 07:01:34 UTC] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_rankings/rankings_Vic_snooker_detail.php(302): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30

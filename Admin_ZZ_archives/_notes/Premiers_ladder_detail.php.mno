@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ladd_APB" value="name:team_id;datatype:int,name:team_club;datatype:string,name:team_name;datatype:string,name:team_grade;datatype:string,name:total_score;datatype:int,name:Updated;datatype:datetime,name:Countback;datatype:int,name:rounds_played;datatype:int,name:count_byes;datatype:int,name:perc;datatype:real,name:points;datatype:real,name:against;datatype:real,name:Won;datatype:int,name:Drawn;datatype:int" />
+	<infoitem key="UD_ladd" value="name:team_id;datatype:int,name:team_club;datatype:string,name:team_name;datatype:string,name:team_grade;datatype:string,name:total_score;datatype:int,name:Updated;datatype:datetime,name:Countback;datatype:int,name:rounds_played;datatype:int,name:count_byes;datatype:int,name:perc;datatype:real,name:points;datatype:real,name:against;datatype:real,name:Won;datatype:int,name:Drawn;datatype:int,name:team_cal_year;datatype:year" />
+</info>

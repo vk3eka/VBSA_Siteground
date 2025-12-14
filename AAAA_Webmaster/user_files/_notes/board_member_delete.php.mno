@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_infodel" value="name:id;datatype:int,name:board_member_id;datatype:int,name:name;datatype:string,name:username;datatype:string,name:email;datatype:string,name:email_vbsa;datatype:string,name:password;datatype:string,name:usertype;datatype:string,name:blocked;datatype:int,name:register_year;datatype:year,name:order_display;datatype:int,name:comment;datatype:blob" />
+	<infoitem key="UD_board_del" value="name:id;datatype:int,name:board_member_id;datatype:int,name:name;datatype:string,name:username;datatype:string,name:email;datatype:string,name:email_vbsa;datatype:string,name:password;datatype:string,name:usertype;datatype:string,name:blocked;datatype:int,name:register_year;datatype:year,name:order_display;datatype:int,name:comment;datatype:blob" />
+</info>

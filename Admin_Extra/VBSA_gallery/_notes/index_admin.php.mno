@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_maxdate" value="name:MAXDATE;datatype:datetime" />
+	<infoitem key="UD_grade" value="name:grade;datatype:string,name:grade_name;datatype:string,name:season;datatype:string,name:type;datatype:string,name:fix_upload;datatype:string,name:fix_cal_year;datatype:year,name:current;datatype:string,name:finals_teams;datatype:int" />
+	<infoitem key="UD_photo_year" value="name:year_photo;datatype:year" />
+	<infoitem key="UD_Intro" value="name:id;datatype:int,name:club_photo;datatype:blob" />
+</info>

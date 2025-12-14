@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_chk_rds" value="name:SUM(r01s);datatype:real,name:SUM(r02s);datatype:real,name:SUM(r03s);datatype:real,name:SUM(r04s);datatype:real,name:SUM(r05s);datatype:real,name:SUM(r06s);datatype:real,name:SUM(r07s);datatype:real,name:SUM(r08s);datatype:real,name:SUM(r09s);datatype:real,name:SUM(r10s);datatype:real,name:SUM(r11s);datatype:real,name:SUM(r12s);datatype:real,name:SUM(r13s);datatype:real,name:SUM(r14s);datatype:real,name:SUM(r15s);datatype:real,name:SUM(r16s);datatype:real,name:SUM(r17s);datatype:real,name:SUM(r18s);datatype:real" />
+	<infoitem key="UD_count_teams" value="name:COUNT(team_id);datatype:int,name:team_cal_year;datatype:year" />
+	<infoitem key="UD_Adjust_notes" value="name:team_id;datatype:int,name:team_name;datatype:string,name:team_grade;datatype:string,name:team_club;datatype:string,name:scr_adj_rd;datatype:int,name:scr_adjust;datatype:int,name:adj_comment;datatype:blob,name:current_year_team;datatype:timestamp" />
+</info>

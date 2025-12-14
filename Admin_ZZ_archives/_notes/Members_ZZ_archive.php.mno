@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_members" value="name:MemberID;datatype:int,name:LastName;datatype:string,name:FirstName;datatype:string,name:MobilePhone;datatype:string,name:Email;datatype:string,name:Club;datatype:string,name:Junior;datatype:int,name:Female;datatype:int,name:Fin_ID;datatype:int,name:Paid;datatype:int,name:LifeMember;datatype:int,name:DatePaid;datatype:date,name:HowMembPaid;datatype:string,name:memb_cal_year;datatype:year" />
+	<infoitem key="UD_Count0" value="name:COUNT(Paid);datatype:int" />
+	<infoitem key="UD_Count20" value="name:COUNT(Paid);datatype:int" />
+	<infoitem key="UD_Count40" value="name:COUNT(Paid);datatype:int" />
+	<infoitem key="UD_TotInc" value="name:TotalIncome;datatype:real" />
+	<infoitem key="UD_life_memb" value="name:COUNT(LifeMember);datatype:int" />
+</info>

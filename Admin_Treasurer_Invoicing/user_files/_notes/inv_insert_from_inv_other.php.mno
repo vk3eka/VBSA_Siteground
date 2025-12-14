@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_create_inv" value="name:inv_id;datatype:int,name:inv_busname;datatype:blob,name:inv_to;datatype:string,name:inv_street;datatype:string,name:inv_suburb;datatype:string,name:inv_suburb;datatype:string,name:inv_postcode;datatype:int,name:inv_email;datatype:string,name:inv_phone;datatype:string" />
+	<infoitem key="UD_inv_no" value="name:MAX(inv_id);datatype:int" />
+</info>

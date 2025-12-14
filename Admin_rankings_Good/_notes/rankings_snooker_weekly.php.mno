@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rank_S1" value="name:MemberID;datatype:int,name:totalRP;datatype:real,name:scrsID;datatype:int,name:MemberID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:RP_snook_S1;datatype:int,name:RP_snook_S1;datatype:int,name:Paid;datatype:int,name:team_grade;datatype:string" />
+	<infoitem key="UD_week_rank" value="name:MemberID;datatype:int,name:M2;datatype:int,name:FirstName;datatype:blob,name:LastName;datatype:blob,name:RP_snook_S1;datatype:int,name:RP_snook_S2;datatype:int,name:RP_S1_lastyear;datatype:int,name:RP_S2_lastyear;datatype:int,name:RP_co_total;datatype:int,name:ranknum;datatype:int,name:MemberID;datatype:int,name:Prev_Year_Rank;datatype:int" />
+	<infoitem key="UD_scrsRP2" value="name:memb_id;datatype:int,name:RPALL;datatype:int,name:ranknum;datatype:int,name:MemberID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string" />
+	<infoitem key="UD_RP_ALL" value="name:memb_id;datatype:int,name:RPALL;datatype:int,name:ranknum;datatype:int,name:MemberID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string" />
+	<infoitem key="UD_RP_weekly" value="name:ranknum;datatype:int,name:memb_id;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:total_weekly_rp;datatype:int,name:last_update;datatype:string" />
+</info>

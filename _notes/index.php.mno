@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_CC" value="name:MAXDATE;datatype:datetime" />
+	<infoitem key="UD_ChurchBill" value="name:MAXDATE;datatype:datetime" />
+	<infoitem key="UD_FPitems" value="name:ID;datatype:int,name:Header;datatype:string,name:Comment;datatype:blob,name:By;datatype:string,name:created_on;datatype:datetime,name:blocked;datatype:string,name:img_orientation;datatype:string,name:FP_image;datatype:string,name:event_id;datatype:string,name:page_help;datatype:string,name:OrderFP;datatype:string,name:OrderRef;datatype:string,name:OrderWomens;datatype:string,name:OrderHelp;datatype:string,name:OrderWomens;datatype:string,name:img_size;datatype:string" />
+	<infoitem key="UD_BBSA" value="name:MAXDATE;datatype:datetime" />
+	<infoitem key="UD_Church" value="name:MAXDATE;datatype:datetime" />
+	<infoitem key="UD_DVSA" value="name:MAXDATE;datatype:datetime" />
+	<infoitem key="UD_MSBA" value="name:MAXDATE;datatype:datetime" />
+	<infoitem key="UD_O55" value="name:MAXDATE;datatype:datetime" />
+	<infoitem key="UD_RSL" value="name:MAXDATE;datatype:datetime" />
+	<infoitem key="UD_SBSA" value="name:MAXDATE;datatype:datetime" />
+	<infoitem key="UD_VBSAmax" value="name:MAXDATE;datatype:datetime" />
+	<infoitem key="UD_Cal" value="name:event;datatype:string,name:startdate;datatype:date,name:event_id;datatype:int" />
+	<infoitem key="UD_page_items" value="name:ID;datatype:int,name:Header;datatype:string,name:Comment;datatype:blob,name:By;datatype:string,name:created_on;datatype:datetime,name:blocked;datatype:string,name:img_orientation;datatype:string,name:item_image;datatype:string,name:event_id;datatype:string,name:page_help;datatype:string,name:OrderFP;datatype:string,name:OrderRef;datatype:string,name:OrderWomens;datatype:string,name:OrderHelp;datatype:string,name:OrderWomens;datatype:string,name:img_size;datatype:string" />
+	<infoitem key="UD_BendBSA" value="name:MAXDATE;datatype:datetime" />
+	<infoitem key="UD_WSBSA" value="name:MAXDATE;datatype:datetime" />
+</info>

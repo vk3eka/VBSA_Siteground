@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_forum_reply" value="name:reply_id;datatype:int,name:reply_content;datatype:blob,name:reply_by;datatype:string,name:reply_date;datatype:timestamp,name:post_ID;datatype:int" />
+	<infoitem key="UD_AdComm" value="name:post_ID;datatype:int,name:post_topic;datatype:string,name:admin_comment;datatype:blob" />
+	<infoitem key="UD_forum_topic" value="name:PostOn;datatype:string,name:PostEdit;datatype:string,name:post_ID;datatype:int,name:post_order;datatype:int,name:post_category;datatype:string,name:post_topic;datatype:string,name:post_content;datatype:blob,name:post_by;datatype:string,name:post_date;datatype:timestamp,name:post_edit_on;datatype:timestamp,name:post_edit_by;datatype:string,name:post_current;datatype:string,name:last_post;datatype:timestamp,name:Most_Recent_reply;datatype:string,name:MostRecentDate;datatype:timestamp,name:admin_comment;datatype:blob" />
+</info>

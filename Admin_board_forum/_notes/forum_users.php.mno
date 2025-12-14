@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_forum_users" value="name:id;datatype:int,name:board_member_id;datatype:int,name:name;datatype:string,name:username;datatype:string,name:email;datatype:string,name:email_vbsa;datatype:string,name:password;datatype:string,name:usertype;datatype:string,name:display;datatype:int,name:register_year;datatype:year,name:order_display;datatype:string,name:assist;datatype:int,name:comment;datatype:blob" />
+	<infoitem key="UD_alert" value="name:alert_id;datatype:int,name:alert_by;datatype:string,name:alert_topics;datatype:string,name:alert_date;datatype:timestamp,name:alert_comment;datatype:blob,name:alert_priority;datatype:string" />
+</info>

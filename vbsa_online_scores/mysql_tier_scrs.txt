@@ -1,0 +1,95 @@
+ALTER TABLE `vbsa3364_vbsa2`.`scrs` 
+ADD COLUMN `tier_r01` INT NULL DEFAULT 0 AFTER `r18pos`,
+ADD COLUMN `tier_r01_rp` INT NULL DEFAULT 0 AFTER `tier_r01`,
+ADD COLUMN `tier_r02` INT NULL DEFAULT 0 AFTER `tier_r01_rp`,
+ADD COLUMN `tier_r02_rp` INT NULL DEFAULT 0 AFTER `tier_r02`,
+ADD COLUMN `tier_r03` INT NULL DEFAULT 0 AFTER `tier_r02_rp`,
+ADD COLUMN `tier_r03_rp` INT NULL DEFAULT 0 AFTER `tier_r03`,
+ADD COLUMN `tier_r04` INT NULL DEFAULT 0 AFTER `tier_r03_rp`,
+ADD COLUMN `tier_r04_rp` INT NULL DEFAULT 0 AFTER `tier_r04`,
+ADD COLUMN `tier_r05` INT NULL DEFAULT 0 AFTER `tier_r04_rp`,
+ADD COLUMN `tier_r05_rp` INT NULL DEFAULT 0 AFTER `tier_r05`,
+ADD COLUMN `tier_r06` INT NULL DEFAULT 0 AFTER `tier_r05_rp`,
+ADD COLUMN `tier_r06_rp` INT NULL DEFAULT 0 AFTER `tier_r06`,
+ADD COLUMN `tier_r07` INT NULL DEFAULT 0 AFTER `tier_r06_rp`,
+ADD COLUMN `tier_r07_rp` INT NULL DEFAULT 0 AFTER `tier_r07`,
+ADD COLUMN `tier_r08` INT NULL DEFAULT 0 AFTER `tier_r07_rp`,
+ADD COLUMN `tier_r08_rp` INT NULL DEFAULT 0 AFTER `tier_r08`,
+ADD COLUMN `tier_r09` INT NULL DEFAULT 0 AFTER `tier_r08_rp`,
+ADD COLUMN `tier_r09_rp` INT NULL DEFAULT 0 AFTER `tier_r09`,
+ADD COLUMN `tier_r10` INT NULL DEFAULT 0 AFTER `tier_r09_rp`,
+ADD COLUMN `tier_r10_rp` INT NULL DEFAULT 0 AFTER `tier_r10`,
+ADD COLUMN `tier_r11` INT NULL DEFAULT 0 AFTER `tier_r10_rp`,
+ADD COLUMN `tier_r11_rp` INT NULL DEFAULT 0 AFTER `tier_r11`,
+ADD COLUMN `tier_r12` INT NULL DEFAULT 0 AFTER `tier_r11_rp`,
+ADD COLUMN `tier_r12_rp` INT NULL DEFAULT 0 AFTER `tier_r12`,
+ADD COLUMN `tier_r13` INT NULL DEFAULT 0 AFTER `tier_r12_rp`,
+ADD COLUMN `tier_r13_rp` INT NULL DEFAULT 0 AFTER `tier_r13`,
+ADD COLUMN `tier_r14` INT NULL DEFAULT 0 AFTER `tier_r13_rp`,
+ADD COLUMN `tier_r14_rp` INT NULL DEFAULT 0 AFTER `tier_r14`,
+ADD COLUMN `tier_r15` INT NULL DEFAULT 0 AFTER `tier_r14_rp`,
+ADD COLUMN `tier_r15_rp` INT NULL DEFAULT 0 AFTER `tier_r15`,
+ADD COLUMN `tier_r16` INT NULL DEFAULT 0 AFTER `tier_r15_rp`,
+ADD COLUMN `tier_r16_rp` INT NULL DEFAULT 0 AFTER `tier_r16`,
+ADD COLUMN `tier_r17` INT NULL DEFAULT 0 AFTER `tier_r16_rp`,
+ADD COLUMN `tier_r17_rp` INT NULL DEFAULT 0 AFTER `tier_r17`,
+ADD COLUMN `tier_r18` INT NULL DEFAULT 0 AFTER `tier_r17_rp`,
+ADD COLUMN `tier_r18_rp` INT NULL DEFAULT 0 AFTER `tier_r18`;
+
+
+ALTER TABLE `vbsa3364_vbsa2`.`scrs` 
+ADD COLUMN `tier_r01_rp` INT NULL DEFAULT 0 AFTER `r18pos`,
+ADD COLUMN `tier_r02_rp` INT NULL DEFAULT 0 AFTER `tier_r01_rp`,
+ADD COLUMN `tier_r03_rp` INT NULL DEFAULT 0 AFTER `tier_r02_rp`,
+ADD COLUMN `tier_r04_rp` INT NULL DEFAULT 0 AFTER `tier_r03_rp`,
+ADD COLUMN `tier_r05_rp` INT NULL DEFAULT 0 AFTER `tier_r04_rp`,
+ADD COLUMN `tier_r06_rp` INT NULL DEFAULT 0 AFTER `tier_r05_rp`,
+ADD COLUMN `tier_r07_rp` INT NULL DEFAULT 0 AFTER `tier_r06_rp`,
+ADD COLUMN `tier_r08_rp` INT NULL DEFAULT 0 AFTER `tier_r07_rp`,
+ADD COLUMN `tier_r09_rp` INT NULL DEFAULT 0 AFTER `tier_r08_rp`,
+ADD COLUMN `tier_r10_rp` INT NULL DEFAULT 0 AFTER `tier_r09_rp`,
+ADD COLUMN `tier_r11_rp` INT NULL DEFAULT 0 AFTER `tier_r10_rp`,
+ADD COLUMN `tier_r12_rp` INT NULL DEFAULT 0 AFTER `tier_r11_rp`,
+ADD COLUMN `tier_r13_rp` INT NULL DEFAULT 0 AFTER `tier_r12_rp`,
+ADD COLUMN `tier_r14_rp` INT NULL DEFAULT 0 AFTER `tier_r13_rp`,
+ADD COLUMN `tier_r15_rp` INT NULL DEFAULT 0 AFTER `tier_r14_rp`,
+ADD COLUMN `tier_r16_rp` INT NULL DEFAULT 0 AFTER `tier_r15_rp`,
+ADD COLUMN `tier_r17_rp` INT NULL DEFAULT 0 AFTER `tier_r16_rp`,
+ADD COLUMN `tier_r18_rp` INT NULL DEFAULT 0 AFTER `tier_r17_rp`;
+
+
+ALTER TABLE `vbsa3364_vbsa2`.`scrs` 
+CHANGE COLUMN `r01s` `r01s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r02s` `r02s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r03s` `r03s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r04s` `r04s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r05s` `r05s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r06s` `r06s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r07s` `r07s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r08s` `r08s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r09s` `r09s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r10s` `r10s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r11s` `r11s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r12s` `r12s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r13s` `r13s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r14s` `r14s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r15s` `r15s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r16s` `r16s` DOUBLE(10,1) NULL ,
+CHANGE COLUMN `r17s` `r17s` DOUBLE(10,1) NULL ,
+
+
+UPDATE `vbsa3364_vbsa2`.`scrs` SET `r01s` = NULL, SET `r02s` = NULL, SET `r03s` = NULL, SET `r04s` = NULL, SET `r05s` = NULL, SET `r06s` = NULL, SET `r07s` = NULL, SET `r08s` = NULL, SET `r09s` = NULL, SET `r10s` = NULL, SET `r11s` = NULL, SET `r12s` = NULL, SET `r13s` = NULL, SET `r14s` = NULL, SET `r15s` = NULL, SET `r16s` = NULL, SET `r17s` = NULL, SET `r18s` = NULL WHERE (`scrsID` = '10667');
+UPDATE `vbsa3364_vbsa2`.`scrs` SET `r01s` = NULL, SET `r02s` = NULL, SET `r03s` = NULL, SET `r04s` = NULL, SET `r05s` = NULL, SET `r06s` = NULL, SET `r07s` = NULL, SET `r08s` = NULL, SET `r09s` = NULL, SET `r10s` = NULL, SET `r11s` = NULL, SET `r12s` = NULL, SET `r13s` = NULL, SET `r14s` = NULL, SET `r15s` = NULL, SET `r16s` = NULL, SET `r17s` = NULL, SET `r18s` = NULL  WHERE (`scrsID` = '10668');
+UPDATE `vbsa3364_vbsa2`.`scrs` SET `r01s` = NULL, SET `r02s` = NULL, SET `r03s` = NULL, SET `r04s` = NULL, SET `r05s` = NULL, SET `r06s` = NULL, SET `r07s` = NULL, SET `r08s` = NULL, SET `r09s` = NULL, SET `r10s` = NULL, SET `r11s` = NULL, SET `r12s` = NULL, SET `r13s` = NULL, SET `r14s` = NULL, SET `r15s` = NULL, SET `r16s` = NULL, SET `r17s` = NULL, SET `r18s` = NULL  WHERE (`scrsID` = '10669');
+UPDATE `vbsa3364_vbsa2`.`scrs` SET `r01s` = NULL, SET `r02s` = NULL, SET `r03s` = NULL, SET `r04s` = NULL, SET `r05s` = NULL, SET `r06s` = NULL, SET `r07s` = NULL, SET `r08s` = NULL, SET `r09s` = NULL, SET `r10s` = NULL, SET `r11s` = NULL, SET `r12s` = NULL, SET `r13s` = NULL, SET `r14s` = NULL, SET `r15s` = NULL, SET `r16s` = NULL, SET `r17s` = NULL, SET `r18s` = NULL  WHERE (`scrsID` = '10670');
+UPDATE `vbsa3364_vbsa2`.`scrs` SET `r01s` = NULL, SET `r02s` = NULL, SET `r03s` = NULL, SET `r04s` = NULL, SET `r05s` = NULL, SET `r06s` = NULL, SET `r07s` = NULL, SET `r08s` = NULL, SET `r09s` = NULL, SET `r10s` = NULL, SET `r11s` = NULL, SET `r12s` = NULL, SET `r13s` = NULL, SET `r14s` = NULL, SET `r15s` = NULL, SET `r16s` = NULL, SET `r17s` = NULL, SET `r18s` = NULL  WHERE (`scrsID` = '10671');
+UPDATE `vbsa3364_vbsa2`.`scrs` SET `r01s` = NULL, SET `r02s` = NULL, SET `r03s` = NULL, SET `r04s` = NULL, SET `r05s` = NULL, SET `r06s` = NULL, SET `r07s` = NULL, SET `r08s` = NULL, SET `r09s` = NULL, SET `r10s` = NULL, SET `r11s` = NULL, SET `r12s` = NULL, SET `r13s` = NULL, SET `r14s` = NULL, SET `r15s` = NULL, SET `r16s` = NULL, SET `r17s` = NULL, SET `r18s` = NULL  WHERE (`scrsID` = '10672');
+UPDATE `vbsa3364_vbsa2`.`scrs` SET `r01s` = NULL, SET `r02s` = NULL, SET `r03s` = NULL, SET `r04s` = NULL, SET `r05s` = NULL, SET `r06s` = NULL, SET `r07s` = NULL, SET `r08s` = NULL, SET `r09s` = NULL, SET `r10s` = NULL, SET `r11s` = NULL, SET `r12s` = NULL, SET `r13s` = NULL, SET `r14s` = NULL, SET `r15s` = NULL, SET `r16s` = NULL, SET `r17s` = NULL, SET `r18s` = NULL  WHERE (`scrsID` = '10689');
+
+
+
+
+
+
+
+

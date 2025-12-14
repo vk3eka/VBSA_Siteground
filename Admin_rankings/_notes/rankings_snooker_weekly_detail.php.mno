@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RPALL" value="name:ranknum;datatype:int,name:memb_id;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:total_weekly_rp;datatype:int,name:last_update;datatype:string" />
+	<infoitem key="UD_personal_brks" value="name:member_ID_brks;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:grade;datatype:string,name:brk;datatype:int,name:brk_type;datatype:string,name:finals_brk;datatype:string,name:season;datatype:string,name:Reported on;datatype:string" />
+	<infoitem key="UD_high_brk" value="name:member_ID_brks;datatype:int,name:MAX(brk);datatype:int" />
+	<infoitem key="UD_S1curr" value="name:total_RP;datatype:int" />
+	<infoitem key="UD_S2curr" value="name:total_RP;datatype:int" />
+	<infoitem key="UD_S1_1year" value="name:total_RP;datatype:int" />
+	<infoitem key="UD_S2_1year" value="name:total_RP;datatype:int" />
+	<infoitem key="UD_S1_2year" value="name:total_RP;datatype:int" />
+	<infoitem key="UD_S2_2year" value="name:total_RP;datatype:int" />
+	<infoitem key="UD_RP_by_year" value="name:scr_curr_S1;datatype:int,name:scr_curr_S2;datatype:int,name:scr_1yr_S1;datatype:int,name:scr_1yr_S2;datatype:int,name:scr_2yr_S1;datatype:int,name:scr_2yr_S2;datatype:int,name:weekly_total;datatype:int" />
+</info>

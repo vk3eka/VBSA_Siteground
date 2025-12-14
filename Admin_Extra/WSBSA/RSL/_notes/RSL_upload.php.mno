@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_pdfup" value="name:SBSA_id;datatype:int,name:SBSA_type;datatype:string,name:pdf_name;datatype:string,name:item_title;datatype:string,name:uploaded_on;datatype:timestamp" />
+</info>

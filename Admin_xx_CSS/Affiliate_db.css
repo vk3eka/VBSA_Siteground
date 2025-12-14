@@ -1,0 +1,12 @@
+@charset "utf-8";
+.affiliateDB_item {
+	border: 1px solid #333333;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+

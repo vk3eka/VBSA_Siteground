@@ -1,0 +1,118 @@
+<?php 
+
+include('server_name.php');
+/*
+echo '<pre>', htmlspecialchars(print_r($_COOKIE, true)), '</pre>';
+session_start();
+echo '<pre>Session = ', session_id(), '</pre>';
+echo("<pre>");
+echo(var_dump($_SESSION));
+echo("</pre>");
+*/
+
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>VBSA Score Sheet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href="https://vbsa.org.au/CSS/VBSA_base.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" />
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</head>
+<body id="vbsa">
+<div class="container"> 
+ <div class="new_header" style="width: 100%; background-color: black; margin-bottom: 13px;">
+<img src="https://vbsa.org.au/ui_assets/Logo-full-lockup_horizontal_invert.svg" style="margin: auto; display: block; padding: 25px; max-width: 600px; width: calc(100% - 50px);">
+</div>    
+<!-- Include navigation -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+    <!-- Home -->
+      <li class="home"><a href="http://www.vbsa.org.au/index.php">Home </a> </li>
+        
+      <!-- VBSA --> 
+      <li class="info"><a class="dropdown-toggle" data-toggle="dropdown" href="#">VBSA<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a href="<?= $url ?>/VBSA_scores/scores_index.php">VBSA Scores</a></li>
+                <li><a href="http://www.vbsa.org.au/Club_dir/club_index.php">Victorian Clubs</a></li>
+                <li><a href="http://www.vbsa.org.au/calendar/cal_index.php">Victorian Calendar</a></li>
+                <li><a href="http://www.vbsa.org.au/Rankings/rankings_index.php">Victorian Rankings</a></li>
+                <li><a href="http://www.vbsa.org.au/Tournaments/tourn_index.php">Tournament Entries &amp; Conditions</a></li>
+                <li><a href="http://172.16.10.32/VBSA_Siteground/Admin_Tournaments/tournament_index_test.php">Tournament Draw</a></li>
+                <li><a href="http://www.vbsa.org.au/CityClubs/CC_index.php">VBSA City Clubs</a></li>
+                <li><a href="http://www.vbsa.org.au/VBSA/vbsa_contact.php">VBSA Administration / Contact</a></li>
+                <li><a href="http://www.vbsa.org.au/VBSA/vbsa_about.php">VBSA About</a></li>
+                <li><a href="http://www.vbsa.org.au/VBSA/vbsa_pol_proc.php">VBSA Policies & Procedures</a></li>
+                <li><a href="http://www.vbsa.org.au/Archives/ArchiveIndex.php">VBSA History (Archives)</a></li>
+                <li><a href="http://www.vbsa.org.au/vbsa_shop/shop_cart.php">VBSA Shop (payments, enter t'ments)</a></li>
+          </ul>
+        </li>
+        <!-- Affiliates -->
+        <li class="affiliates"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Affiliate<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a href="http://www.vbsa.org.au/BBSA/BBSA_index.php">Ballarat BSA</a></li>
+                <li><a href="http://www.vbsa.org.au/BendBSA/BendBSA_index.php">Bendigo BSA</a></li>
+                <li><a href="http://www.vbsa.org.au/DVSA/DVSA_index.php">DVSA</a></li>
+                <li><a href="http://www.vbsa.org.au/MSBA/MSBA_index.php">MSBA</a></li>
+                <li><a href="http://www.vbsa.org.au/O55/O55_index.php">Over 55's</a></li>
+                <li><a href="http://www.vbsa.org.au/RSL/RSL_index.php">RSL</a></li>
+                <li><a href="http://www.vbsa.org.au/Southern/SBSA_index.php">Southern</a></li>
+                <li><a href="http://www.vbsa.org.au/WSBSA/WSBSA_index.php">Western Suburbs BSA</a></li>
+          </ul>
+        </li>
+        <!-- Juniors -->
+        <li class="junior"><a href="http://www.vbsa.org.au/Juniors/Junior_Index.php">Junior</a></li>
+        <!-- Womens -->
+        <li class="women"><a href="http://www.vbsa.org.au/Womens/Womens_Index.php">Women</a></li>
+        <!-- Coaching -->
+        <li class="coaching"><a href="http://www.vbsa.org.au/VBSA/accredited_coaches.php">Coaching</a></li>
+        <!-- Referees -->
+        <li referees class="referees"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Referees<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a href="http://www.vbsa.org.au/Referees/referee_index.php">Referee Information</a></li>
+              <li><a href="http://www.vbsa.org.au/Referees/referee_posers.php">Referee Q & A</a></li>
+              <li><a href="http://www.vbsa.org.au/Referees/referee_profile.php">Referee Profiles</a></li>
+              <li><a href="http://www.vbsa.org.au/Referees/referee_contact.php">Referees Contact / list of qualified</a></li>
+          </ul>
+        </li>
+        <!-- Tournaments -->
+        <li class="info"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Info</a>
+          <ul class="dropdown-menu">
+              <li><a href="http://www.vbsa.org.au/VBSA_Help/VBSA_Help.php">Help</a></li>
+              <li><a href="http://www.vbsa.org.au/Links.php">Links</a></li>
+              <li><a href="http://www.vbsa.org.au/VBSA/vbsa_contact.php">VBSA Administration / Contact</a></li>
+            </ul>
+        </li> 
+      </ul>
+      <div class="pull-right hidden-xs" style="margin-top:5px">
+        <a href="http://www.facebook.com/pages/Victorian-Billiards-Snooker-Association-VBSA/170438026331018?ref=tn_tnmn" target="_blank"><img src="http://www.vbsa.org.au/images_2016/facebook.fw.png" class="img-responsive" title="Visit the VBSA facebook page"/></a>
+      </div>
+      
+      <div class="pull-left visible-xs" style="margin-bottom:5px; margin-left:5px">
+        <a href="http://www.facebook.com/pages/Victorian-Billiards-Snooker-Association-VBSA/170438026331018?ref=tn_tnmn" target="_blank"><img src="http://www.vbsa.org.au/images_2016/facebook_lg.fw.png" class="img-responsive" title="Visit the VBSA facebook page"/></a>
+      </div>
+    </div>
+  </div>
+</nav>
+</div><!--End Bootstrap Container--> 
+
+<div id="Wrapper"><!-- Wrapper contains content to a max width of 1200px--> 
+
+  

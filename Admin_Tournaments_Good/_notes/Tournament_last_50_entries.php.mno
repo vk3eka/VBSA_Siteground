@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_t_entry" value="name:Tyear;datatype:string,name:tournament_number;datatype:int,name:tourn_name;datatype:string,name:FirstName;datatype:string,name:LastName;datatype:string,name:amount_entry;datatype:int,name:entered_by;datatype:string,name:how_paid;datatype:string,name:junior_cat;datatype:string" />
+</info>

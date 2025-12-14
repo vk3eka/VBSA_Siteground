@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_fin_edit" value="name:IDfin;datatype:int,name:Fin_ID;datatype:int,name:Paid;datatype:int,name:DatePaid;datatype:date,name:HowMembPaid;datatype:string,name:Updated;datatype:date,name:UpdateBy;datatype:string,name:memb_cal_year;datatype:year,name:memb_fin_year;datatype:year,name:MemberID;datatype:int,name:LastName;datatype:string,name:FirstName;datatype:string" />
+	<infoitem key="UD_players1" value="name:ID;datatype:int,name:MemberID;datatype:int,name:LastName;datatype:string,name:FirstName;datatype:string,name:tourn_memb_id;datatype:int,name:tournament_number;datatype:int,name:amount_entry;datatype:int,name:entered_by;datatype:string,name:how_paid;datatype:string,name:seed;datatype:int,name:junior_cat;datatype:string,name:tourn_date_ent;datatype:timestamp,name:Email;datatype:string,name:MobilePhone;datatype:string,name:wcard;datatype:int,name:ranked;datatype:int" />
+	<infoitem key="UD_tourn1" value="name:tourn_name;datatype:string" />
+</info>

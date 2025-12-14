@@ -1,0 +1,240 @@
+[08-Feb-2022 10:53:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 21:53:57 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_insert_item.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_insert_item.php on line 197
+[08-Feb-2022 10:54:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 21:54:59 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_insert_item.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_insert_item.php on line 197
+[08-Feb-2022 21:55:34 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_insert_item.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_insert_item.php on line 197
+[08-Feb-2022 10:55:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 21:55:45 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit.php:219
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit.php on line 219
+[08-Feb-2022 21:55:52 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit.php:219
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit.php on line 219
+[08-Feb-2022 10:55:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 21:56:49 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php:207
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php on line 207
+[08-Feb-2022 21:58:53 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php:207
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php on line 207
+[08-Feb-2022 10:58:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 21:58:57 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php:207
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php on line 207
+[08-Feb-2022 21:59:43 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php:207
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php on line 207
+[08-Feb-2022 10:59:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 21:59:49 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php:207
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php on line 207
+[08-Feb-2022 22:01:07 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php:207
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php on line 207
+[08-Feb-2022 11:01:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 22:02:52 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php:207
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php on line 207
+[08-Feb-2022 22:03:04 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php:207
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php on line 207
+[08-Feb-2022 11:03:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 11:15:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 11:16:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_upload.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_upload.php on line 241
+[08-Feb-2022 11:16:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_upload.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_upload.php on line 241
+[08-Feb-2022 11:16:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 22:16:35 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit.php:219
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit.php on line 219
+[08-Feb-2022 22:16:42 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit.php:219
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit.php on line 219
+[08-Feb-2022 11:16:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 22:16:50 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php:207
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php on line 207
+[08-Feb-2022 22:17:00 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php:207
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php on line 207
+[08-Feb-2022 11:17:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 22:20:27 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php:207
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php on line 207
+[08-Feb-2022 22:20:35 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php:207
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php on line 207
+[08-Feb-2022 11:20:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 11:21:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_pagehead_edit.php:163
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_pagehead_edit.php on line 163
+[08-Feb-2022 11:21:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_pagehead_edit.php:163
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_pagehead_edit.php on line 163
+[08-Feb-2022 11:21:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 11:23:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_confirm_delete.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_confirm_delete.php on line 170
+[08-Feb-2022 11:23:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_delete.php:117
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_delete.php on line 117
+[08-Feb-2022 11:23:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 22:23:31 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit.php:219
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit.php on line 219
+[08-Feb-2022 22:23:43 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit.php:219
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit.php on line 219
+[08-Feb-2022 11:23:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 11:43:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[08-Feb-2022 11:43:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_upload.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_upload.php on line 241
+[08-Feb-2022 11:43:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_upload.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_upload.php on line 241
+[08-Feb-2022 11:43:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php:868
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_index_admin.php on line 868
+[17-Feb-2022 22:14:24 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[17-Feb-2022 22:15:51 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[01-Mar-2022 23:17:35 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[01-Mar-2022 23:18:02 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[01-Mar-2022 12:19:00 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_pagehead_edit.php on line 140
+[09-Mar-2022 10:00:04 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[09-Mar-2022 10:00:29 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[17-Mar-2022 12:42:58 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[17-Mar-2022 12:43:39 Australia/Melbourne] PHP Fatal error:  Uncaught Error: mysqli_result object is already closed in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(Object(mysqli_result))
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/DVSA/DVSA_edit_news.php(209): mysql_free_result(Object(mysqli_result))
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[05-Oct-2022 01:42:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pureFileUpload has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 8
+[05-Oct-2022 01:42:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pureUploadAddon has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 430
+[05-Oct-2022 01:42:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fileInfo has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 442

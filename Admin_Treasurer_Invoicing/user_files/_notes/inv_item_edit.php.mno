@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Item" value="name:inv_item_id;datatype:int,name:inv_no;datatype:int,name:item_name;datatype:string,name:item_discount;datatype:real,name:item_amount;datatype:real,name:inv_id;datatype:int,name:discount_total;datatype:real,name:apply_GST;datatype:string,name:item_total;datatype:real,name:GST;datatype:real,name:item_total_all;datatype:real" />
+</info>

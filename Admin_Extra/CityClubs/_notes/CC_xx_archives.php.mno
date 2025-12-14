@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_DVSAarchive" value="name:uploaded_on_date;datatype:string,name:edited_on_date;datatype:string,name:DVSA_id;datatype:int,name:DVSA_type;datatype:string,name:item_title;datatype:string,name:pdf_name;datatype:string,name:current;datatype:int,name:uploaded_on;datatype:timestamp,name:list_order;datatype:string,name:edited_on;datatype:datetime,name:pagezone_header;datatype:string" />
+	<infoitem key="UD_CCarchive" value="name:uploaded_on_date;datatype:string,name:edited_on_date;datatype:string,name:CC_id;datatype:int,name:CC_type;datatype:string,name:item_title;datatype:string,name:pdf_name;datatype:string,name:current;datatype:string,name:uploaded_on;datatype:timestamp,name:list_order;datatype:string,name:edited_on;datatype:datetime,name:pagezone_header;datatype:string" />
+</info>

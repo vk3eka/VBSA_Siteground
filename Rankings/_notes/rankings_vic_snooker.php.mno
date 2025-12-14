@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RPall" value="name:ranknum;datatype:int,name:memb_id;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:total_tourn_rp;datatype:int,name:last_update;datatype:string" />
+	<infoitem key="UD_tournRP" value="name:rank;datatype:real,name:memb_id;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:total_RP;datatype:int" />
+</info>

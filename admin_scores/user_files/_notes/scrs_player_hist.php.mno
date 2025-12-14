@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_teamdet" value="name:MemberID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string" />
+	<infoitem key="UD_playhist" value="name:Team_grade;datatype:string,name:team_club;datatype:string,name:team_name;datatype:string,name:scr_season;datatype:string,name:count_played;datatype:int,name:pts_won;datatype:int,name:percent_won;datatype:real,name:average_position;datatype:real,name:current_year_scrs;datatype:year,name:game_type;datatype:string" />
+	<infoitem key="UD_brkmax" value="name:brk;datatype:int,name:grade;datatype:string,name:finals_brk;datatype:string,name:season;datatype:string,name:year;datatype:int" />
+	<infoitem key="UD_brkall" value="name:brk;datatype:int,name:grade;datatype:string,name:finals_brk;datatype:string,name:season;datatype:string,name:year;datatype:int" />
+	<infoitem key="UD_tournhist" value="name:ID;datatype:int,name:tourn_name;datatype:string,name:rank_pts;datatype:int,name:entry_cal_year;datatype:year,name:tourn_type;datatype:string" />
+</info>

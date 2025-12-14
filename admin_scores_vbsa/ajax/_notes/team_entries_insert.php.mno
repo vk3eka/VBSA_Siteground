@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_vbsaclubs" value="name:ClubNumber;datatype:int,name:ClubTitle;datatype:string,name:ClubNameVBSA;datatype:string,name:ClubContact;datatype:string,name:ClubTables;datatype:int,name:VBSAteam;datatype:int" />
+	<infoitem key="UD_grades_S1" value="name:grade;datatype:string,name:grade_name;datatype:string,name:season;datatype:string,name:type;datatype:string,name:fix_upload;datatype:string,name:fix_cal_year;datatype:year,name:current;datatype:string,name:finals_teams;datatype:int,name:dayplayed;datatype:string" />
+	<infoitem key="UD_grades_S2" value="name:grade;datatype:string,name:grade_name;datatype:string,name:season;datatype:string,name:type;datatype:string,name:fix_upload;datatype:string,name:fix_cal_year;datatype:year,name:current;datatype:string,name:finals_teams;datatype:int,name:dayplayed;datatype:string" />
+</info>

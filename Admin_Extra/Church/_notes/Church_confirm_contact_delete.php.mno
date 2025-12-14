@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Church_cont_del" value="name:contact_id;datatype:int,name:contact_name;datatype:string,name:contact_phone;datatype:string,name:contact_fax;datatype:string,name:contact_position;datatype:string,name:contact_email;datatype:string,name:contact_order;datatype:string,name:contact_current;datatype:int" />
+</info>

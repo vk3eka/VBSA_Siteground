@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_itemdel" value="name:ID;datatype:int,name:event_number;datatype:int,name:attach_name;datatype:string,name:Attachment;datatype:string,name:event_id;datatype:int,name:event;datatype:string" />
+	<infoitem key="UD_events" value="name:event_id;datatype:int,name:event;datatype:string,name:venue;datatype:string,name:state;datatype:string,name:aust_rank;datatype:string,name:startdate;datatype:date,name:finishdate;datatype:date,name:closedate;datatype:date,name:entry_close;datatype:date,name:about;datatype:blob,name:about_short;datatype:blob,name:pp_butt;datatype:blob,name:tourn;datatype:string,name:visible;datatype:string,name:footer1;datatype:blob,name:footer2;datatype:blob,name:footer3;datatype:blob,name:footer4;datatype:blob" />
+</info>

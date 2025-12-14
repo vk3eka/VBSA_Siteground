@@ -1,0 +1,14 @@
+[10-Dec-2024 02:59:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../MailerLite/mailerlite_functions.php' (include_path='.:/usr/local/php82/pear') in /home/customer/www/vbsa.org.au/public_html/Admin_update_tables/Update_Scores_Rank_STEP4D.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_update_tables/Update_Scores_Rank_STEP4D.php on line 2
+[17-Feb-2025 09:07:34 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/customer/www/vbsa.org.au/public_html/Admin_update_tables/Update_Scores_Rank_STEP4.php:1393
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_update_tables/Update_Scores_Rank_STEP4.php on line 1393
+[18-Mar-2025 12:06:48 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/customer/www/vbsa.org.au/public_html/Admin_update_tables/Update_Scores_Rank_STEP4D.php on line 139
+[18-Mar-2025 12:08:21 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/customer/www/vbsa.org.au/public_html/Admin_update_tables/Update_Scores_Rank_STEP4D.php on line 139
+[18-Mar-2025 12:12:07 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/customer/www/vbsa.org.au/public_html/Admin_update_tables/Update_Scores_Rank_STEP4D.php on line 139
+[18-Mar-2025 12:12:53 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/customer/www/vbsa.org.au/public_html/Admin_update_tables/Update_Scores_Rank_STEP4D.php on line 139
+[18-Mar-2025 12:16:53 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/customer/www/vbsa.org.au/public_html/Admin_update_tables/Update_Scores_Rank_STEP4D.php on line 139
+[18-Mar-2025 12:17:06 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/customer/www/vbsa.org.au/public_html/Admin_update_tables/Update_Scores_Rank_STEP4D.php on line 139

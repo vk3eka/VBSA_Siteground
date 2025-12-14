@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RP_weekly" value="name:ranknum;datatype:int,name:memb_id;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:total_weekly_rp;datatype:int,name:last_update;datatype:string" />
+	<infoitem key="UD_RP_lastname" value="name:MemberID;datatype:int,name:LastName;datatype:string,name:FirstName;datatype:string,name:T_rank;datatype:int,name:W_rank;datatype:int" />
+</info>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ladder" value="name:team_id;datatype:int,name:team_club;datatype:string,name:team_name;datatype:string,name:team_grade;datatype:string,name:Pts;datatype:int,name:team_perc;datatype:real,name:W;datatype:int,name:D;datatype:int,name:F;datatype:int,name:A;datatype:int,name:P;datatype:int,name:B;datatype:int,name:Updated;datatype:datetime,name:Countback;datatype:int,name:comptype;datatype:string,name:team_season;datatype:string,name:audited;datatype:string" />
+	<infoitem key="UD_games_S" value="name:scrsID;datatype:int,name:MemberID;datatype:int,name:team_grade;datatype:string,name:team_id;datatype:int,name:pts_S2;datatype:int,name:MemberID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:team_id;datatype:int,name:comptype;datatype:string" />
+	<infoitem key="UD_games_b" value="name:scrsID;datatype:int,name:MemberID;datatype:int,name:team_grade;datatype:string,name:team_id;datatype:int,name:pts_bill_S2;datatype:int,name:MemberID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:team_id;datatype:int,name:comptype;datatype:string" />
+	<infoitem key="UD_APB_Oddteams" value="name:team_name;datatype:string,name:team_grade;datatype:string,name:Result_pos;datatype:int,name:Result_score;datatype:int,name:HB;datatype:string" />
+	<infoitem key="UD_APB_Eventeams" value="name:team_name;datatype:string,name:team_grade;datatype:string,name:Result_pos;datatype:int,name:Result_score;datatype:int,name:HB;datatype:string" />
+	<infoitem key="UD_breaks_10" value="name:FirstName;datatype:string,name:LastName;datatype:string,name:member_ID_brks;datatype:int,name:HB;datatype:int,name:recvd;datatype:date,name:finals_brk;datatype:string,name:season;datatype:string" />
+	<infoitem key="UD_Adjust_notes" value="name:scr_adjust;datatype:int,name:scr_adj_rd;datatype:int,name:adj_comment;datatype:blob,name:team_grade;datatype:string" />
+	<infoitem key="UD_rounds" value="name:comptype;datatype:string,name:B_rds;datatype:real,name:S_rds;datatype:real,name:teams;datatype:int" />
+	<infoitem key="UD_ptsS1" value="name:MemberID;datatype:int,name:team_grade;datatype:string,name:FirstName;datatype:string,name:LastName;datatype:string,name:pts_S1;datatype:int" />
+	<infoitem key="UD_ptsS2" value="name:MemberID;datatype:int,name:team_grade;datatype:string,name:FirstName;datatype:string,name:LastName;datatype:string,name:pts_S2;datatype:int" />
+	<infoitem key="UD_gamesS1" value="name:MemberID;datatype:int,name:team_grade;datatype:string,name:FirstName;datatype:string,name:LastName;datatype:string,name:pts_bill_S1;datatype:int" />
+	<infoitem key="UD_gamesS2" value="name:MemberID;datatype:int,name:team_grade;datatype:string,name:FirstName;datatype:string,name:LastName;datatype:string,name:pts_bill_S2;datatype:int" />
+	<infoitem key="UD_Oddteams" value="name:team_name;datatype:string,name:team_grade;datatype:string,name:Result_pos;datatype:int,name:Result_score;datatype:int,name:HB;datatype:string" />
+	<infoitem key="UD_Eventeams" value="name:team_name;datatype:string,name:team_grade;datatype:string,name:Result_pos;datatype:int,name:Result_score;datatype:int,name:HB;datatype:string" />
+	<infoitem key="UD_pts_all" value="name:MemberID;datatype:int,name:team_grade;datatype:string,name:FirstName;datatype:string,name:LastName;datatype:string,name:pts_won;datatype:int" />
+</info>

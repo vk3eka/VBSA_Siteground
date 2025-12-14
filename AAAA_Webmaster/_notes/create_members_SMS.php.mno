@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ISplayers" value="name:MemberID;datatype:int,name:Mobile;datatype:string,name:Name;datatype:string" />
+	<infoitem key="UD_female" value="name:MemberID;datatype:int,name:Mobile;datatype:string,name:Name;datatype:string" />
+	<infoitem key="UD_juniors" value="name:MemberID;datatype:int,name:Mobile;datatype:string,name:Name;datatype:string" />
+	<infoitem key="UD_currentfinmemb" value="name:Mobile;datatype:string,name:Name;datatype:blob" />
+	<infoitem key="UD_CurrentMemb" value="name:MemberID;datatype:int,name:Mobile;datatype:string,name:Name;datatype:string" />
+	<infoitem key="UD_billiards" value="name:Mobile;datatype:string,name:Name;datatype:string" />
+</info>

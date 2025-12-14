@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Team_Score_Edit" value="name:scrsID;datatype:int,name:MemberID;datatype:int,name:team_grade;datatype:string,name:team_id;datatype:int,name:SF1;datatype:int,name:SF2;datatype:int,name:GF;datatype:int,name:SF1_pos;datatype:int,name:SF2_pos;datatype:int,name:GF_pos;datatype:int,name:MemberID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:team_id;datatype:int,name:team_name;datatype:string,name:team_grade;datatype:string,name:final_sub;datatype:string" />
+</info>

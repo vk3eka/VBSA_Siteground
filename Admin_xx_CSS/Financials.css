@@ -1,0 +1,30 @@
+@charset "utf-8";
+#FINcontent {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.financial_report_item {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 600px;
+	margin-left: 150px;
+	margin-top: 5px;
+	height: 35px;
+}
+
+.financial_report_item .income {
+	float: right;
+	width: 150px;
+	text-align: left;
+}
+
+.financial_report_item .expenditure {
+	float: right;
+	width: 150px;
+	text-align: left;
+}
+
+.financial_report_item .title {
+	float: left;
+}

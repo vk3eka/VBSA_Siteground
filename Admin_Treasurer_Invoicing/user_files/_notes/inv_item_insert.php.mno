@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Inv" value="name:inv_id;datatype:int,name:club_id;datatype:int,name:inv_busname;datatype:blob,name:inv_to;datatype:string,name:inv_street;datatype:string,name:inv_suburb;datatype:string,name:inv_city;datatype:string,name:inv_postcode;datatype:int,name:inv_email;datatype:string,name:inv_phone;datatype:string,name:inv_fax;datatype:string,name:inv_date;datatype:date,name:inv_paid_amount;datatype:real,name:inv_paid_date;datatype:date,name:inv_comment;datatype:blob,name:inv_discount_total;datatype:real,name:inv_amount_total;datatype:real,name:total-disc;datatype:real,name:inv_GST_total;datatype:real,name:inv_total_all;datatype:real,name:inv_status;datatype:string,name:inv_cal_year;datatype:year,name:inv_fin_year;datatype:year,name:inv_random;datatype:int" />
+</info>

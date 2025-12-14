@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_grades_S1" value="name:grade;datatype:string,name:grade_name;datatype:string" />
+	<infoitem key="UD_breaks" value="name:Break_ID;datatype:int,name:member_ID_brks;datatype:int,name:brk;datatype:int,name:grade;datatype:string,name:finals_brk;datatype:string,name:recvd;datatype:date,name:brk_type;datatype:string,name:season;datatype:string,name:brk_team_id;datatype:int" />
+	<infoitem key="UD_grades_S2" value="name:grade;datatype:string,name:grade_name;datatype:string" />
+	<infoitem key="UD_grade_det" value="name:grade;datatype:string,name:grade_name;datatype:string,name:RP;datatype:int,name:type;datatype:string,name:season;datatype:string" />
+</info>

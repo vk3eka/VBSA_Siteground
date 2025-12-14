@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_TournFin" value="name:ID;datatype:int,name:tourn_fin_id;datatype:int,name:item_type;datatype:string,name:item_desc;datatype:string,name:item_amount;datatype:real,name:item_cat;datatype:string,name:entered_by;datatype:string,name:how_paid;datatype:string,name:paid_to;datatype:string,name:chq_no;datatype:string,name:entered_on;datatype:timestamp,name:fin_year;datatype:year,name:inv_no;datatype:int,name:sponsor;datatype:string,name:prizefund_id;datatype:int,name:prizefund_rd;datatype:int,name:status;datatype:string" />
+	<infoitem key="UD_tourn_name" value="name:tourn_id;datatype:int,name:tourn_name;datatype:string,name:tourn_year;datatype:timestamp" />
+	<infoitem key="UD_tourn_fin" value="name:tourn_fin_id;datatype:int,name:item_type;datatype:string,name:item_desc;datatype:string,name:item_amount;datatype:real" />
+	<infoitem key="UD_expend" value="name:ID;datatype:int,name:tourn_fin_id;datatype:int,name:item_type;datatype:string,name:item_desc;datatype:string,name:item_amount;datatype:real" />
+	<infoitem key="UD_income" value="name:ID;datatype:int,name:tourn_fin_id;datatype:int,name:item_type;datatype:string,name:item_desc;datatype:string,name:item_amount;datatype:real" />
+	<infoitem key="UD_balance" value="name:SUM( IFNULL( amount_entry, 0 ) );datatype:real" />
+	<infoitem key="UD_expend_PF" value="name:ID;datatype:int,name:tourn_fin_id;datatype:int,name:item_type;datatype:string,name:item_desc;datatype:string,name:item_amount;datatype:real,name:paid_to;datatype:string,name:prizefund_rd;datatype:string" />
+	<infoitem key="UD_entries_count" value="name:entries_all;datatype:int" />
+	<infoitem key="UD_expend_PF_total" value="name:PFtotal;datatype:real" />
+</info>

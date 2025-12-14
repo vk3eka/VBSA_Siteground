@@ -1,0 +1,1 @@
+[06-Feb-2022 09:24:40 UTC] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Treasurer_Invoicing/user_files/inv_edit.php on line 162

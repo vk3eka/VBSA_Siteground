@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_teamgrades_fix" value="name:grade;datatype:string,name:fix_upload;datatype:string,name:grade_name;datatype:string,name:season;datatype:string,name:fix_cal_year;datatype:year" />
+</info>

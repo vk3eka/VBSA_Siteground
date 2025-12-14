@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_all_invoices" value="name:inv_id;datatype:int,name:club_id;datatype:int,name:inv_busname;datatype:blob,name:inv_to;datatype:string,name:inv_email;datatype:string,name:inv_phone;datatype:string,name:inv_date;datatype:date,name:inv_paid_amount;datatype:real,name:inv_total_all;datatype:real,name:inv_status;datatype:string,name:inv_bad_debt;datatype:int,name:inv_type;datatype:string" />
+	<infoitem key="UD_all" value="name:allinv;datatype:real" />
+	<infoitem key="UD_paid" value="name:paid;datatype:real" />
+	<infoitem key="UD_unsent" value="name:unsent;datatype:real" />
+	<infoitem key="UD_sent" value="name:sent;datatype:real" />
+</info>

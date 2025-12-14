@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_reply_edit" value="name:ID;datatype:int,name:reply_id;datatype:int,name:reply_content;datatype:blob,name:Blocked;datatype:string,name:Comment;datatype:string,name:reply_by;datatype:string,name:reply_date;datatype:timestamp,name:reply_edit;datatype:timestamp" />
+	<infoitem key="UD_forum_users" value="name:id;datatype:int,name:name;datatype:string,name:username;datatype:string,name:email;datatype:string,name:password;datatype:string,name:usertype;datatype:string,name:block;datatype:int,name:sendEmail;datatype:int,name:gid;datatype:int,name:registerDate;datatype:date,name:lastvisitDate;datatype:timestamp,name:activation;datatype:string,name:params;datatype:blob" />
+</info>

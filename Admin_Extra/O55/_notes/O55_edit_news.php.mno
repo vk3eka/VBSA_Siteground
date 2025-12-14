@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_O55edit" value="name:uploaded_on_date;datatype:string,name:edited_on_date;datatype:string,name:O55_id;datatype:int,name:O55_type;datatype:string,name:item_title;datatype:string,name:current;datatype:string,name:list_order;datatype:string,name:news_content;datatype:blob,name:pdf_name;datatype:string,name:uploaded_on;datatype:timestamp" />
+</info>

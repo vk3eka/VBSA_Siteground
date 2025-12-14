@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_History" value="name:MemberID;datatype:int,name:LastName;datatype:string,name:FirstName;datatype:string,name:HomeAddress;datatype:string,name:HomeSuburb;datatype:string,name:HomeState;datatype:string,name:HomePostcode;datatype:string,name:HomePhone;datatype:string,name:WorkPhone;datatype:string,name:MobilePhone;datatype:string,name:Email;datatype:string,name:ReceiveEmail;datatype:int,name:Club;datatype:string,name:BoardMemb;datatype:int,name:LifeMember;datatype:string,name:Captain;datatype:string,name:entered_on;datatype:date,name:Junior;datatype:int,name:Female;datatype:int,name:BirthDate;datatype:date,name:Referee;datatype:string,name:Ref_Class;datatype:string,name:LastUpdated;datatype:date,name:UpdateBy;datatype:string,name:InterstatePlayer;datatype:string,name:AffiliateMemb;datatype:string,name:board_position;datatype:string,name:Club2;datatype:string" />
+	<infoitem key="UD_Count_O" value="name:Paid;datatype:int" />
+</info>

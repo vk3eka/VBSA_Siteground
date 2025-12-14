@@ -1,0 +1,25 @@
+<?php
+
+require_once('Models/Club.php');
+require_once('Models/Grade.php');
+require_once('Models/Team.php');
+require_once('Models/Round.php');
+
+class Clash {
+	public Team $home;
+	public Team $away;
+	public Grade $grade;
+	public Club $club;
+	public Round $round;
+
+	public function LoadData(Team $home, Team $away, Grade $grade, Club $club, Round $round) : void
+	{
+		$this->home = $home;
+		$this->away = $away;
+		$this->grade = $grade;
+		$this->club = $club;
+		$this->round = $round;
+	}
+}
+
+?>

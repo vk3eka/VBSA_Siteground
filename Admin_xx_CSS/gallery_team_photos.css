@@ -1,0 +1,80 @@
+@charset "utf-8";
+#gallery_content {
+	height: auto;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/* CSS Document */
+
+#gallery_container {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	width: 898px;
+	clear: both;
+	float: left;
+}
+
+#gallery_intro {
+	width: 900px;
+	height: auto;
+	float: left;
+	clear: both;
+}
+#gallery_intro .info {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	padding: 10px;
+	font-size: 12px;
+	width: 880px;
+	border: 1px solid #999;
+	float: left;
+	clear: both;
+}
+
+
+#gallery_container .photo_container {
+	float: left;
+	height: 340px;
+	width: 430px;
+	padding: 5px;
+	border: 1px solid #666;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 5px;
+}
+.photo_container .about {
+	float: left;
+	width: auto;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	margin-right: 4px;
+	margin-left: 4px;
+	padding-top: 5px;
+}
+.photo_container .id {
+	float: left;
+	width: 430px;
+	margin-right: 4px;
+	margin-left: 4px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+}
+.photo_container .edit {
+	float: right;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+#gallery_intro .edit {
+	float: right;
+}
+#gallery_container .gallery_index {
+	padding: 3px;
+	width: 275px;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 14px;
+}

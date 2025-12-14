@@ -1,0 +1,43 @@
+[08-Jul-2021 08:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_index.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[08-Jul-2021 08:32:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_index.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[08-Jul-2021 10:22:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_index.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[07-Feb-2022 07:53:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_index.php:406
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_index.php on line 406
+[07-Feb-2022 14:44:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_index.php:406
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_index.php on line 406
+[08-Feb-2022 00:27:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_contact.php:165
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_contact.php on line 165
+[08-Feb-2022 02:47:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_index.php:406
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_index.php on line 406
+[08-Feb-2022 05:23:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_index.php:406
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_index.php on line 406
+[08-Feb-2022 05:24:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_contact.php:165
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_contact.php on line 165
+[08-Feb-2022 10:39:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_index.php:406
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/BBSA/BBSA_index.php on line 406

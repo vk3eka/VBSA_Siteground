@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_vbsa_clubs" value="name:ClubNumber;datatype:int,name:ClubTitle;datatype:string,name:ClubNameVBSA;datatype:string" />
+	<infoitem key="UD_membedit" value="name:MemberID;datatype:int,name:LastName;datatype:string,name:FirstName;datatype:string,name:LastUpdated;datatype:date,name:UpdateBy;datatype:string,name:entered_on;datatype:date,name:paid_memb;datatype:int,name:paid_how;datatype:string,name:paid_date;datatype:date" />
+	<infoitem key="UD_getusername" value="name:id;datatype:int,name:name;datatype:string,name:usertype;datatype:string" />
+	<infoitem key="UD_Clubs" value="name:ClubNumber;datatype:int,name:ClubNameVBSA;datatype:string" />
+	<infoitem key="UD_fin" value="name:MemberID;datatype:int,name:paid_memb;datatype:int,name:paid_how;datatype:string,name:paid_date;datatype:date" />
+	<infoitem key="UD_played" value="name:FirstName;datatype:string,name:LastName;datatype:string,name:lifemember;datatype:int,name:team_grade;datatype:string,name:count_played;datatype:int,name:game_type;datatype:string,name:current_year_scrs;datatype:year" />
+</info>

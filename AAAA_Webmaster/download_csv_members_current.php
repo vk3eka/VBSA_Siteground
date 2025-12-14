@@ -1,0 +1,96 @@
+<?php
+error_reporting(E_ALL);
+require_once('../Connections/connvbsa.php');
+
+
+if (isset($_GET['id'])) {
+    $FileName = $_GET['id'];
+	} else {
+	  exit("Error in id!");
+	}
+
+$file_name = $FileName.".csv";
+
+
+
+function copy_csv() {
+    global $file_name;
+    $file    = 'csv_files/memb_curr.csv';
+    $newfile = $file_name;
+
+    if (!copy($file, $newfile)) {
+        echo "failed to copy $file...\n";
+    }
+}
+
+
+function prepare_data() {
+
+    global $database_connvbsa, $connvbsa, $tournament_id;
+
+    mysql_select_db($database_connvbsa, $connvbsa) or die("Reporting!"); 
+    $sql = sprintf("
+							
+							SELECT 
+								MemberID, LastName, FirstName, MobilePhone, Email, paid_memb, LifeMember, 
+								referee, memb_by, promo_optin_out, promo_pref
+							
+							FROM 
+								members
+							
+							WHERE
+								((paid_memb=20 AND YEAR(paid_date)=YEAR(NOW( ) ))  OR LifeMember=1  OR totplayed_curr+totplaybill_curr>3  
+								OR totplayed_prev+totplaybill_prev>3  OR referee=1)  
+								AND (MemberID != 1 AND MemberID != 100 AND MemberID != 1000 AND Deceased !=1)
+							
+							ORDER BY
+								LastName,
+								FirstName");  
+   
+    $run = mysql_query($sql) or die("Error 101 :: ".mysql_error());
+
+    $csv_array = array();
+
+    while($row = mysql_fetch_array($run)) {
+        $array_to_put = array();
+        $array_to_put[] = $row['MemberID'];
+        $array_to_put[] = $row['LastName'];
+		$array_to_put[] = $row['FirstName'];
+		$array_to_put[] = $row['MobilePhone'];
+		$array_to_put[] = $row['Email'];
+		$array_to_put[] = $row['paid_memb'];
+		$array_to_put[] = $row['LifeMember'];
+		$array_to_put[] = $row['referee'];
+		$array_to_put[] = $row['memb_by'];
+		$array_to_put[] = $row['promo_optin_out'];
+		$array_to_put[] = $row['promo_pref'];
+        $csv_array[]    = $array_to_put;
+    }
+
+    return $csv_array;
+}
+
+function write_to_csv() {
+
+    global $file_name;
+
+    $csv_array = prepare_data();
+    $fp = fopen($file_name, "a");
+    foreach($csv_array as $array_to_put) {
+        fputcsv($fp, $array_to_put);
+        //print_r($array_to_put);
+        //echo "<br/><br/>";
+    }
+    fclose($fp);
+
+}
+copy_csv();
+write_to_csv();
+
+
+
+header("Content-disposition: attachment; filename=".$file_name);
+header("Content-type: application/pdf");
+readfile($file_name);
+
+?>

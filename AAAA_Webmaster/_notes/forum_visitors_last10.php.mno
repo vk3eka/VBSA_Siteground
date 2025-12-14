@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_visitors_all" value="name:id;datatype:int,name:name;datatype:string,name:lastvisit;datatype:timestamp" />
+	<infoitem key="UD_visit_all" value="name:name;datatype:string,name:visited;datatype:string,name:visit_date;datatype:timestamp" />
+</info>

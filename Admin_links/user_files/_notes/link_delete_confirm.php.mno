@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_brkdel" value="name:link_id;datatype:int,name:url;datatype:string,name:link_title;datatype:string,name:link_order;datatype:string,name:visible;datatype:int" />
+	<infoitem key="UD_linkdel" value="name:link_id;datatype:int,name:url;datatype:string,name:link_title;datatype:string,name:link_order;datatype:string,name:visible;datatype:int" />
+</info>

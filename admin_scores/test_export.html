@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Export Table to Excel</title>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.19.3/xlsx.full.min.js"></script>-->
+  <!--<script src="https://cdn.jsdelivr.net/npm/xlsx@0.19.3/dist/xlsx.full.min.js"></script>-->
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+  <button id="export">Export to Excel</button>
+
+  <table id="teams" border="1">
+    <tr>
+      <th>Club</th>
+      <th>Team Name</th>
+      <th>Grade</th>
+      <th>Juniors</th>
+      <th>Forfeits</th>
+    </tr>
+    <tr>
+      <td>Club A</td>
+      <td>Team 1</td>
+      <td>A</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Club B</td>
+      <td>Team 2</td>
+      <td>B</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+  </table>
+
+  <script>
+  document.getElementById("export").addEventListener("click", function() {
+    let table = document.getElementById("teams");
+    let wb = XLSX.utils.table_to_book(table, { sheet: "Teams" });
+    XLSX.writeFile(wb, "teams.xlsx");
+  });
+  </script>
+</body>
+</html>

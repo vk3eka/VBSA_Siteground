@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_zone" value="name:Church_id;datatype:int,name:pagezone_header_desc;datatype:string,name:pagezone_header;datatype:string,name:Church_type;datatype:string,name:item_title;datatype:string,name:pdf_name;datatype:string,name:current;datatype:int,name:list_order;datatype:string,name:uploaded_on;datatype:timestamp,name:edited_on;datatype:datetime,name:news_header;datatype:string,name:news_content;datatype:blob" />
+</info>

@@ -1,0 +1,318 @@
+#DBheader {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+	background-image: url(../Admin_Images/Admin_Header.jpg);
+	background-repeat: no-repeat;
+	height: 140px;
+}
+#DBcontent {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	border: 1px solid #999;
+	margin-bottom: 3px;
+}
+
+.DBheader_txt {
+	float: right;
+	padding-right: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-top: 110px;
+}
+
+body {
+
+}
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+
+
+
+img
+{  border-style: none;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+input[type=text] {
+	text-decoration: none;
+	background-color: #DADADA;
+	border: 1px solid #999;
+}
+
+
+
+.red_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	font-weight: normal;
+}
+.green_text {
+	color: #060;
+}
+
+textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.black_bld_txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.blue_bld_txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0000FF;
+}
+.finals {
+	width: 820px;
+	height: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.finals  .SF1_left {
+	float: left;
+	height: auto;
+	width: 410px;
+}
+.finals  .SF1_right {
+	float: right;
+	height: auto;
+	width: 410px;
+}
+.webmaster_table {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FF0000;
+}
+.ContentDB {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.DB_tables {
+	width: 270px;
+	padding-left: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.finals_container {
+	width: 830px;
+	height: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Final5_intro {
+	width: 830px;
+	text-align: center;
+	line-height: 20px;
+	color: #FF0000;
+	margin-left: 5px;
+}
+
+.finals_left   {
+	float: left;
+	height: auto;
+	width: 510px;
+}
+.finals_right   {
+	float: right;
+	height: auto;
+	width: 320px;
+}
+
+.Final_item_left {
+	height: auto;
+	width: 510px;
+	float: left;
+}
+.Final_item_right {
+	height: auto;
+	width: 320px;
+	float: right;
+}
+.Final_title {
+	text-align: left;
+	float: left;
+	width: 130px;
+}
+.Final_id {
+	text-align: center;
+	float: left;
+	width: 90px;
+}
+.Final_team_name {
+	text-align: left;
+	float: left;
+	width: 150px;
+}
+.Final_score {
+	text-align: center;
+	float: left;
+	width: 50px;
+}
+.Final_V {
+	text-align: center;
+	float: right;
+	width: 25px;
+	margin-left: 15px;
+}
+#Finals_results {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 945px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+.calendar_table_border {
+	width: 905px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #999999;
+	margin-bottom: 5px;
+}
+.fin_table {
+}
+.fin_table tr .fin_td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+.fin_insert_content {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.fin_insert_content .form {
+	float: left;
+	width: 330px;
+	padding-left: 100px;
+}
+#Club_web {
+	width: 802px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #999;
+	margin-bottom: 5px;
+}
+.club_border {
+	width: 900px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	border: 1px solid #666;
+}
+.cal_table_border {
+	padding: 4px;
+	clear: both;
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #CCC;
+	margin-top: 10px;
+}
+.info_item {
+	margin-right: 5px;
+	margin-left: 5px;
+	width: auto;
+	float: left;
+}
+legend {
+	color: #F00;
+}
+.italicise {
+	font-style: italic;
+	color: #666;
+}
+
+.tableborder {
+	border: 1px solid #999;
+}
+#fix_content {
+	width: 1500px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+#fix_content .fix_days {
+	float: left;
+	width: 500px;
+	height: auto;
+}
+#fix_form {
+	clear: both;
+	padding-top: 3px;
+	border: 1px solid #999;
+	padding-bottom: 3px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#qs_result {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	border: 1px solid #999;
+	background-color: #FFF;
+	padding: 3px;
+	font-size: 12px;
+	position: absolute;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	text-align:left
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 4px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

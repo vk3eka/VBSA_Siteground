@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_attach" value="name:up_id;datatype:int,name:up_desc;datatype:string,name:up_pdf_name;datatype:string,name:up_event;datatype:int,name:item_id;datatype:int" />
+</info>

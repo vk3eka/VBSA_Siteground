@@ -1,0 +1,139 @@
+/* CSS Document */
+@charset "utf-8";
+
+.fix_round {
+	text-align: center;
+	float: left;
+	width: auto;
+	padding: 4px;
+}
+.fix_dates_content {
+	background-color:#F00; 
+	width:1000px; 
+	margin-left:auto; 
+	margin-right:auto
+}
+.fix_dates_mon {
+	float: left;
+	width: auto;
+	background-color: #CF0;
+}
+.fix_dates_wed {
+	float: right;
+	width: auto;
+	background-color: #0CF;
+}
+
+
+.fix_v {
+	text-align: center;
+	float: left;
+	width: auto;
+	padding: 4px;
+}
+.fix_match {
+	text-align: center;
+	float: left;
+	width: auto;
+	padding: 4px;
+}
+
+
+
+.fix_left {
+	float: left;
+	padding: 5px;
+}
+
+.fix_right {
+	padding: 5px;
+	float: right;
+}
+
+
+
+
+.fix_container {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	clear: both;
+	float: left;
+	width: 600px;
+}
+
+.fix_altcolor tr:nth-child(odd) {
+	background-color: #CCCCCC;
+}
+
+.fix_altcolor tr td {
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+
+
+.fix_page {
+	height: auto;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #999;
+	clear: both;
+}
+
+.fix_6 {
+	height: auto;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #999;
+	clear: both;
+}
+
+.fix_8 {
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #999;
+	clear: both;
+}
+
+.fix_10 {
+	height: auto;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #999;
+	clear: both;
+}
+
+#fix_content {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+#fix_form {
+	clear: both;
+	padding-top: 3px;
+	border: 1px solid #999;
+	padding-bottom: 3px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.match {
+	border-right-width: thin;
+	border-left-width: thin;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #333;
+	border-left-color: #333;
+}

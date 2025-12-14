@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_AdminCurr" value="name:post_ID;datatype:int,name:post_category;datatype:string,name:post_topic;datatype:string,name:post_date;datatype:timestamp,name:post_current;datatype:blob,name:admin_yes;datatype:string,name:admin_comment;datatype:blob" />
+	<infoitem key="UD_Curr" value="name:PostOn;datatype:string,name:post_ID;datatype:int,name:post_category;datatype:string,name:post_topic;datatype:string,name:post_date;datatype:timestamp,name:post_current;datatype:string,name:admin_yes;datatype:string,name:admin_comment;datatype:blob" />
+	<infoitem key="UD_Current" value="name:PostOn;datatype:string,name:post_ID;datatype:int,name:post_category;datatype:string,name:post_topic;datatype:string,name:post_date;datatype:timestamp,name:post_current;datatype:string,name:Blocked;datatype:string,name:admin_comment;datatype:blob" />
+	<infoitem key="UD_Archived" value="name:PostOn;datatype:string,name:post_ID;datatype:int,name:post_category;datatype:string,name:post_topic;datatype:string,name:post_date;datatype:timestamp,name:post_current;datatype:string,name:Blocked;datatype:string,name:admin_comment;datatype:blob" />
+	<infoitem key="UD_Listed" value="name:PostOn;datatype:string,name:post_ID;datatype:int,name:post_category;datatype:string,name:post_topic;datatype:string,name:post_date;datatype:timestamp,name:post_current;datatype:string,name:admin_yes;datatype:string,name:admin_comment;datatype:blob" />
+	<infoitem key="UD_blocked" value="name:PostOn;datatype:string,name:post_ID;datatype:int,name:post_category;datatype:string,name:post_topic;datatype:string,name:post_date;datatype:timestamp,name:post_current;datatype:string,name:Blocked;datatype:string,name:admin_comment;datatype:blob" />
+</info>

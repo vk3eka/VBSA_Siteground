@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Topic" value="name:post_ID;datatype:int,name:post_topic;datatype:string" />
+	<infoitem key="UD_Upload" value="name:ID;datatype:int,name:attach_id;datatype:int,name:attach_name;datatype:string,name:Attachment;datatype:string" />
+</info>

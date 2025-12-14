@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Details" value="name:MemberID;datatype:int,name:LastName;datatype:string,name:FirstName;datatype:string,name:HomeAddress;datatype:string,name:HomeSuburb;datatype:string,name:HomeState;datatype:string,name:HomePostcode;datatype:string,name:HomePhone;datatype:string,name:WorkPhone;datatype:string,name:MobilePhone;datatype:string,name:ReceiveSMS;datatype:int,name:Email;datatype:string,name:ReceiveEmail;datatype:int,name:Club;datatype:string,name:BoardMemb;datatype:int,name:LifeMember;datatype:int,name:Deceased;datatype:int,name:Junior;datatype:int,name:Female;datatype:int,name:Referee;datatype:int,name:Ref_Class;datatype:string,name:LastUpdated;datatype:date,name:UpdateBy;datatype:string,name:AffiliateMemb;datatype:string,name:Club2;datatype:string,name:entered_on;datatype:date,name:board_position;datatype:string,name:dob_day;datatype:int,name:dob_mnth;datatype:int,name:dob_year;datatype:int,name:Overseas;datatype:string,name:paid_memb;datatype:int,name:paid_how;datatype:string,name:paid_date;datatype:date" />
+	<infoitem key="UD_playedfinyear" value="name:MemberID;datatype:int,name:totplayfin;datatype:int" />
+	<infoitem key="UD_playedcalyear" value="name:scrsID;datatype:int,name:MemberID;datatype:int,name:totplayedcal;datatype:real" />
+	<infoitem key="UD_fin" value="name:MemberID;datatype:int,name:paid_memb;datatype:int,name:paid_how;datatype:string,name:paid_date;datatype:date" />
+	<infoitem key="UD_MonClub" value="name:team_id;datatype:int,name:team_club;datatype:string,name:team_name;datatype:string,name:comptype;datatype:string" />
+	<infoitem key="UD_WedClub" value="name:team_id;datatype:int,name:team_club;datatype:string,name:team_name;datatype:string,name:comptype;datatype:string" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_team_photo" value="name:id;datatype:int,name:grade;datatype:string,name:season;datatype:string,name:year_photo;datatype:year,name:club_photo;datatype:blob,name:1or2;datatype:string,name:current;datatype:string" />
+	<infoitem key="UD_grade" value="name:grade;datatype:string,name:grade_name;datatype:string,name:season;datatype:string,name:type;datatype:string,name:fix_upload;datatype:string,name:fix_cal_year;datatype:year,name:current;datatype:string,name:finals_teams;datatype:int" />
+</info>

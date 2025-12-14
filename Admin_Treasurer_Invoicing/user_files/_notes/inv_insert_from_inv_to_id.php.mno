@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_create_inv" value="name:ClubNumber;datatype:int,name:ClubTitle;datatype:string,name:FirstName;datatype:string,name:LastName;datatype:string,name:Email;datatype:string,name:MobilePhone;datatype:string,name:inv_type;datatype:string" />
+	<infoitem key="UD_inv_no" value="name:MAX(inv_id);datatype:int" />
+</info>

@@ -1,0 +1,365 @@
+[29-May-2021 09:59:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:9
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/aa_webpage_index.php(1): require_once()
+#1 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 9
+[29-Jan-2022 01:35:10 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[29-Jan-2022 01:43:26 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[29-Jan-2022 01:45:15 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[29-Jan-2022 01:45:45 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[29-Jan-2022 01:48:15 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[29-Jan-2022 01:49:02 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[01-Feb-2022 05:20:38 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[01-Feb-2022 05:21:00 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 05:26:55 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 06:01:32 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 06:01:48 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 06:02:09 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 06:05:43 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 06:06:14 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 06:06:23 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_all.php on line 137
+[03-Feb-2022 06:06:53 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_all.php on line 137
+[03-Feb-2022 06:06:58 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 06:26:31 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 06:27:49 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 06:31:32 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 06:51:10 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 09:42:45 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 09:44:11 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 09:44:26 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 09:44:41 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 09:45:03 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 09:45:27 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 09:45:46 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 09:53:08 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 09:57:22 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 09:58:35 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 10:10:11 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 10:24:04 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 10:24:33 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 10:30:33 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 10:37:00 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 10:37:36 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 11:01:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 11:02:27 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 22:33:42 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 23:27:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[03-Feb-2022 23:38:50 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[05-Feb-2022 23:02:19 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[05-Feb-2022 23:03:40 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[06-Feb-2022 08:56:51 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Feb-2022 12:01:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/aa_webpage_index.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/aa_webpage_index.php on line 230
+[07-Feb-2022 12:01:43 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Feb-2022 12:01:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php:311
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 311
+[07-Feb-2022 12:08:26 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Feb-2022 12:08:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php:311
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 311
+[07-Feb-2022 12:08:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/aa_webpage_index.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/aa_webpage_index.php on line 230
+[07-Feb-2022 12:11:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/aa_webpage_index.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/aa_webpage_index.php on line 230
+[07-Feb-2022 12:11:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_insert_check.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_insert_check.php on line 102
+[07-Feb-2022 13:51:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/aa_webpage_index.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/aa_webpage_index.php on line 230
+[07-Feb-2022 13:52:24 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Feb-2022 13:52:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php:311
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 311
+[07-Feb-2022 13:53:04 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Feb-2022 13:53:08 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_junior.php on line 137
+[07-Feb-2022 13:53:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_junior.php:311
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_junior.php on line 311
+[07-Feb-2022 13:53:35 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_junior.php on line 137
+[07-Feb-2022 13:53:38 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_refs.php on line 207
+[07-Feb-2022 13:53:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_refs.php:311
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_refs.php on line 311
+[07-Feb-2022 13:53:57 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_refs.php on line 207
+[07-Feb-2022 13:54:04 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_refs_profiles.php on line 137
+[07-Feb-2022 13:54:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_refs_profiles.php:311
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_refs_profiles.php on line 311
+[07-Feb-2022 13:54:28 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_refs_profiles.php on line 137
+[07-Feb-2022 13:54:33 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_refs_posers.php on line 137
+[07-Feb-2022 13:54:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_refs_posers.php:311
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_refs_posers.php on line 311
+[07-Feb-2022 13:54:51 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_refs_posers.php on line 137
+[07-Feb-2022 13:54:53 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_womens.php on line 207
+[07-Feb-2022 13:54:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_womens.php:311
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_womens.php on line 311
+[07-Feb-2022 13:55:12 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_womens.php on line 207
+[07-Feb-2022 13:55:16 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_help.php on line 207
+[07-Feb-2022 13:55:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_help.php:311
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_help.php on line 311
+[07-Feb-2022 13:56:06 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_help.php on line 207
+[07-Feb-2022 13:56:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_about.php:311
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_about.php on line 311
+[07-Feb-2022 13:56:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_scores.php:311
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_scores.php on line 311
+[07-Feb-2022 13:57:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_polproc.php:311
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_polproc.php on line 311
+[07-Feb-2022 13:57:29 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_all.php on line 137
+[07-Feb-2022 13:57:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_all.php:311
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_all.php on line 311
+[07-Feb-2022 13:57:50 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_all.php on line 137
+[07-Feb-2022 13:57:56 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_blocked.php on line 137
+[07-Feb-2022 13:57:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_blocked.php:311
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_blocked.php on line 311
+[07-Feb-2022 21:46:15 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Feb-2022 21:46:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_detail.php:667
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_detail.php on line 667
+[07-Feb-2022 21:50:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_detail.php:667
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_detail.php on line 667
+[07-Feb-2022 21:50:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_detail.php:667
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_detail.php on line 667
+[07-Feb-2022 21:51:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_detail.php:667
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_detail.php on line 667
+[07-Feb-2022 21:52:46 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Feb-2022 21:54:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_detail.php:667
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_detail.php on line 667
+[07-Feb-2022 22:03:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_detail.php:667
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_detail.php on line 667
+[07-Feb-2022 22:03:52 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Feb-2022 22:09:39 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[10-Feb-2022 04:46:35 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[22-Feb-2022 12:38:00 Australia/Melbourne] PHP Fatal error:  Uncaught TypeError: mysqli_free_result(): Argument #1 ($result) must be of type mysqli_result, null given in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(NULL)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_insert_webpage.php(344): mysql_free_result(NULL)
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[22-Feb-2022 12:46:55 Australia/Melbourne] PHP Fatal error:  Uncaught TypeError: mysqli_free_result(): Argument #1 ($result) must be of type mysqli_result, null given in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(NULL)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_insert_webpage.php(344): mysql_free_result(NULL)
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[22-Feb-2022 01:55:40 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[23-Feb-2022 01:09:20 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[23-Feb-2022 03:33:38 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[23-Feb-2022 04:00:52 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[23-Feb-2022 04:01:38 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[23-Feb-2022 04:41:52 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[23-Feb-2022 04:42:28 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[23-Feb-2022 04:42:56 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[23-Feb-2022 04:46:06 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[23-Feb-2022 04:46:23 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[23-Feb-2022 04:50:13 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[23-Feb-2022 04:50:43 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[02-Mar-2022 04:47:44 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[02-Mar-2022 04:49:17 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[02-Mar-2022 04:50:17 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[02-Mar-2022 04:50:38 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[02-Mar-2022 04:51:38 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[02-Mar-2022 04:51:50 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[04-Mar-2022 00:28:31 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[04-Mar-2022 21:20:19 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[05-Mar-2022 23:30:10 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[05-Mar-2022 23:31:24 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[05-Mar-2022 23:35:06 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[05-Mar-2022 23:39:42 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[05-Mar-2022 23:40:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[05-Mar-2022 23:40:54 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[05-Mar-2022 23:45:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[06-Mar-2022 10:46:32 Australia/Melbourne] PHP Fatal error:  Uncaught TypeError: mysqli_free_result(): Argument #1 ($result) must be of type mysqli_result, null given in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(NULL)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_insert_webpage.php(344): mysql_free_result(NULL)
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[05-Mar-2022 23:55:30 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[05-Mar-2022 23:55:55 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[05-Mar-2022 23:57:01 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[05-Mar-2022 23:58:36 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[05-Mar-2022 23:59:16 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[06-Mar-2022 00:02:11 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[06-Mar-2022 00:05:49 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[06-Mar-2022 00:06:05 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 06:47:02 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 06:47:06 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 06:47:33 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 06:48:38 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 06:49:16 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 06:50:05 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 06:50:24 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 06:50:43 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 06:51:07 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 06:52:14 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_all.php on line 137
+[07-Mar-2022 07:21:16 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 07:22:06 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 07:22:39 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 07:23:50 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 07:25:28 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 07:26:05 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 07:26:36 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 07:27:09 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 07:27:29 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 07:28:10 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 07:28:33 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 07:29:16 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 07:30:21 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 07:30:54 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 07:33:04 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 09:24:09 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 09:25:06 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 09:30:25 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 09:32:05 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 09:32:23 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 09:34:02 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 09:34:20 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 09:35:17 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 09:35:38 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[08-Mar-2022 08:06:07 Australia/Melbourne] PHP Fatal error:  Uncaught TypeError: mysqli_free_result(): Argument #1 ($result) must be of type mysqli_result, null given in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(NULL)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_insert_webpage.php(344): mysql_free_result(NULL)
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[07-Mar-2022 21:16:40 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 21:17:38 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 21:18:47 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 21:19:08 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 21:19:10 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 21:20:26 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 21:20:39 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 21:32:40 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 21:33:07 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 21:53:28 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[07-Mar-2022 21:57:25 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[08-Mar-2022 12:08:12 Australia/Melbourne] PHP Fatal error:  Uncaught TypeError: mysqli_free_result(): Argument #1 ($result) must be of type mysqli_result, null given in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(NULL)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_insert_webpage.php(344): mysql_free_result(NULL)
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[08-Mar-2022 12:08:27 Australia/Melbourne] PHP Fatal error:  Uncaught TypeError: mysqli_free_result(): Argument #1 ($result) must be of type mysqli_result, null given in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(NULL)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_insert_webpage.php(344): mysql_free_result(NULL)
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[08-Mar-2022 01:09:14 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_help.php on line 207
+[08-Mar-2022 01:09:23 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_blocked.php on line 137
+[08-Mar-2022 05:28:52 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[08-Mar-2022 05:29:42 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[08-Mar-2022 18:04:10 Australia/Melbourne] PHP Fatal error:  Uncaught TypeError: mysqli_free_result(): Argument #1 ($result) must be of type mysqli_result, null given in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:30
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(30): mysqli_free_result(NULL)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/item_insert_webpage.php(344): mysql_free_result(NULL)
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 30
+[08-Mar-2022 07:13:54 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_refs_profiles.php on line 137
+[11-Mar-2022 03:10:53 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[11-Mar-2022 05:37:12 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:04:46 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:05:12 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:07:46 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:08:12 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:09:12 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/calendar_insert.php on line 264
+[15-Mar-2022 23:09:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/calendar_insert.php(359): mysql_query('SELECT * FROM c...')
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[15-Mar-2022 23:13:56 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:15:08 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:17:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:18:40 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/calendar_insert.php on line 264
+[15-Mar-2022 23:18:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php:60
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php(60): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/calendar_insert.php(359): mysql_query('SELECT * FROM c...')
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/Connections/connvbsa.php on line 60
+[15-Mar-2022 23:19:35 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:21:44 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:22:42 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:24:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:25:54 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:29:50 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:30:45 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:31:28 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[15-Mar-2022 23:32:53 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:06:46 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:07:23 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:08:15 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:14:58 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:16:07 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:16:20 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:16:38 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:16:51 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:17:51 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:18:43 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:21:24 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:21:46 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:22:10 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:23:36 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:23:53 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:24:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:24:54 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:26:37 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:40:22 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:40:41 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:40:53 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:41:02 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 00:41:20 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[16-Mar-2022 04:36:30 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_blocked.php on line 137
+[18-Mar-2022 11:51:44 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[18-Mar-2022 11:52:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[20-Mar-2022 00:10:57 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[20-Mar-2022 00:16:35 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[20-Mar-2022 08:02:02 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[20-Mar-2022 08:03:07 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[21-Mar-2022 00:35:40 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137
+[21-Mar-2022 00:35:45 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_web_pages/page_front.php on line 137

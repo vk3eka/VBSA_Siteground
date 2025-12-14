@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_fin1" value="name:mnth;datatype:string,name:inv_id;datatype:int,name:inv_date;datatype:date" />
+	<infoitem key="UD_inv_no" value="name:MAX(inv_id);datatype:int" />
+	<infoitem key="UD_cust" value="name:inv_id;datatype:int,name:club_id;datatype:int,name:inv_busname;datatype:blob,name:inv_to;datatype:string" />
+</info>

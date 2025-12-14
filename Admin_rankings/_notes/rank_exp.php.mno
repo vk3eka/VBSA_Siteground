@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_billrank" value="name:rank_exp_id;datatype:int,name:rank_exp_title;datatype:string,name:rank_exp_type;datatype:blob,name:rank_exp_pdf;datatype:string,name:rank_exp_last_update;datatype:timestamp,name:rank_exp_order;datatype:int" />
+	<infoitem key="UD_exp_rank" value="name:rank_exp_id;datatype:int,name:rank_exp_title;datatype:string,name:rank_exp_type;datatype:blob,name:rank_exp_pdf;datatype:string,name:rank_exp_last_update;datatype:timestamp,name:current;datatype:int,name:rank_exp_order;datatype:int" />
+</info>

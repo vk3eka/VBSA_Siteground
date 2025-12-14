@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_print_prep" value="name:inv_id;datatype:int,name:inv_busname;datatype:blob,name:date;datatype:string,name:inv_status;datatype:string,name:inv_date;datatype:date" />
+</info>

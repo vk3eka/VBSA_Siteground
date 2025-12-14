@@ -1,0 +1,53 @@
+<wa_form name="Log In" id="LogIn" submit_text="Log In" send_mail="false" use_upload="false">
+	<wa_form_fieldset label="Log In" id="f23e9a82-cdae-7d01-443d-09249655a53f">
+		<wa_fieldset_description>Required *</wa_fieldset_description>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value.</wa_field_set_validation>
+							<wa_field_reference src="text_medium.xml" label="Email" defaultvalue="%3C?php%20echo%20((isset($_COOKIE%5B%22RememberMeUN%22%5D))?$_COOKIE%5B%22RememberMeUN%22%5D:%22%22);%20?%3E" validation="{ required: true, type: 'email', format: null, minChars: 6, maxChars: 500, minValue: null, maxValue: null }" serverValidation="email" spryValidation="email, { minChars:6, maxChars:500, isRequired:true }"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value.</wa_field_set_validation>
+							<wa_field_reference src="password_medium.xml" label="Password" defaultvalue="%3C?php%20echo%20((isset($_GET%5B%22failedLogin%22%5D)%20||%20isset($_GET%5B%22invalid%22%5D))?%22%22:((isset($_COOKIE%5B%22RememberMePWD%22%5D))?$_COOKIE%5B%22RememberMePWD%22%5D:%22%22));%20?%3E" validation="{ required: true, isConfirm: false, regEx: null, minAlphaChars: 3, maxAlphaChars: 500, minNumbers: 2, maxNumbers: 500, minUpperAlphaChars: null, maxUpperAlphaChars: null, minSpecialChars: 0, maxSpecialChars: 0, minChars: 6, maxChars: 500, isRequired: true }" serverValidation="required|entrylength" spryValidation=", { minAlphaChars:3, maxAlphaChars:500, minNumbers:2, maxNumbers:500, minSpecialChars:0, maxSpecialChars:0, minChars:6, maxChars:500, isRequired:true }"  continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value</wa_field_set_validation>
+							<wa_field_reference src="Checkbox_Standard.xml" label="Remember my information" defaultvalue="%3C?php%20if%20(!(strcmp(((isset($_COOKIE%5B%22RememberMeUN%22%5D))?1:0),1)))%20%7Becho%20%22checked=%5C%22checked%5C%22%22;%7D%20?%3E" validation="{ required: false }" continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+		<wa_form_line>
+			<wa_form_group_reference label="" continueLine="false">
+				<wa_field_group name="">
+					<wa_field_line>
+						<wa_field_column>
+							<wa_field_set_validation>Please enter a value</wa_field_set_validation>
+							<wa_field_reference src="Checkbox_Standard.xml" label="Log me in automatically" defaultvalue="%3C?php%20if%20(!(strcmp(((isset($_COOKIE%5B%22AutoLoginUN%22%5D))?1:0),1)))%20%7Becho%20%22checked=%5C%22checked%5C%22%22;%7D%20?%3E" validation="{ required: false }" continueLine="false"></wa_field_reference>
+						</wa_field_column>
+					</wa_field_line>
+				</wa_field_group>
+			</wa_form_group_reference>
+		</wa_form_line>
+	</wa_form_fieldset>
+</wa_form>

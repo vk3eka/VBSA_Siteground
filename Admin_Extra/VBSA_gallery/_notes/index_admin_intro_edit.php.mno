@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_photo_year" value="name:year_photo;datatype:year" />
+	<infoitem key="UD_Intro" value="name:id;datatype:int,name:club_photo;datatype:blob" />
+</info>

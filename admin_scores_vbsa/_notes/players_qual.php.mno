@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_qual_play" value="name:scrsID;datatype:int,name:MemberID;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:MobilePhone;datatype:string,name:Email;datatype:string,name:team_grade;datatype:string,name:team_id;datatype:int,name:game_type;datatype:string,name:count_played;datatype:int,name:captain_scrs;datatype:string,name:scr_season;datatype:string" />
+</info>

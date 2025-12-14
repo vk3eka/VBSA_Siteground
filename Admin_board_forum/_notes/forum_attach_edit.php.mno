@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_att_edit" value="name:ID;datatype:int,name:attach_id;datatype:int,name:attach_name;datatype:string,name:Attachment;datatype:string,name:upload_on;datatype:timestamp,name:upload_by;datatype:blob" />
+	<infoitem key="UD_attach" value="name:UpOn;datatype:string,name:ID;datatype:int,name:attach_id;datatype:int,name:attach_name;datatype:string,name:Attachment;datatype:string,name:upload_on;datatype:timestamp,name:upload_by;datatype:blob,name:post_ID;datatype:int,name:post_topic;datatype:string" />
+</info>

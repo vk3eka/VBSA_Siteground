@@ -1,0 +1,10 @@
+[31-Jan-2022 21:07:12 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "uploadedFiles" on null in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php:487
+Stack trace:
+#0 /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php(331): fileInfo->setFileName('Grand Final Lad...', 51404)
+#1 /home/customer/www/vbsa.org.au/public_html/Admin_Extra/CityClubs/CC_upload.php(71): pureFileUpload->doUpload()
+#2 {main}
+  thrown in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 487
+[20-Apr-2022 04:10:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pureFileUpload has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 8
+[20-Apr-2022 04:10:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pureUploadAddon has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 430
+[20-Apr-2022 04:10:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fileInfo has a deprecated constructor in /home/customer/www/vbsa.org.au/public_html/ScriptLibrary/incPureUpload.php on line 442
+[04-May-2022 04:22:57 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/vbsa.org.au/public_html/Admin_Extra/CityClubs/CC_pagehead_edit.php on line 100
