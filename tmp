@@ -1,0 +1,31 @@
+    <!-- Buttons for large & medium screen -->    
+    <div class="visible-md visible-lg center-block" style="width:75%">
+		<div style="margin-bottom:10px"> 
+		  <a href="http://www.vbsa.org.au/vbsa_shop/shop_cart.php" class="btn btn-primary btn-responsive center-block" role="button">Make a payment or Enter Tournaments</a>
+  		</div>
+        
+   		<div style="margin-bottom:10px"> 
+  			<a href="http://www.vbsa.org.au/Club_dir/club_index.php" class="btn btn-primary btn-responsive center-block" role="button">Find a club</a>
+  		</div>
+        
+        <div style="margin-bottom:10px"> 
+  			<a href="http://www.vbsa.org.au/calendar/cal_index.php" class="btn btn-primary btn-responsive center-block" role="button">Calendar of events</a>
+  		</div>
+     </div>
+     <!-- END Buttons for large & medium screen --> 
+     
+     <!-- Buttons for everything but large or medium screen -->    
+    <div class="visible-sm visible-xs">
+		<div style="margin-bottom:10px"> 
+		  <a href="http://www.vbsa.org.au/vbsa_shop/shop_cart.php" class="btn btn-primary btn-responsive center-block" role="button">Make a payment or Enter Tournaments</a>
+  		</div>
+        
+   		<div style="margin-bottom:10px"> 
+  			<a href="http://www.vbsa.org.au/Club_dir/club_index.php" class="btn btn-primary btn-responsive center-block" role="button">Find a club</a>
+  		</div>
+        
+        <div style="margin-bottom:10px"> 
+  			<a href="http://www.vbsa.org.au/calendar/cal_index.php" class="btn btn-primary btn-responsive center-block" role="button">Calendar of events</a>
+  		</div>
+    </div>
+     <!-- END Buttons for everything but large or medium screen --> 
