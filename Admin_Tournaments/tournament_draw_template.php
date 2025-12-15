@@ -4,11 +4,9 @@ error_reporting(0);
 
 mysql_select_db($database_connvbsa,$connvbsa);
 
-
 if (!isset($_SESSION)) {
   session_start();
 }
-
 
 $MM_authorizedUsers = "";
 $MM_donotCheckaccess = "true";
