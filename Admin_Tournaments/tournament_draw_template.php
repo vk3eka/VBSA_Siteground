@@ -153,7 +153,7 @@ function GetMemberName($memberID)
 function formatTime($time)
 {
   // Format a specific timestamp
-  $timestamp = strtotime($time_1);
+  $timestamp = strtotime($time);
   $new_time = date("h:i", $timestamp); // Output: 03:30 PM
   return $new_time;
 }

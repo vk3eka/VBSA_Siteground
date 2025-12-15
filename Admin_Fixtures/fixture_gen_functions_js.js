@@ -564,8 +564,149 @@ function show_fixtures(names, team_grade, form_no, year, season, start_date)
         text += ("</table>");
         // end 6 teams
     }
-    else if((teams == 8) || (teams == 10))
-    //if((teams == 8) || (teams == 10))
+    else if(teams == 8)
+    {
+        console.log("Teams " + teams);
+        // If odd number of teams add a "ghost".
+        // should already be added from fixture model
+        let ghost = false;
+        if (teams % 2 === 1) {
+            names.push("Ghost");
+            teams++;
+            ghost = true;
+        }
+    
+        let totalRounds = teams - 1;
+        let matchesPerRound = teams / 2;
+        let rounds = [];
+        for (let i = 0; i < totalRounds; i++) {
+            rounds[i] = [];
+        }
+
+        for (let round = 0; round < totalRounds; round++) {
+            for (let match = 0; match < matchesPerRound; match++) {
+                let home = (round + match) % (teams - 1);
+                let away = (teams - 1 - match + round) % (teams - 1);
+                if (match === 0) away = teams - 1;
+                rounds[round][match] = team_name(home + 1, names) + " v " + team_name(away + 1, names);
+            }
+        }
+
+        // Interleave rounds
+        let interleaved = new Array(totalRounds).fill(null).map(() => []);
+        let evn = 0, odd = matchesPerRound;
+        for (let i = 0; i < (rounds.length); i++) {
+            interleaved[i] = (i % 2 === 0) ? rounds[evn++] : rounds[odd++];
+        }
+
+        rounds = interleaved;
+
+        // Flip home/away for last team in odd rounds
+        for (let round = 0; round < (rounds.length); round++) {
+            if (round % 2 === 1) {
+                //console.log("Error " + round);
+                rounds[round][0] = flip(rounds[round][0]);
+            }
+        }
+
+        // Final pass to ensure 'Bye' is always the away team
+        for (let round = 0; round < totalRounds; round++) {
+            for (let match = 0; match < matchesPerRound; match++) {
+                const teams = rounds[round][match].split(' v ');
+                const homeTeam = teams[0];
+                const awayTeam = teams[1];
+
+                if (homeTeam === 'Bye') {
+                    // If the home team is 'Bye', swap it with the away team
+                    rounds[round][match] = `${awayTeam} v ${homeTeam}`;
+                }
+            }
+        }
+        
+        //console.log("Teams " + teams + ", " + rounds);
+        // Display the fixtures (for 8 teams)
+        text += ("<table class='table table-striped table-bordered dt-responsive nowrap display float-container' width='1000px'>");
+        text += ("<tbody class='row_position_10'>");
+        text += ("<tr><td colspan=3 align='center'>(Algorithm " + team_grade + ")</td></tr>");
+        text += ("<tr><td colspan=3 align='center'>Dates allocated on save</td></tr>");
+        for (let i = 0; i < rounds.length; i++) {
+            text += ("<tr><td>&nbsp;</td></tr>");
+            text += ("<td colspan=3 align='center'><b>Round " + (i+1)  + " Set 1</b></td></tr>");
+            //text += ("<tr><td align='right'><b>Date</b></td>");
+            //text += ("<td colspan=2 class='text-left'><input type='text' id='A_" + form_no + "_date_" + i + "' style='width:100px' value=" + addWeek(start_date, 7, (i)) + "></td></tr>");
+            text += ("<input type='hidden' id='A_" + form_no + "_date_" + i + "' value=" + addWeek(start_date, 7, (i)) + ">");
+            x = 0;
+            //console.log(rounds[i]);
+            rounds[i].forEach((r, x) => {
+                let [home, away] = r.split(" v ");
+                //console.log(home + " v " + away + ", round " + (i+1));
+                document.getElementById(team_grade + "_fix_" + (x+1)).innerHTML = team_grade;
+                document.getElementById(team_grade + "_fix_" + (i+1) + "_pos_" + (x+1)).innerHTML = home;
+                obj = {
+                    home_team: {
+                        round: (i+1),
+                        team: home,
+                        grade: team_grade
+                    },
+                    away_team: {
+                        round: (i+1),
+                        team: away,
+                        grade: team_grade
+                    }
+                };
+                home_teams_array.push(obj);
+                //console.log("Round " + (i+1));
+                //console.log("Array " + JSON.stringify(home_teams_array, null, 2));
+                text += ("<tr>");
+                text += ("<td align='center'><input class='float-child' type='text' id='A_" + team_grade + "_home_" + (i+1) + "_" + (x+1) + "' value='" + home + "' style='width:200px'></td>");
+                text += ("<td align='center'>v</td>");
+                text += ("<td align='center'><input class='float-child' type='text' id='A_" + team_grade + "_away_" + (i+1) + "_" + (x+1) + "' value='" + away + "' style='width:200px'></td>");
+                text += ("</tr>");
+                x++;
+            });
+        }
+
+        // Second half is mirror of first half
+        round_counter = rounds.length + 1;
+        for (let b = 0; b < rounds.length; b++) {
+            text += ("<tr><td>&nbsp;</td></tr>");
+            text += ("<td colspan=3 align='center'><b>Round " + round_counter  + " Set 2</b></td>");
+            //text += ("<tr><td align='right'><b>Date</b></td>");
+            //text += ("<td colspan=2 class='text-left'><input type='text' id='A_" + form_no + "_date_" + (round_counter-1) + "' style='width:100px' value=" + addWeek(start_date, 7, (round_counter-1)) + "></td></tr>");
+            text += ("<input type='hidden' id='A_" + form_no + "_date_" + (round_counter-1) + "' value=" + addWeek(start_date, 7, (round_counter-1)) + ">");
+            round_counter += 1;
+            y = 0;    
+            rounds[b].forEach((r, y) => {
+                let [home, away] = r.split(" v ");
+                document.getElementById(team_grade + "_fix_" + (round_counter-1) + "_pos_" + (y+1)).innerHTML = away;
+                
+                obj = {
+                    home_team: {
+                        round: (round_counter-1),
+                        team: away,
+                        grade: team_grade
+                    },
+                    away_team: {
+                        round: (round_counter-1),
+                        team: home,
+                        grade: team_grade
+                    }
+                };
+                home_teams_array.push(obj);
+                //console.log("Round " + (round_counter-1));
+                //console.log("Array " + JSON.stringify(home_teams_array, null, 2));
+                text += ("<tr>");
+                text += ("<td align='center'><input class='float-child' type='text' id='A_" + team_grade + "_home_" + (round_counter-1) + "_" + (y+1) + "' value='" + away + "' style='width:200px'></td>");
+                text += ("<td align='center'>v</td>");
+                text += ("<td align='center'><input class='float-child' type='text' id='A_" + team_grade + "_away_" + (round_counter-1) + "_" + (y+1) + "' value='" + home + "' style='width:200px'></td>");
+                text += ("</tr>");
+                y++;
+            });
+        }
+        text += ("</tbody>");
+        text += ("</table>");
+    }
+    else if(teams == 10)
     {
         //console.log("Teams " + teams);
         // If odd number of teams add a "ghost".
@@ -625,7 +766,7 @@ function show_fixtures(names, team_grade, form_no, year, season, start_date)
         }
         
         //console.log("Teams " + teams + ", " + rounds);
-        // Display the fixtures (for 8/10 teams)
+        // Display the fixtures (for 10 teams)
         text += ("<table class='table table-striped table-bordered dt-responsive nowrap display float-container' width='1000px'>");
         text += ("<tbody class='row_position_10'>");
         text += ("<tr><td colspan=3 align='center'>(Algorithm " + team_grade + ")</td></tr>");
@@ -668,8 +809,8 @@ function show_fixtures(names, team_grade, form_no, year, season, start_date)
         }
 
         // Second half is mirror of first half
-        round_counter = rounds.length + 1;
-        for (let b = 0; b < rounds.length; b++) {
+        round_counter = rounds.length - 2;
+        for (let b = round_counter; b >= 0; b--) {
             text += ("<tr><td>&nbsp;</td></tr>");
             text += ("<td colspan=3 align='center'><b>Round " + round_counter  + " Set 2</b></td>");
             //text += ("<tr><td align='right'><b>Date</b></td>");
@@ -1394,6 +1535,150 @@ function show_fixtures(names, team_grade, form_no, year, season, start_date)
         text += ("</tbody>");
         text += ("</table>");
     }
+    else if(teams == 16)
+    {
+    console.log("Teams " + teams);
+        // If odd number of teams add a "ghost".
+        // should already be added from fixture model
+        let ghost = false;
+        if (teams % 2 === 1) {
+            names.push("Ghost");
+            teams++;
+            ghost = true;
+        }
+    
+        let totalRounds = teams - 1;
+        let matchesPerRound = teams / 2;
+        let rounds = [];
+        for (let i = 0; i < totalRounds; i++) {
+            rounds[i] = [];
+        }
+
+        for (let round = 0; round < totalRounds; round++) {
+            for (let match = 0; match < matchesPerRound; match++) {
+                let home = (round + match) % (teams - 1);
+                let away = (teams - 1 - match + round) % (teams - 1);
+                if (match === 0) away = teams - 1;
+                rounds[round][match] = team_name(home + 1, names) + " v " + team_name(away + 1, names);
+            }
+        }
+
+        // Interleave rounds
+        let interleaved = new Array(totalRounds).fill(null).map(() => []);
+        let evn = 0, odd = matchesPerRound;
+        for (let i = 0; i < (rounds.length); i++) {
+            interleaved[i] = (i % 2 === 0) ? rounds[evn++] : rounds[odd++];
+        }
+
+        rounds = interleaved;
+
+        // Flip home/away for last team in odd rounds
+        for (let round = 0; round < (rounds.length); round++) {
+            if (round % 2 === 1) {
+                //console.log("Error " + round);
+                rounds[round][0] = flip(rounds[round][0]);
+            }
+        }
+
+        // Final pass to ensure 'Bye' is always the away team
+        for (let round = 0; round < totalRounds; round++) {
+            for (let match = 0; match < matchesPerRound; match++) {
+                const teams = rounds[round][match].split(' v ');
+                const homeTeam = teams[0];
+                const awayTeam = teams[1];
+
+                if (homeTeam === 'Bye') {
+                    // If the home team is 'Bye', swap it with the away team
+                    rounds[round][match] = `${awayTeam} v ${homeTeam}`;
+                }
+            }
+        }
+        
+        //console.log("Teams " + teams + ", " + rounds);
+        // Display the fixtures (for 8/10 teams)
+        text += ("<table class='table table-striped table-bordered dt-responsive nowrap display float-container' width='1000px'>");
+        text += ("<tbody class='row_position_10'>");
+        text += ("<tr><td colspan=3 align='center'>(Algorithm " + team_grade + ")</td></tr>");
+        text += ("<tr><td colspan=3 align='center'>Dates allocated on save</td></tr>");
+        for (let i = 0; i < rounds.length; i++) {
+            text += ("<tr><td>&nbsp;</td></tr>");
+            text += ("<td colspan=3 align='center'><b>Round " + (i+1)  + " Set 1</b></td></tr>");
+            //text += ("<tr><td align='right'><b>Date</b></td>");
+            //text += ("<td colspan=2 class='text-left'><input type='text' id='A_" + form_no + "_date_" + i + "' style='width:100px' value=" + addWeek(start_date, 7, (i)) + "></td></tr>");
+            text += ("<input type='hidden' id='A_" + form_no + "_date_" + i + "' value=" + addWeek(start_date, 7, (i)) + ">");
+            x = 0;
+            //console.log(rounds[i]);
+            rounds[i].forEach((r, x) => {
+                let [home, away] = r.split(" v ");
+                //console.log(home + " v " + away + ", round " + (i+1));
+                document.getElementById(team_grade + "_fix_" + (x+1)).innerHTML = team_grade;
+                document.getElementById(team_grade + "_fix_" + (i+1) + "_pos_" + (x+1)).innerHTML = home;
+                obj = {
+                    home_team: {
+                        round: (i+1),
+                        team: home,
+                        grade: team_grade
+                    },
+                    away_team: {
+                        round: (i+1),
+                        team: away,
+                        grade: team_grade
+                    }
+                };
+                home_teams_array.push(obj);
+                //console.log("Round " + (i+1));
+                //console.log("Array " + JSON.stringify(home_teams_array, null, 2));
+                text += ("<tr>");
+                text += ("<td align='center'><input class='float-child' type='text' id='A_" + team_grade + "_home_" + (i+1) + "_" + (x+1) + "' value='" + home + "' style='width:200px'></td>");
+                text += ("<td align='center'>v</td>");
+                text += ("<td align='center'><input class='float-child' type='text' id='A_" + team_grade + "_away_" + (i+1) + "_" + (x+1) + "' value='" + away + "' style='width:200px'></td>");
+                text += ("</tr>");
+                x++;
+            });
+        }
+/*
+        // Second half is mirror of first half
+        round_counter = rounds.length + 1;
+        for (let b = 0; b < rounds.length; b++) {
+            text += ("<tr><td>&nbsp;</td></tr>");
+            text += ("<td colspan=3 align='center'><b>Round " + round_counter  + " Set 2</b></td>");
+            //text += ("<tr><td align='right'><b>Date</b></td>");
+            //text += ("<td colspan=2 class='text-left'><input type='text' id='A_" + form_no + "_date_" + (round_counter-1) + "' style='width:100px' value=" + addWeek(start_date, 7, (round_counter-1)) + "></td></tr>");
+            text += ("<input type='hidden' id='A_" + form_no + "_date_" + (round_counter-1) + "' value=" + addWeek(start_date, 7, (round_counter-1)) + ">");
+            round_counter += 1;
+            y = 0;    
+            rounds[b].forEach((r, y) => {
+                let [home, away] = r.split(" v ");
+                document.getElementById(team_grade + "_fix_" + (round_counter-1) + "_pos_" + (y+1)).innerHTML = away;
+                
+                obj = {
+                    home_team: {
+                        round: (round_counter-1),
+                        team: away,
+                        grade: team_grade
+                    },
+                    away_team: {
+                        round: (round_counter-1),
+                        team: home,
+                        grade: team_grade
+                    }
+                };
+                home_teams_array.push(obj);
+                //console.log("Round " + (round_counter-1));
+                //console.log("Array " + JSON.stringify(home_teams_array, null, 2));
+                text += ("<tr>");
+                text += ("<td align='center'><input class='float-child' type='text' id='A_" + team_grade + "_home_" + (round_counter-1) + "_" + (y+1) + "' value='" + away + "' style='width:200px'></td>");
+                text += ("<td align='center'>v</td>");
+                text += ("<td align='center'><input class='float-child' type='text' id='A_" + team_grade + "_away_" + (round_counter-1) + "_" + (y+1) + "' value='" + home + "' style='width:200px'></td>");
+                text += ("</tr>");
+                y++;
+            });
+        }
+*/
+        text += ("</tbody>");
+        text += ("</table>");
+    }
+
     $('#output_' + form_no).append(text);
     return home_teams_array;
 }

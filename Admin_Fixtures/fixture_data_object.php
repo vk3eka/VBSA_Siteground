@@ -574,6 +574,7 @@ $(document).ready(function()
         clashes = 0; // reset clashes to zero
         $.each(grades, function(_, r) {
             name = r.name;
+            console.log("Grades " + name);
             teamGrade = name;
             let teamData = teams.filter(d => d.grade === name);
             //console.log("Team Data " + JSON.stringify(teamData, null, 2));
@@ -834,11 +835,11 @@ $(document).ready(function()
     }
 
     // anaylsis data page
-    $('#algorithym').empty();
+    $('#algorithm').empty();
     var grades = <?php echo json_encode($data['grades']); ?>;
     var teams = <?php echo json_encode($data['teams']); ?>;
     var rounds = <?php echo json_encode($data['rounds']); ?>;
-    console.log("Teams " + JSON.stringify(teams, null, 2));
+    //console.log("Teams " + JSON.stringify(teams, null, 2));
     var home_team_count = [];
     var team_count;
     $.each(grades, function(_, r) {
@@ -891,7 +892,7 @@ $(document).ready(function()
         if(i <= (overallMax-1))
         {
             output += ("<td align='center' id='date_" + i + "'>" + date + "</td>");
-            //console.log("Max " + i);
+            console.log("Max " + i);
             i++;
         }
     });
@@ -899,12 +900,14 @@ $(document).ready(function()
     i = 0;
     $.each(grades, function(_, r) {
         grade = r.name;
+        //console.log("Grade " + grade);
         let home_count = home_team_count.filter(d => d.grade === grade);
         //console.log("Home Count " + JSON.stringify(home_team_count, null, 2));
         count = r.count;
         no_of_home_teams = (count/2);
         //var no_of_rounds = overallMax;
         var no_of_rounds = max_no_of_rounds;
+        //console.log("Grade " + grade + ", Rounds " + no_of_rounds);
         for(y = 0; y < no_of_home_teams; y++) // home teams in team grade
         {   
             output += ("<tr>");
@@ -928,7 +931,9 @@ $(document).ready(function()
         output += ("</tr>");
     });
     output += ('</table>');
-    $('#algorithym').append(output);
+    //console.log(output)
+
+    $('#algorithm').append(output);
 
     $.fn.save_fixtures = function (form_no, action) {
         var non_dates = <?php echo json_encode($data['non_dates']); ?>;
@@ -1019,7 +1024,7 @@ $(document).ready(function()
 
 </script>
 <br>
-<div id='algorithym'></div>
+<div id='algorithm'></div>
 <br>
 <div id='table_util'></div>
 <table class='table table-striped table-bordered dt-responsive display text-center'>

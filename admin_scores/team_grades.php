@@ -533,13 +533,16 @@ function GetRounds($teams)
           $rounds = 14;
           break;
       case 10:
-          $rounds = 18;
+          $rounds = 14; // added 15/12/2025
           break;
       case 12:
-          $rounds = 15;
+          $rounds = 14; // added 15/12/2025
           break;
       case 14:
           $rounds = 13;
+          break;
+      case 16:
+          $rounds = 15; // added 15/12/2025
           break;
       default:
           $rounds = 18;
