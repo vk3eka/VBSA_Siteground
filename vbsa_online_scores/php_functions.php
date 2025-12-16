@@ -6,7 +6,7 @@ include('../vendor/autoload.php');
 
 error_reporting(0);
 
-$apiKey = 'mlsn.84fc4e7e7c09644af7862638f47a5b8bab3de59623e1467660aa8c37f5e9d46e';
+$apiKey = 'No for public viewing';
 
 //echo("PHP_Functions Loaded<br>");
 
