@@ -141,12 +141,8 @@ $totalRows_team_count = mysql_num_rows($team_count);
 <link href="../Admin_xx_CSS/vbsa_DB.css" rel="stylesheet" type="text/css" />
 <link href="../Admin_xx_CSS/VBSA_db_links.css" rel="stylesheet" type="text/css" />
 <link href="../Admin_xx_CSS/VBSA_Scores_Index.css" rel="stylesheet" type="text/css" /> 
-
-
 </head>
-
 <body>
-
 <?php include '../admin_xx_includes/db_nav.php';?>
 <?php include '../admin_xx_includes/db_srch.php';?>
 

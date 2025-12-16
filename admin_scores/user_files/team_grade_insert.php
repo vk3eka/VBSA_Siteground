@@ -35,6 +35,13 @@ $season = "-1";
 if (isset($_GET['season'])) {
   $season = $_GET['season'];
 }
+$year = "-1";
+if (isset($_GET['year'])) {
+  $year = $_GET['year'];
+}
+
+echo("Result " . $season . "<br>");
+echo("Result " . $year . "<br>");
 
 $editFormAction = $_SERVER['PHP_SELF'];
 if (isset($_SERVER['QUERY_STRING'])) {
@@ -80,7 +87,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
   mysql_select_db($database_connvbsa, $connvbsa);
   $Result1 = mysql_query($insertSQL, $connvbsa) or die(mysql_error());
 
-  $insertGoTo = "../team_grades.php?season=".$season ;
+  $insertGoTo = "../team_grades.php?season=" . $season . "&year=" . $year;
   if (isset($_SERVER['QUERY_STRING'])) {
     $insertGoTo .= (strpos($insertGoTo, '?')) ? "&" : "?";
     $insertGoTo .= $_SERVER['QUERY_STRING'];
@@ -155,7 +162,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
     </tr>
     <tr valign="baseline">
       <td nowrap="nowrap" align="right">Alloc. Ranking Points (Snooker):</td>
-      <td><input type='text' name='RP' id='RP' style='width : 30px;' value=''></td>
+      <td><input type='text' name='RP' id='RP' style='width : 30px;' value=0></td>
     </tr>
   </table>
   <table align="center" cellpadding="5" cellspacing="5" width='500px'>
@@ -174,14 +181,14 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
       
     </tr>
     <tr>
-      <td align='center'><input type='text' name='rank_points_-2' id='rank_points_-2' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='rank_points_-1' id='rank_points_-1' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='rank_points_0' id='rank_points_0' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='rank_points_1' id='rank_points_1' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='rank_points_2' id='rank_points_2' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='rank_points_3' id='rank_points_3' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='rank_points_4' id='rank_points_4' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='rank_points_5' id='rank_points_5' style='width : 30px;' value=''></td>
+      <td align='center'><input type='text' name='rank_points_-2' id='rank_points_-2' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='rank_points_-1' id='rank_points_-1' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='rank_points_0' id='rank_points_0' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='rank_points_1' id='rank_points_1' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='rank_points_2' id='rank_points_2' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='rank_points_3' id='rank_points_3' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='rank_points_4' id='rank_points_4' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='rank_points_5' id='rank_points_5' style='width : 30px;' value=0></td>
     </tr>
     <tr>
       <td align='center'>Tier 6</td>
@@ -194,13 +201,13 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
       <td align='center'>&nbsp</td>
     </tr>
     <tr>
-      <td align='center'><input type='text' name='rank_points_6' id='rank_points_6' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='rank_points_7' id='rank_points_7' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='rank_points_8' id='rank_points_8' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='rank_points_9' id='rank_points_9' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='rank_points_10' id='rank_points_10' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='rank_points_11' id='rank_points_11' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='rank_points_12' id='rank_points_12' style='width : 30px;' value=''></td>
+      <td align='center'><input type='text' name='rank_points_6' id='rank_points_6' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='rank_points_7' id='rank_points_7' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='rank_points_8' id='rank_points_8' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='rank_points_9' id='rank_points_9' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='rank_points_10' id='rank_points_10' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='rank_points_11' id='rank_points_11' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='rank_points_12' id='rank_points_12' style='width : 30px;' value=0></td>
 
     </tr>
   </table>
@@ -220,18 +227,18 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
       <td align='center'>&nbsp;</td>
     </tr>
     <tr>
-      <td align='center'><input type='text' name='min_break_points' id='min_break_points"' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='matches' id='matches' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='rounds' id='rounds' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='players' id='players' style='width : 30px;' value=''></td>
-      <td align='center'><input type='text' name='games_round' id='games_round' style='width : 30px;' value=''></td>
+      <td align='center'><input type='text' name='min_break_points' id='min_break_points"' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='matches' id='matches' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='rounds' id='rounds' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='players' id='players' style='width : 30px;' value=0></td>
+      <td align='center'><input type='text' name='games_round' id='games_round' style='width : 30px;' value=0></td>
     </tr>
      <tr valign="baseline">
       <td colspan='6' align='center'><input type="submit" value="Insert New Grade" /></td>
     </tr>
   </table>
   <input type="hidden" name="fix_upload" value="" />
-  <input type="hidden" name="fix_cal_year" value="<?php echo date("Y"); ?>" />
+  <input type="hidden" name="fix_cal_year" value="<?php echo $year; ?>" />
   <input type="hidden" name="season" value="<?php echo $season; ?>" />
   <input type="hidden" name="finals_teams" value="4" />
   <input type="hidden" name="MM_insert" value="form1" />
