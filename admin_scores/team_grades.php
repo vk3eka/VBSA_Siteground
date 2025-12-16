@@ -49,14 +49,17 @@ if (isset($_POST['Year']))
 }
 else
 {
-  $year = date("Y");
+  $year = $_GET['year'];
 }
+/*
+echo("Result (Post) " . $_POST['SeasonSettings'] . "<br>");
+echo("Result (Post) " . $_POST['Year'] . "<br>");
 
-//echo("Result " . $season . "<br>");
-//echo("Result " . $year . "<br>");
+echo("Result (Get) " . $_GET['season'] . "<br>");
+echo("Result (Get) " . $_GET['year'] . "<br>");
 //$season = 'S1';
 //$year = 2026;
-
+*/
 // get start/end dates for team rego visbilty
 mysql_select_db($database_connvbsa, $connvbsa);
 $query_rego = "Select * from tbl_team_select_visible where season = '" . $season ."' and year = " . $year;
@@ -86,14 +89,17 @@ if(isset($_POST['ButtonName']) && ($_POST['ButtonName'] == "SaveSettings"))
     
     for($i = 0; $i < $_POST['Grades']; $i++)
     {
+        /*
         if($settingdata[$i][7] == '')
         {
-            $year = date("Y");
+            //$year = date("Y");
+            $year = $year;
         }
         else
         {
             $year = $settingdata[$i][7];
         }
+            */
         //$year = date("Y");
         if($settingdata[$i][4] == 'No') // delete if not current
         {
@@ -106,12 +112,12 @@ if(isset($_POST['ButtonName']) && ($_POST['ButtonName'] == "SaveSettings"))
         $sql = "Update Team_grade SET 
         grade = '" . $settingdata[$i][0] . "', " . "
         grade_name = '" . $settingdata[$i][1] . "', " . "
-        season = '" . $settingdata[$i][2] . "', " . "
+        season = '" . $season . "', " . "
         type = '" . $settingdata[$i][3] . "', " . "
         RP = " . $settingdata[$i][4] . ", " . "
         min_breaks = " . $settingdata[$i][5] . ", " . "
         fix_upload = '" . $settingdata[$i][6] . "', " . "
-        fix_cal_year = " . $settingdata[$i][7] . ", " . "
+        fix_cal_year = " . $year . ", " . "
         current = '" . $settingdata[$i][8] . "', " . "
         finals_teams = " . $settingdata[$i][9] . ", " . "
         dayplayed = '" . $settingdata[$i][10] . "', " . "
@@ -150,7 +156,7 @@ if(isset($_POST['ButtonName']) && ($_POST['ButtonName'] == "SaveSettings"))
 
     $insertGoTo = "team_grades.php?season=" . $season . "&year=" . $year;
     if (isset($_SERVER['QUERY_STRING'])) {
-      $insertGoTo .= $_SERVER['QUERY_STRING'];
+      //$insertGoTo .= $_SERVER['QUERY_STRING'];
     }
     header(sprintf("Location: %s", $insertGoTo));
 }
@@ -437,9 +443,9 @@ for(i = 0; i < 10; i++)
     <td colspan="11" align="center">&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="5" align="center" class="greenbg"><a href="user_files/team_grade_insert.php?season=<?php echo $season; ?>" rel="facebox">Insert a new grade</a></td>
+    <td colspan="5" align="center" class="greenbg"><a href="user_files/team_grade_insert.php?season=<?php echo $season; ?>&year=<?php echo $year; ?>" rel="facebox">Insert a new grade</a></td>
     <td align="center" class="greenbg">&nbsp;</td>
-    <td colspan="5" align="center" class="greenbg"><a href="AA_scores_index_grades.php?season=<?php echo $season ?>">Return to <?php echo $season ?> ladders</a></td>
+    <td colspan="5" align="center" class="greenbg"><a href="AA_scores_index_grades.php?season=<?php echo $season ?>&year=<?php echo $year; ?>">Return to <?php echo $year; ?> <?php echo $season ?> ladders</a></td>
   </tr>
 </table>
 <table class='table' width='100%'>
